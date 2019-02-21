@@ -15,7 +15,7 @@ You can begin customization. You can find more about possible customization in n
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 
-### Saving changes when in Customize Mode
+### Saving changes when in Customize Mode <a id="saving-changes-when-in-customize-mode-test"></a>
 
 Once you have finished with customization don't forget to save changes with **Save button** at the bottom center of the screen.
 
