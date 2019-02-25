@@ -58,7 +58,7 @@ DATABASE_ENGINE=postgresql \
     jet_bridge 
 ```
 
-![Result of running Jet Bridge](../.gitbook/assets/image%20%2824%29.png)
+![Result of running Jet Bridge](../.gitbook/assets/image%20%2828%29.png)
 
 4. Register your project by opening in your browser:   
 **http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.  

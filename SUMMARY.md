@@ -52,4 +52,5 @@
 ## Advanced Customization
 
 * [FlexView](customization/flexview.md)
+* [FlexAction](customization/flexaction.md)
 

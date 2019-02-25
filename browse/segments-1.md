@@ -16,7 +16,7 @@ To create a new **Segment:**
 Your filters will be replaced with new **Segment** and a new **Segment** will appear in menu section of currently selected collection.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 ### Create Segment on Collection Settings Page
 
@@ -34,7 +34,7 @@ Your filters will be replaced with new **Segment** and a new **Segment** will ap
 New **Segment** will appear in menu section of currently selected collection and **Segments List**.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 ### Create SQL Query Segments
 

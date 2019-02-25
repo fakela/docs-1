@@ -4,7 +4,7 @@ This page describes how **Jet Admin** operates and integrates with your project.
 
 ### **A**rchitecture
 
-![Jet Admin architecture](../.gitbook/assets/image%20%2812%29.png)
+![Jet Admin architecture](../.gitbook/assets/image%20%2815%29.png)
 
 **Your app**  
 Any of your applications which works with database. Jet Admin does not interact with it.
