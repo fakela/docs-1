@@ -9,13 +9,13 @@ Menu consists of 4 parts:
 * **\(3\)** Side menu
 * **\(4\)** Main menu
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 #### Current Project
 
 Current project icon is displayed at the top left of **Menu**. Moving mouse over it will display project selector. If you have multiple **Jet Admin** projects it will allow you to instantly switch between projects. To view all project click **Manage projects** link.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 #### System links
 

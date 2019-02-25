@@ -17,9 +17,9 @@ To start customizing interface directly from your browser:
 You can begin customization. You can find more about possible customization in next sections of this page.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ### Saving changes when in Customize Mode
 
@@ -111,6 +111,10 @@ class CoreConfig(AppConfig):
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+You can also ask users for some parameters for your action if you need. In order to achieve it you should define their description in **fields** key. After this parameters form will appear in **Jet Admin** interface automatically.
+
+![](../.gitbook/assets/image%20%2820%29.png)
 
 ### FlexField
 

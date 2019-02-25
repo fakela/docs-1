@@ -9,7 +9,7 @@ In order to filter records by some collection field \(i.e. name of restaurant co
 * **\(1\)** – Add filter to a particular column \(collection field\) by clicking **Add filter** button next to column name \(will appear when you move mouse over column name\)
 * **\(2\)** – Add filter to any collection field \(even not displaying as a column\) by clicking **Filter** button on the top right of the table
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 Depending on what way you are using – **\(1\)** or **\(2\)** – you will see **Add Filter Popup** as displayed below. To finish filter adding you have to:
 
@@ -27,7 +27,7 @@ You filter will be added to the filters list at the top of the table and records
 
 If you want to delete particular filter you can click on it \(**Remove filter** tip will appear when you move mouse over filter\).
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 ### Segments
 

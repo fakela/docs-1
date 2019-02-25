@@ -11,9 +11,9 @@ To start customizing interface directly from your browser:
 You can begin customization. You can find more about possible customization in next sections of this page.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ### Saving changes when in Customize Mode
 
@@ -37,19 +37,19 @@ All possible **Data layouts** in next sections.
 Once you have finished don't forget to save **Menu Customization** changes with **Save button** at the bottom center of the screen as described [here](layout-editor.md#saving-changes-of-customize-mode).
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 #### Data layout – Table
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 #### Data layout – Map
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 #### Data layout – Kanban Board
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 #### Data layout – Timetable
 
@@ -57,7 +57,7 @@ Once you have finished don't forget to save **Menu Customization** changes with 
 
 #### Data layout – Sidelist
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ### Changing table columns
 
@@ -67,7 +67,7 @@ To start enable Customization Mode first as described [here](layout-editor.md#en
 
 To start changing columns of Table click **Edit Columns** button \(1\). Popup with Columns will appear.
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 #### Show/hide columns
 
