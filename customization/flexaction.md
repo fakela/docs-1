@@ -68,7 +68,29 @@ class CoreConfig(AppConfig):
 
 ![Record FlexAction example](../.gitbook/assets/image%20%2812%29.png)
 
-You can also ask users for some parameters for your action if you need. In order to achieve it you should define their description in **fields** key. After this parameters form will appear in **Jet Admin** interface automatically.
+You can also ask users for some parameters for your action if you need. In order to achieve it you should define their description in **params** key. After that parameters form will appear in **Jet Admin** interface automatically.
+
+**params** field is an array of possible parameters in the following format:
+
+* **name** – unique name of action
+* **field** – type of parameter, should be one of the following:
+  * BooleanField 
+  * TranslatableField 
+  * SelectField 
+  * ForeignKey 
+  * DateTimeField 
+  * TimestampField 
+  * DateField 
+  * TimeField 
+  * JSONField 
+  * SqlField 
+  * CodeField 
+  * CharField 
+  * TextField 
+  * IntegerField 
+  * FloatField 
+  * DecimalField
+* **params** – additional parameters for fields, for example **ForeignKey** requires you to specify **related\_model** option
 
 {% code-tabs %}
 {% code-tabs-item title="flex\_action\_params\_example.py" %}
