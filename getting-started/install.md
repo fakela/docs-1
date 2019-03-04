@@ -6,7 +6,7 @@ description: >-
 
 # Installation
 
-## Integrate with any SQL database
+## For any SQL database
 
 ### Method 1. Using standalone Jet Bridge
 
@@ -126,7 +126,56 @@ If you don't have **Jet** account yet you will be asked to create one and sign i
 After registering your project you will be redirected to your project and can start working with **Jet**
 {% endhint %}
 
-## CORS issue
+## For Django framework
+
+#### Requirements
+
+* **Python** 3.4+
+* **Django** 1.11+
+
+#### Installation
+
+1. Download and install latest version of **Jet Bridge** for **Django**:
+
+```text
+pip install jet-django
+```
+
+2. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
+
+```text
+INSTALLED_APPS = (
+  ...
+  'jet_django',
+  ...
+)
+```
+
+3. Add URL-pattern to the **urls.py** file:
+
+```text
+from jet_django.urls import jet_urls
+
+urlpatterns = [
+  ...
+  url(r'^jet_api/', include(jet_urls)),
+  ...
+]
+```
+
+4. Apply migrations:
+
+```text
+python manage.py migrate jet_django
+```
+
+5. Restart your project
+
+6. Open **YOUR\_PROJECT\_URL/jet\_api/register/** in browser to create a project. Normally it should open automatically on start up.
+
+## Common problems
+
+### CORS issue
 
 If you deploying **Jet Bridge** behind proxy or some web server you can start receiving the following errors in your browser console:
 
@@ -134,7 +183,7 @@ If you deploying **Jet Bridge** behind proxy or some web server you can start re
 
 Normally you shouldn't have this issue as **Jet Bridge** automatically adds the appropriate **CORS** headers to all responses.
 
-### Behind Nginx
+#### Behind Nginx
 
 To fix **CORS** issue for **Nginx** add the following to your server config:
 
