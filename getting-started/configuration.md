@@ -1,6 +1,6 @@
-# Configuration reference
+# Settings
 
-## Setting your configurations
+## Setting up your configuration
 
 You can specify **Jet Bridge** configuration through one of the following methods:  
 command line arguments, config file or environment variables. Here are examples:

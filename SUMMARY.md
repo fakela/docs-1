@@ -11,7 +11,7 @@
 ## Getting started
 
 * [Installation](getting-started/install.md)
-* [Configuration reference](getting-started/configuration.md)
+* [Settings](getting-started/configuration.md)
 * [Setup Guide](getting-started/get-started.md)
 * [Overall Structure](getting-started/overall-structure.md)
 * [Glossary](getting-started/glossary.md)
