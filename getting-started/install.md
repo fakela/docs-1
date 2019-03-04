@@ -134,6 +134,10 @@ After registering your project you will be redirected to your project and can st
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
 
+{% hint style="info" %}
+**Jet Admin** for **Django** is a Python package installed with **pip** that integrates with your **models** and generates **API** interface through which **Jet Admin** can operate with your data. Though using this package is supported we recommend to use [standalone Jet Bridge](install.md#method-1-using-standalone-jet-bridge) as described before if possible.
+{% endhint %}
+
 **Jet Bridge** for **Django** sources are available on **Github:**  
 [https://github.com/jet-admin/jet-django](https://github.com/jet-admin/jet-django)
 
