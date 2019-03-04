@@ -8,14 +8,17 @@ description: >-
 
 ## For any SQL database
 
-### Method 1. Using standalone Jet Bridge
-
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
 
 {% hint style="info" %}
 **Jet Admin** is small web server using **Tornado** we framework that connects to your database and generates API interface through which **Jet Admin** can operate with your data.
 {% endhint %}
+
+**Jet Bridge** sources are available on **Github:**  
+[https://github.com/jet-admin/jet-bridge](https://github.com/jet-admin/jet-bridge)
+
+### Method 1. Using standalone Jet Bridge
 
 #### Requirements
 
@@ -130,6 +133,9 @@ After registering your project you will be redirected to your project and can st
 
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
+
+**Jet Bridge** for **Django** sources are available on **Github:**  
+[https://github.com/jet-admin/jet-django](https://github.com/jet-admin/jet-django)
 
 #### Requirements
 
