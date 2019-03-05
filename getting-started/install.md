@@ -65,8 +65,9 @@ DATABASE_ENGINE=postgresql \
 ![Result of running Jet Bridge](../.gitbook/assets/image%20%2828%29.png)
 
 4. Register your project by opening in your browser:   
-**http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.  
-If you want to run Jet Bridge on different host/port you can configure it \(read more at [Configuration](configuration.md) page\).
+**http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
+
+If you want to run Jet Bridge on different host/port you can configure it, read more about it on [Settings](configuration.md) page.
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.
@@ -184,7 +185,7 @@ python manage.py migrate jet_django
 
 5. Restart your project
 
-6. Open **YOUR\_PROJECT\_URL/jet\_api/register/** in browser to create a project. Normally it should open automatically on start up.
+6. Open **YOUR\_PROJECT\_URL/jet\_api/register/** in browser to create a project. 
 
 ## Common problems
 
