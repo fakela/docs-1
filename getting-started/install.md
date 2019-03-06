@@ -31,6 +31,7 @@ It will work even with your local application on **localhost**.
   * Microsoft SQL Server 
   * Firebird 
   * Sybase
+* **localhost** or **web server** with external IP
 
 #### Installation
 
@@ -84,6 +85,13 @@ After registering your project you will be redirected to your project and can st
 **Jet Bridge** has **Docker** image available on [Docker Hub](https://cloud.docker.com/u/jetadmin/repository/docker/jetadmin/jetbridge).  
 In order start it inside **Docker** for your configuration run the following command.  
 You can read about all possible settings at [Configuration](configuration.md) page.
+
+#### Requirements
+
+* **Docker** installed
+* **localhost** or **web server** with external IP
+
+#### Installation
 
 1. Install **Docker** if you don't have it [https://docs.docker.com/install/](https://docs.docker.com/install/)
 2. Make sure **Docker** is running
@@ -146,6 +154,7 @@ It will work even with your local application on **localhost**.
 
 * **Python** 3.4+
 * **Django** 1.11+
+* **localhost** or **web server** with external IP
 
 #### Installation
 
