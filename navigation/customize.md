@@ -62,7 +62,7 @@ For **Link** menu items you can configure:
 * **Icon** – you can select any of predefined icons. There is search function across all icons by name to help you find the appropriate icon
 * **System Link** \(optional\) – Dashboard, Search, Conversations, etc. If chosen sets title and link automatically
 
-For **Link** menu items you can configure:
+For **Section** menu items you can configure:
 
 * **Title** – displayed in section header
 
