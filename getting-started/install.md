@@ -23,6 +23,7 @@ It will work even with your local application on **localhost**.
 #### Requirements
 
 * **Python** 2.7 or 3.4+
+* **pip -** package manager for Python
 * Any of the following **SQL Databases**:
   * PostgreSQL 
   * MySQL 
@@ -35,14 +36,19 @@ It will work even with your local application on **localhost**.
 
 #### Installation
 
-1. Install **Python** 2.7 or 3.4+ [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Install **jet\_bridge** package using pip or update if you did it before
+1. Install **Python** 2.7 or 3.4+ \(comes with **pip\)** [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Install **jet\_bridge** package using pip or update if you did it before using command line
 
 ```bash
 pip install jet_bridge -U
 ```
 
-2. Install appropriate database adapter
+{% hint style="info" %}
+For **Windows** platform you need to specify **pip** full path and run command this way \(**pip** is stored in **Scripts** folder inside **Python**, path may be different in your case\):  
+_C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts\pip.exe install jet\_bridge -U_
+{% endhint %}
+
+3. Install appropriate database adapter
 
 ```bash
 # for PostgreSQL
@@ -51,7 +57,7 @@ pip install psycopg2
 pip install mysqlclient
 ```
 
-3. Run **Jet Bridge** with the command line command below \(set your configuration options\).  
+4. Run **Jet Bridge** with the command line command below \(set your configuration options\).  
 You can read about all possible settings at [Configuration](configuration.md) page.
 
 ```bash
@@ -66,7 +72,7 @@ DATABASE_ENGINE=postgresql \
 
 ![Result of running Jet Bridge](../.gitbook/assets/image%20%2828%29.png)
 
-4. Register your project by opening in your browser:   
+5. Register your project by opening in your browser:   
 **http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
 
 If you want to run Jet Bridge on different host/port you can configure it, read more about it on [Settings](configuration.md) page.
