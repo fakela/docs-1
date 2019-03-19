@@ -50,7 +50,7 @@ pip install psycopg2
 pip install mysqlclient
 ```
 
-3. Run **Jet Bridge** for your configuration.   
+3. Run **Jet Bridge** with the command line command below \(set your configuration options\).  
 You can read about all possible settings at [Configuration](configuration.md) page.
 
 ```bash
