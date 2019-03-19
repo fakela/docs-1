@@ -35,7 +35,8 @@ It will work even with your local application on **localhost**.
 
 #### Installation
 
-1. Install **jet\_bridge** package using pip or update if you did it before
+1. Install **Python** 2.7 or 3.4+ [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Install **jet\_bridge** package using pip or update if you did it before
 
 ```bash
 pip install jet_bridge -U
