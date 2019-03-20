@@ -18,7 +18,7 @@ You can export your data in the following formats:
 * HTML 
 * Notepad \(TXT\)
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 
 

@@ -17,15 +17,15 @@ To start customizing interface directly from your browser:
 You can begin customization. You can find more about possible customization in next sections of this page.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 ### Saving changes when in Customize Mode
 
 Once you have finished with customization don't forget to save changes with **Save button** at the bottom center of the screen.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ### **Flex Features**
 

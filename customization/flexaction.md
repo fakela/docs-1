@@ -64,9 +64,9 @@ class CoreConfig(AppConfig):
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![Collection FlexAction example](../.gitbook/assets/image%20%288%29.png)
+![Collection FlexAction example](../.gitbook/assets/image%20%289%29.png)
 
-![Record FlexAction example](../.gitbook/assets/image%20%2812%29.png)
+![Record FlexAction example](../.gitbook/assets/image%20%2813%29.png)
 
 You can also ask users for some parameters for your action if you need. In order to achieve it you should define their description in **params** key. After that parameters form will appear in **Jet Admin** interface automatically.
 
@@ -140,7 +140,7 @@ def get_action_list(params):
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ### 
 

@@ -57,20 +57,32 @@ pip install psycopg2
 pip install mysqlclient
 ```
 
-4. Run **Jet Bridge** with the command line command below \(set your configuration options\).  
-You can read about all possible settings at [Configuration](configuration.md) page.
+{% hint style="info" %}
+For **Windows** and **MySQL** you may also need to install **Microsoft Visual C++ для Visual Studio 2017:**  
+[https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads](https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads)
+{% endhint %}
+
+4. Run **Jet Bridge** with the command line as shown below:
 
 ```bash
-DATABASE_ENGINE=postgresql \
-    DATABASE_HOST=host.docker.internal \
-    DATABASE_PORT=5432 \
-    DATABASE_NAME=database \
-    DATABASE_USER=postgres \
-    DATABASE_PASSWORD=password \
-    jet_bridge 
+jet_bridge 
 ```
 
-![Result of running Jet Bridge](../.gitbook/assets/image%20%2828%29.png)
+If you run this command for the first time you will be asked to enter settings \(database host, port, etc.\) based on which a config file will be automatically generated. You can  edit this config file later.
+
+![](../.gitbook/assets/image%20%283%29.png)
+
+After filling all required options config file will be generated and now you can run Jet Bridge by executing command once again:
+
+```bash
+jet_bridge 
+```
+
+![Result of running Jet Bridge](../.gitbook/assets/image%20%2829%29.png)
+
+{% hint style="info" %}
+You can read about all possible settings at [Configuration](configuration.md) page.
+{% endhint %}
 
 5. Register your project by opening in your browser:   
 **http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
