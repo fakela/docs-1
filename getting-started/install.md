@@ -58,7 +58,7 @@ pip install mysqlclient
 ```
 
 {% hint style="info" %}
-For **Windows** and **MySQL** you may also need to install **Microsoft Visual C++ для Visual Studio 2017:**  
+For **Windows** and **MySQL** you may also need to install **Microsoft Visual C++ Redistributable for Visual Studio 2017:**  
 [https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads](https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads)
 {% endhint %}
 
