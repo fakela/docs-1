@@ -6,7 +6,7 @@ Sometimes you don't want to add filters to find something as it can be complicat
 **Search** function will take your **keyword** and search it against each **text field** of all the records in this **Collection** and 1 level deep **Related** **Collections**.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 
 

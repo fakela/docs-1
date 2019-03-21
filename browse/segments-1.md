@@ -16,7 +16,7 @@ To create a new **Segment:**
 Your filters will be replaced with new **Segment** and a new **Segment** will appear in menu section of currently selected collection.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 ### Create Segment on Collection Settings Page
 

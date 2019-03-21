@@ -17,9 +17,9 @@ To start customizing interface directly from your browser:
 You can begin customization. You can find more about possible customization in next sections of this page.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 ### Saving changes when in Customize Mode
 

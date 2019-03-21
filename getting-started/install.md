@@ -18,7 +18,46 @@ It will work even with your local application on **localhost**.
 **Jet Bridge** sources are available on **Github:**  
 [https://github.com/jet-admin/jet-bridge](https://github.com/jet-admin/jet-bridge)
 
-### Method 1. Using standalone Jet Bridge
+### Method 1. Deploy to Heroku
+
+#### Requirements
+
+* Any of the following **SQL Databases**:
+  * PostgreSQL 
+  * MySQL 
+  * SQLite 
+  * Oracle 
+  * Microsoft SQL Server 
+  * Firebird 
+  * Sybase
+* SQL database installed on host with **external IP** and opened **port**
+
+#### Installation
+
+1. Create application on **Heroku** \(need to create account if you don't have\)
+
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jet-admin/jet-bridge/tree/heroku)  
+   You will be asked to specify application name and database settings  
+
+
+   ![](../.gitbook/assets/image%20%288%29.png)
+
+  
+ 
+
+2. Register your project by opening in your browser:  **http://APP\_NAME.herokuapp.com/api/register/** where **APP\_NAME** is your **Heroku** application name. Initial **Heroku** is rather slow, it may take up to **30s** to open page for the first time.
+
+{% hint style="info" %}
+If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.
+{% endhint %}
+
+{% hint style="success" %}
+After registering your project you will be redirected to your project and can start working with **Jet**
+{% endhint %}
+
+After registering your project you will be redirected to your project and can start working with **Jet**
+
+### Method 2. Using standalone Jet Bridge
 
 #### Requirements
 
@@ -78,7 +117,7 @@ After filling all required options config file will be generated and now you can
 jet_bridge 
 ```
 
-![Result of running Jet Bridge](../.gitbook/assets/image%20%2829%29.png)
+![Result of running Jet Bridge](../.gitbook/assets/image%20%2830%29.png)
 
 {% hint style="info" %}
 You can read about all possible settings at [Configuration](configuration.md) page.
@@ -99,7 +138,7 @@ After registering your project you will be redirected to your project and can st
 
 After registering your project you will be redirected to your project and can start working with **Jet**
 
-### Method 2. Using Jet Bridge inside Docker
+### Method 3. Using Jet Bridge inside Docker
 
 **Jet Bridge** has **Docker** image available on [Docker Hub](https://cloud.docker.com/u/jetadmin/repository/docker/jetadmin/jetbridge).  
 In order start it inside **Docker** for your configuration run the following command.  

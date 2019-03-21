@@ -50,7 +50,7 @@ To specify all available options for **Select Field** fill in **params** field t
 * **name** - text which will be used for displaying
 * **color** can be one of: yellow, blue, green, red
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 
 
