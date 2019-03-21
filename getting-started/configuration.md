@@ -55,24 +55,24 @@ DATABASE_ENGINE=postgresql \
 | **Name** | Description |
 | :--- | :--- |
 | **DATABASE\_ENGINE** | Database engine, one of: - postgresql - mysql - oracle - mssql - sqlite |
-| **DATABASE\_HOST** | database\_host |
-| **DATABASE\_PORT** | database\_port |
-| **DATABASE\_USER** | database user |
-| **DATABASE\_PASSWORD** | database password |
-| **DATABASE\_NAME** | database name or path \(SQLite\) |
+| **DATABASE\_HOST** | Database host |
+| **DATABASE\_PORT** | Database port |
+| **DATABASE\_USER** | Database user |
+| **DATABASE\_PASSWORD** | Database password |
+| **DATABASE\_NAME** | Database name or path \(SQLite\) |
 
 ### Optional settings
 
 | Name | Default | Description |
 | :--- | :--- | :--- |
-| **ADDRESS** \(optional\) | 0.0.0.0 | Server address |
-| **PORT** \(optional\) | 8888 | port', default=8888, help='server port', type=int\)  |
-| **CONFIG** \(optional\) | /etc/jet.conf | config', default=DEFAULT\_CONFIG\_PATH, help='config file path'\)  |
-| **DEBUG** \(optional\) | false | debug mode |
-| **READ\_ONLY** \(optional\) | false | read only |
+| **ADDRESS** \(optional\) | 0.0.0.0 | Jet Bridge address |
+| **PORT** \(optional\) | 8888 | Jet Bridge port |
+| **CONFIG** \(optional\) | /etc/jet.conf | Path to config file |
+| **DEBUG** \(optional\) | false | Run in debug mode |
+| **READ\_ONLY** \(optional\) | false | Data read only |
 | **WEB\_BASE\_URL** \(optional\) | [https://app.jetadmin.io](https://app.jetadmin.io) | Jet Admin frontend application base URL |
 | **API\_BASE\_URL** \(optional\) | [https://api.jetadmin.io/api](https://api.jetadmin.io/api) | Jet Admin API base URL |
-| **MEDIA\_STORAGE** \(optional\) | default | media storage type |
-| **MEDIA\_ROOT** \(optional\) | media | media root |
-| **MEDIA\_BASE\_URL** \(optional\) | -- none -- | media base URL |
+| **MEDIA\_STORAGE** \(optional\) | default | Media storage type |
+| **MEDIA\_ROOT** \(optional\) | media | Media root |
+| **MEDIA\_BASE\_URL** \(optional\) | -- none -- | Media base URL |
 
