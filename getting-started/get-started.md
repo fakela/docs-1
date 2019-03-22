@@ -1,12 +1,6 @@
----
-description: >-
-  Let's reach 100% of our Setup Guide to customize Jet Admin to fit all your
-  operational requirements.
----
-
 # Setup Guide
 
-Welcome to your new Back Office 🎉
+After installation let's reach 100% of our Setup Guide to customize Jet Admin to fit all your operational requirements.
 
 ### Introducing the Layout Editor mode
 

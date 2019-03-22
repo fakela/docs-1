@@ -17,9 +17,9 @@
   * [Django framework – Package](getting-started/install/django-framework-package.md)
   * [Common Problems](getting-started/install/common-problems.md)
 * [Settings](getting-started/configuration.md)
-* [Setup Guide](getting-started/get-started.md)
-* [Overall Structure](getting-started/overall-structure.md)
 * [Glossary](getting-started/glossary.md)
+* [Overall Structure](getting-started/overall-structure.md)
+* [Setup Guide](getting-started/get-started.md)
 
 ## Navigation
 
