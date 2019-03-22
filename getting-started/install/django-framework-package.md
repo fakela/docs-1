@@ -1,5 +1,7 @@
 # Django framework – Package
 
+Its the most simple way to try and use **Jet Admin** for Django based projects. Installed the same way as most **Django** packages.
+
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
 

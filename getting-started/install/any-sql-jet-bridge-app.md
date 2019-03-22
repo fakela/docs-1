@@ -1,5 +1,7 @@
 # Any SQL – Jet Bridge App
 
+Install **Jet Bridge** without additional software or services on any server or localhost. It will require you to install **Python** dependencies and run the application yourself.
+
 #### Requirements
 
 * **Python** 2.7 or 3.4+

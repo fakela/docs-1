@@ -1,5 +1,7 @@
 # Any SQL – Jet Bridge Docker
 
+Install **Jet Bridge** without need to install any dependencies except **Docker** application. May require additional network configuration for your OS.
+
 **Jet Bridge** has **Docker** image available on [Docker Hub](https://cloud.docker.com/u/jetadmin/repository/docker/jetadmin/jetbridge).  
 In order start it inside **Docker** for your configuration run the following command.  
 You can read about all possible settings at [Configuration](../configuration.md) page.
