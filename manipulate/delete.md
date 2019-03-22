@@ -1,4 +1,4 @@
-# Delete
+# Delete records
 
 ### Delete a record through the collection view
 

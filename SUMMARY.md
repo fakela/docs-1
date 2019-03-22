@@ -38,7 +38,7 @@
 ## Edit Data
 
 * [Create/Update a record](manipulate/create-a-record.md)
-* [Delete](manipulate/delete.md)
+* [Delete records](manipulate/delete.md)
 * [Customize Detail View](manipulate/summary-view.md)
 
 ## Dashboard & Analytics
