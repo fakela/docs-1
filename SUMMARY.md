@@ -10,7 +10,12 @@
 
 ## Getting started
 
-* [Installation](getting-started/install.md)
+* [Installation](getting-started/install/README.md)
+  * [Any SQL – Deploy to Heroku](getting-started/install/any-sql-deploy-to-heroku.md)
+  * [Any SQL – Jet Bridge App](getting-started/install/any-sql-jet-bridge-app.md)
+  * [Any SQL – Jet Bridge Docker](getting-started/install/any-sql-jet-bridge-docker.md)
+  * [Django framework – Package](getting-started/install/django-framework-package.md)
+  * [Common Problems](getting-started/install/common-problems.md)
 * [Settings](getting-started/configuration.md)
 * [Setup Guide](getting-started/get-started.md)
 * [Overall Structure](getting-started/overall-structure.md)
