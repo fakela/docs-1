@@ -20,7 +20,7 @@ It will work even with your local application on **localhost**.
 
 ### Method 1. Deploy to Heroku
 
-The most simple way to try **Jet Admin** and deploy it to free **Heroku** cloud platform with a few clicks. It will Require you to allow access to your database from external network.
+The most simple way to try **Jet Admin** and deploy it to free **Heroku** cloud platform with a few clicks. It will require you to allow access to your database from external network.
 
 {% page-ref page="any-sql-deploy-to-heroku.md" %}
 
