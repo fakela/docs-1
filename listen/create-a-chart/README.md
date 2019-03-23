@@ -20,7 +20,7 @@ The only information the UI needs to handle such charts is:
 * 1 time frame \(day, week, month, year\) option.
 * 1 or multiple filters.
 
-![](../../.gitbook/assets/snimok-ekrana-2019-01-15-v-19.04.21.png)
+![](../../.gitbook/assets/rev.png)
 
 ### Advanced : adding a chart through SQL Query
 
@@ -28,5 +28,7 @@ The Query mode has been designed to provide you with a flexible, easy to use and
 
 You should now be able to set up your charts in Jet Admin. Feel free to create charts at a general level or even at a record level.
 
-![](../../.gitbook/assets/snimok-ekrana-2019-01-15-v-0.08.52.png)
+![](../../.gitbook/assets/snimok-ekrana-2019-03-23-v-21.43.59.png)
+
+
 
