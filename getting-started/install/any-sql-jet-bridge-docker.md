@@ -47,7 +47,7 @@ If you are using **Docker before 18.03** you can't use `host.docker.internal` fo
 {% endhint %}
 
 5. Register your project by opening in your browser:   
-**http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.  
+**http://localhost:8888/api/register/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.  
 If you want to run Jet Bridge on different host/port you can configure it by changing **Docker** container port in this command. 
 
 {% hint style="info" %}

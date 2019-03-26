@@ -69,7 +69,7 @@ You can read about all possible settings at [Configuration](../configuration.md)
 {% endhint %}
 
 5. Register your project by opening in your browser:   
-**http://localhost:8888/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
+**http://localhost:8888/api/register/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
 
 If you want to run Jet Bridge on different host/port you can configure it, read more about it on [Settings](../configuration.md) page.
 
