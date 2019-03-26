@@ -23,6 +23,8 @@ Install **Jet Bridge** without additional software or services on any server or 
 
 ```bash
 pip install jet_bridge -U
+# or for Python 3
+pip3 install jet_bridge -U
 ```
 
 {% hint style="info" %}
