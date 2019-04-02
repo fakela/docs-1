@@ -7,6 +7,27 @@ description: >-
 
 # Customize Detail View
 
+### Enable Customize Mode
+
+To start customizing interface directly from your browser:
+
+1. Click **Customize Interface** button
+2. Choose which section you want to customize **\(1\)**, **\(2\)** or **\(3\).** Depending on which page you are on sections **\(2\)** and **\(3\)** can change
+
+{% hint style="success" %}
+You can begin customization. You can find more about possible customization in next sections of this page.
+{% endhint %}
+
+![](../.gitbook/assets/image%20%2823%29.png)
+
+![](../.gitbook/assets/image%20%2852%29.png)
+
+### Saving changes when in Customize Mode
+
+Once you have finished with customization don't forget to save changes with **Save button** at the bottom center of the screen.
+
+![](../.gitbook/assets/image%20%287%29.png)
+
 ### Organizing your data layout with the Visual builder
 
 To activate **Visual Builder** by clicking on the edit button to customize your Detail view.
