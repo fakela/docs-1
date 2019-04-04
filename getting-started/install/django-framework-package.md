@@ -58,3 +58,9 @@ python manage.py migrate jet_django
 
 6. Open **YOUR\_PROJECT\_URL/jet\_api/register/** in browser to create a project. 
 
+{% page-ref page="django-framework-package.md" %}
+
+## Common problems
+
+{% page-ref page="common-problems.md" %}
+

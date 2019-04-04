@@ -52,3 +52,5 @@ Its the most simple way to try and use **Jet Admin** for Django based projects. 
 
 {% page-ref page="common-problems.md" %}
 
+
+

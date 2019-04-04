@@ -39,3 +39,9 @@ After registering your project you will be redirected to your project and can st
 
 After registering your project you will be redirected to your project and can start working with **Jet**
 
+{% page-ref page="django-framework-package.md" %}
+
+## Common problems
+
+{% page-ref page="common-problems.md" %}
+
