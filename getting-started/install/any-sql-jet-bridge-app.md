@@ -32,11 +32,15 @@ For **Windows** platform you need to specify **pip** full path and run command t
 _C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts\pip.exe install jet\_bridge -U_
 {% endhint %}
 
-3. Install appropriate database adapter
+3. Install appropriate database adapter and libraries
 
 ```bash
 # for PostgreSQL
 pip install psycopg2
+# for PostgreSQL + PosGIS
+pip install GeoAlchemy2==0.6.2
+pip install Shapely==1.6.4
+
 # for MySQL
 pip install mysqlclient
 ```
