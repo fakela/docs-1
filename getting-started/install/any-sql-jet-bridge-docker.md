@@ -21,7 +21,7 @@ You can read about all possible settings at [Configuration](../configuration.md)
 docker pull jetadmin/jetbridge
 ```
 
-4. Run **Docker** container. This will run Jet Bridge on **http://localhost:8888/.** 
+4. Run **Docker** container with specified configuration. This will run Jet Bridge on **http://localhost:8888/.** 
 
 {% hint style="info" %}
 If you want to run on different port change it here:  
@@ -36,6 +36,26 @@ docker run -p 8888:8888 \
     -e DATABASE_NAME=database \
     -e DATABASE_USER=postgres \
     -e DATABASE_PASSWORD=password \
+    -v $(pwd)/jet_media:/jet/media \
+    --restart always \
+    --name jet_bridge \
+    jetadmin/jetbridge
+```
+
+If you want to run SQLite:
+
+```bash
+docker run -p 8888:8888 \
+    -e DATABASE_ENGINE=sqlite \
+    -e DATABASE_HOST= \
+    -e DATABASE_PORT= \
+    -e DATABASE_NAME=/jet/database.db \
+    -e DATABASE_USER= \
+    -e DATABASE_PASSWORD= \
+    -v $(pwd)/jet_media:/jet/media \
+    -v FULL_PATH_TO_YOUR_DATABASE:/jet/database.db \
+    --restart always \
+    --name jet_bridge \
     jetadmin/jetbridge
 ```
 
