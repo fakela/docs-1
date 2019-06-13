@@ -21,7 +21,7 @@ You can read about all possible settings at [Configuration](../configuration.md)
 docker pull jetadmin/jetbridge
 ```
 
-4. Run **Docker** container with specified configuration. This will run Jet Bridge on **http://localhost:8888/.** 
+4. Run **Docker** container with specified configuration. This will run Jet Bridge on **http://localhost:8888/.** Choose **DATABASE\_HOST** according to your platform, this address should be accessible inside Docker container \(you may need to search how to implement that on your platform\). Here is an example for macOS:
 
 {% hint style="info" %}
 If you want to run on different port change it here:  
