@@ -20,8 +20,6 @@ An open source application installed on your server's side and connected to your
 
 Web application accessible from any browser. Maintaining and updating of this web application is on **Jet Admin** team side. Your application data is transmitted directly from **Jet Bridge** to **Jet Interface** in your browser and remain invisible for the **Jet Admin** service.
 
-### 
-
 ### Data Privacy
 
 The main advantage of Jet Admin’s architecture is that absolutely no data transits or crosses our servers. The user accesses application data directly from the client and Jet Admin is just deployed as a service to display and interact with the data. 
