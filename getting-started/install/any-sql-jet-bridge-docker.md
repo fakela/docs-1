@@ -1,5 +1,10 @@
 # Any SQL – Jet Bridge Docker
 
+In order to install **Jet Admin** on your project please follow this guide:  
+[https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+
+This documentation contains only **Jet Bridge** step detailed description.
+
 Install **Jet Bridge** without need to install any dependencies except **Docker** application. May require additional network configuration for your OS.
 
 **Jet Bridge** has **Docker** image available on [Docker Hub](https://cloud.docker.com/u/jetadmin/repository/docker/jetadmin/jetbridge).  
@@ -66,9 +71,11 @@ If you are using **Docker before 18.03** you can't use `host.docker.internal` fo
 **Docker 17.05 and below** your `local host IP address` \(can be found using `ifconfig` command\)
 {% endhint %}
 
-5. Register your project by opening in your browser:   
-**http://localhost:8888/api/register/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT.  
-If you want to run Jet Bridge on different host/port you can configure it by changing **Docker** container port in this command. 
+5. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command:
+
+```text
+docker exec -it jet_bridge jet_bridge token
+```
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.

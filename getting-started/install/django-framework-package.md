@@ -1,5 +1,10 @@
 # Django framework – Package
 
+In order to install **Jet Admin** on your project please follow this guide:  
+[https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+
+This documentation contains only **Jet Bridge** step detailed description.
+
 Its the most simple way to try and use **Jet Admin** for Django based projects. Installed the same way as most **Django** packages.
 
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
@@ -56,7 +61,11 @@ python manage.py migrate jet_django
 
 5. Restart your project
 
-6. Open **YOUR\_PROJECT\_URL/jet\_api/register/** in browser to create a project. 
+6. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
+
+```text
+python manage.py jet_token
+```
 
 {% page-ref page="django-framework-package.md" %}
 

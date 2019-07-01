@@ -6,6 +6,11 @@ description: >-
 
 # Installation
 
+In order to install **Jet Admin** on your project please follow this guide:  
+[https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+
+This documentation contains only **Jet Bridge** step detailed description.
+
 ## For any SQL database
 
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   

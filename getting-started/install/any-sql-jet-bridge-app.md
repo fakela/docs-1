@@ -1,5 +1,10 @@
 # Any SQL – Jet Bridge App
 
+In order to install **Jet Admin** on your project please follow this guide:  
+[https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+
+This documentation contains only **Jet Bridge** step detailed description
+
 Install **Jet Bridge** without additional software or services on any server or localhost. It will require you to install **Python** dependencies and run the application yourself.
 
 #### Requirements
@@ -72,8 +77,11 @@ jet_bridge
 You can read about all possible settings at [Configuration](../configuration.md) page.
 {% endhint %}
 
-5. Register your project by opening in your browser:   
-**http://localhost:8888/api/register/** where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. Normally it should open automatically on start up.
+5. You will see **Jet Admin** token in the console output which you should enter on **Project Create page**. If you want to display **Jet Admin** token manually, use the following command:
+
+```text
+jet_bridge token
+```
 
 If you want to run Jet Bridge on different host/port you can configure it, read more about it on [Settings](../configuration.md) page.
 
@@ -84,8 +92,6 @@ If you don't have **Jet** account yet you will be asked to create one and sign i
 {% hint style="success" %}
 After registering your project you will be redirected to your project and can start working with **Jet**
 {% endhint %}
-
-After registering your project you will be redirected to your project and can start working with **Jet**
 
 {% page-ref page="django-framework-package.md" %}
 

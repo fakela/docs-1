@@ -26,7 +26,7 @@
 * [Menu](navigation/menu.md)
 * [Customize Menu](navigation/customize.md)
 
-## View & Browse Data
+## View & Browse Data <a id="browse"></a>
 
 * [Browse](browse/explore.md)
 * [Filtering](browse/filter.md)
@@ -35,26 +35,26 @@
 * [Export](browse/export-data.md)
 * [Customize List View](browse/layout-editor.md)
 
-## Edit Data
+## Edit Data <a id="manipulate"></a>
 
 * [Create/Update a record](manipulate/create-a-record.md)
 * [Delete records](manipulate/delete.md)
 * [Customize Detail View](manipulate/summary-view.md)
 
-## Dashboard & Analytics
+## Dashboard & Analytics <a id="listen"></a>
 
 * [Create a chart](listen/create-a-chart/README.md)
   * [Chart Widget](listen/create-a-chart/chart-widget.md)
   * [Counter Widget](listen/create-a-chart/counter-widget.md)
 * [Create chart on specific record](listen/create-chart-on-specific-record.md)
 
-## Project settings
+## Project settings <a id="customize-your-jet"></a>
 
 * [General](customize-your-jet/project-settings.md)
 * [Team managment](customize-your-jet/team-managment.md)
 * [Collection settings](customize-your-jet/collection-settings.md)
 
-## Advanced Customization
+## Advanced Customization <a id="customization"></a>
 
 * [FlexView](customization/flexview.md)
 * [FlexAction](customization/flexaction.md)
