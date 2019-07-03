@@ -29,11 +29,8 @@ The most simple way to try **Jet Admin** and deploy it to free **Heroku** cloud 
 
    ![](../../.gitbook/assets/image%20%288%29.png)
 
-2. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command:
-
-   ```text
-   jet_bridge token
-   ```
+2. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command: `jet_bridge token` 
+3. Finish your project installation by opening in your browser: [**http://YOUR\_APP\_HOST/api/register/**](http://localhost:8888/api/register/) where **YOUR\_APP\_HOST** is your **Heroku Application** HOST.
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.

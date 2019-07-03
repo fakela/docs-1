@@ -61,11 +61,13 @@ python manage.py migrate jet_django
 
 5. Restart your project
 
-6. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
+6. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
 
 ```text
 python manage.py jet_token
 ```
+
+7. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.
 
 {% page-ref page="django-framework-package.md" %}
 

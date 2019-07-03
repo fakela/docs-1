@@ -77,13 +77,13 @@ jet_bridge
 You can read about all possible settings at [Configuration](../configuration.md) page.
 {% endhint %}
 
-5. You will see **Jet Admin** token in the console output which you should enter on **Project Create page**. If you want to display **Jet Admin** token manually, use the following command:
+5. You will see **Jet Admin** token in the console output which you should later enter on **Project Create page**. If you want to display **Jet Admin** token manually, use the following command:
 
 ```text
 jet_bridge token
 ```
 
-If you want to run Jet Bridge on different host/port you can configure it, read more about it on [Settings](../configuration.md) page.
+6. Finish your project installation by opening in your browser \(normally it should open automatically\): [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. If you want to run Jet Bridge on different host/port you can configure it \(read more at [Configuration](https://docs.jetadmin.io/getting-started/configuration) page\).
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.
