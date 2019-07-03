@@ -27,13 +27,13 @@ It will work even with your local application on **localhost**.
 
 1. Download and install latest version of **Jet Bridge** for **Django**:
 
-```text
+```bash
 pip install jet-django
 ```
 
 2. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
 
-```text
+```python
 INSTALLED_APPS = (
   ...
   'jet_django',
@@ -43,7 +43,7 @@ INSTALLED_APPS = (
 
 3. Add URL-pattern to the **urls.py** file:
 
-```text
+```python
 from jet_django.urls import jet_urls
 
 urlpatterns = [
@@ -55,7 +55,7 @@ urlpatterns = [
 
 4. Apply migrations:
 
-```text
+```bash
 python manage.py migrate jet_django
 ```
 
@@ -63,11 +63,16 @@ python manage.py migrate jet_django
 
 6. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
 
-```text
+```bash
 python manage.py jet_token
 ```
 
-7. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.
+7. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.   
+**Please note!** **Jet Django** package sets **CORS** headers for **/jet\_api/** endpoints. If it conflicts with your **CORS** headers and you want to deal with it yourself, add the following in **settings.py**:
+
+```python
+JET_CORS_HEADERS = False
+```
 
 {% page-ref page="django-framework-package.md" %}
 
