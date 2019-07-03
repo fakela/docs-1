@@ -77,7 +77,7 @@ If you are using **Docker before 18.03** you can't use `host.docker.internal` fo
 docker exec -it jet_bridge jet_bridge token
 ```
 
-6. Finish your project installation by opening in your browser: [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. If you want to run Jet Bridge on different host/port you can configure it \(read more at [Configuration](https://docs.jetadmin.io/getting-started/configuration) page\).
+6. Finish your project installation by opening in your browser: [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. 
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.
