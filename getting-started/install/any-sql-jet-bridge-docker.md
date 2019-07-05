@@ -18,15 +18,16 @@ You can read about all possible settings at [Configuration](../configuration.md)
 
 #### Installation
 
-1. Install **Docker** if you don't have it [https://docs.docker.com/install/](https://docs.docker.com/install/)
-2. Make sure **Docker** is running
-3. Update **Jet Bridge** image if downloaded it before
+1. Follow this guide to create project: [https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+2. Install **Docker** if you don't have it [https://docs.docker.com/install/](https://docs.docker.com/install/)
+3. Make sure **Docker** is running
+4. Update **Jet Bridge** image if downloaded it before
 
 ```text
 docker pull jetadmin/jetbridge
 ```
 
-4. Run **Docker** container with specified configuration. This will run Jet Bridge on **http://localhost:8888/.** Choose **DATABASE\_HOST** according to your platform, this address should be accessible inside Docker container \(you may need to search how to implement that on your platform\). Here is an example for macOS:
+5. Run **Docker** container with specified configuration. This will run Jet Bridge on **http://localhost:8888/.** Choose **DATABASE\_HOST** according to your platform, this address should be accessible inside Docker container \(you may need to search how to implement that on your platform\). Here is an example for macOS:
 
 {% hint style="info" %}
 If you want to run on different port change it here:  
@@ -71,13 +72,13 @@ If you are using **Docker before 18.03** you can't use `host.docker.internal` fo
 **Docker 17.05 and below** your `local host IP address` \(can be found using `ifconfig` command\)
 {% endhint %}
 
-5. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command:
+6. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command:
 
 ```text
 docker exec -it jet_bridge jet_bridge token
 ```
 
-6. Finish your project installation by opening in your browser: [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. 
+7. Finish your project installation by opening in your browser: [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. 
 
 {% hint style="info" %}
 If you don't have **Jet** account yet you will be asked to create one and sign in with the existing account.

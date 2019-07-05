@@ -25,13 +25,16 @@ It will work even with your local application on **localhost**.
 
 #### Installation
 
-1. Download and install latest version of **Jet Bridge** for **Django**:
+1. Follow this guide to create project:  
+[https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
+
+2. Download and install latest version of **Jet Bridge** for **Django**:
 
 ```bash
 pip install jet-django
 ```
 
-2. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
+3. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
 
 ```python
 INSTALLED_APPS = (
@@ -41,7 +44,7 @@ INSTALLED_APPS = (
 )
 ```
 
-3. Add URL-pattern to the **urls.py** file:
+4. Add URL-pattern to the **urls.py** file:
 
 ```python
 from jet_django.urls import jet_urls
@@ -53,21 +56,21 @@ urlpatterns = [
 ]
 ```
 
-4. Apply migrations:
+5. Apply migrations:
 
 ```bash
 python manage.py migrate jet_django
 ```
 
-5. Restart your project
+6. Restart your project
 
-6. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
+7. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
 
 ```bash
 python manage.py jet_token
 ```
 
-7. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.   
+8. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.   
 **Please note!** **Jet Django** package sets **CORS** headers for **/jet\_api/** endpoints. If it conflicts with your **CORS** headers and you want to deal with it yourself, add the following in **settings.py**:
 
 ```python
