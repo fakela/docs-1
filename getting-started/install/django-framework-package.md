@@ -47,11 +47,17 @@ INSTALLED_APPS = (
 4. Add URL-pattern to the **urls.py** file:
 
 ```python
-from jet_django.urls import jet_urls
+urlpatterns = [
+  ...
+  path('jet_api/', include('jet_django.urls')),
+  ...
+]
+
+# or For Django < 2.0
 
 urlpatterns = [
   ...
-  url(r'^jet_api/', include(jet_urls)),
+  url(r'^jet_api/', include('jet_django.urls')),
   ...
 ]
 ```
