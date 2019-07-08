@@ -52,9 +52,11 @@ urlpatterns = [
   path('jet_api/', include('jet_django.urls')),
   ...
 ]
+```
 
-# or For Django < 2.0
+If you use **Django &lt; 2.0:**
 
+```python
 urlpatterns = [
   ...
   url(r'^jet_api/', include('jet_django.urls')),
