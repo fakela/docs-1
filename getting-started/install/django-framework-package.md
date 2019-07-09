@@ -78,12 +78,12 @@ python manage.py migrate jet_django
 python manage.py jet_token
 ```
 
-8. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT.   
-**Please note!** **Jet Django** package sets **CORS** headers for **/jet\_api/** endpoints. If it conflicts with your **CORS** headers and you want to deal with it yourself, add the following in **settings.py**:
+8. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT. 
 
-```python
-JET_CORS_HEADERS = False
-```
+{% hint style="info" %}
+**Jet Django** package sets **CORS** headers for **/jet\_api/** endpoints. If it conflicts with your **CORS** headers and you want to deal with it yourself, add the following in **settings.py**:   
+JET\_CORS\_HEADERS = False
+{% endhint %}
 
 {% page-ref page="django-framework-package.md" %}
 
