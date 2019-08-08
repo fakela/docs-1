@@ -1,62 +1,69 @@
 # Table of contents
 
-* [Jet Admin User Guide](README.md)
+* [Jet Admin](README.md)
 
-## Overview
+## GETTING STARTED <a id="getting-started-1"></a>
 
-* [How it works](overview/why-use-jet-admin.md)
-* [Data privacy & Security](overview/data-privacy-and-security.md)
-* [Customizing](overview/customizing.md)
+* [Installation](getting-started-1/install/README.md)
+  * [Any SQL – Deploy to Heroku](getting-started-1/install/any-sql-deploy-to-heroku.md)
+  * [Any SQL – Jet Bridge App](getting-started-1/install/any-sql-jet-bridge-app.md)
+  * [Any SQL – Jet Bridge Docker](getting-started-1/install/any-sql-jet-bridge-docker.md)
+  * [Django framework – Package](getting-started-1/install/django-framework-package.md)
+  * [Common Problems](getting-started-1/install/common-problems.md)
+* [Setup Guide](getting-started-1/get-started/README.md)
+  * [Configure the visibility of your collections and fields](getting-started-1/get-started/configure-the-visibility-of-your-collections-and-fields.md)
+  * [Deploy to production](getting-started-1/get-started/deploy-to-production.md)
+  * [Change icons and titles of your collections](getting-started-1/get-started/change-icons-and-collections-names.md)
+  * [Configure fields format](getting-started-1/get-started/configure-fields-format.md)
+  * [Configure a collection widget](getting-started-1/get-started/configure-a-collection-widget.md)
+  * [Add a new chart](getting-started-1/get-started/add-a-new-chart.md)
+  * [Invite your teammates and manage permissions](getting-started-1/get-started/invite-your-teammates-and-permissions.md)
+  * [Create a Segment](getting-started-1/get-started/create-a-segment.md)
+  * [Record Analytics](getting-started-1/get-started/record-analytics.md)
+  * [Use Live Query](getting-started-1/get-started/use-live-query.md)
 
-## Getting started
+## User guide
 
-* [Installation](getting-started/install/README.md)
-  * [Any SQL – Deploy to Heroku](getting-started/install/any-sql-deploy-to-heroku.md)
-  * [Any SQL – Jet Bridge App](getting-started/install/any-sql-jet-bridge-app.md)
-  * [Any SQL – Jet Bridge Docker](getting-started/install/any-sql-jet-bridge-docker.md)
-  * [Django framework – Package](getting-started/install/django-framework-package.md)
-  * [Common Problems](getting-started/install/common-problems.md)
-* [Settings](getting-started/configuration.md)
-* [Glossary](getting-started/glossary.md)
-* [Overall Structure](getting-started/overall-structure.md)
-* [Setup Guide](getting-started/get-started.md)
-
-## Navigation
-
-* [Menu](navigation/menu.md)
-* [Customize Menu](navigation/customize.md)
-
-## View & Browse Data <a id="browse"></a>
-
-* [Browse](browse/explore.md)
-* [Filtering](browse/filter.md)
-* [Segments](browse/segments-1.md)
-* [Search](browse/search-jet.md)
-* [Export](browse/export-data.md)
-* [Customize List View](browse/layout-editor.md)
-
-## Edit Data <a id="manipulate"></a>
-
-* [Create/Update a record](manipulate/create-a-record.md)
-* [Delete records](manipulate/delete.md)
-* [Customize Detail View](manipulate/summary-view.md)
-
-## Dashboard & Analytics <a id="listen"></a>
-
-* [Create a chart](listen/create-a-chart/README.md)
-  * [Chart Widget](listen/create-a-chart/chart-widget.md)
-  * [Counter Widget](listen/create-a-chart/counter-widget.md)
-* [Create chart on specific record](listen/create-chart-on-specific-record.md)
-
-## Project settings <a id="customize-your-jet"></a>
-
-* [General](customize-your-jet/project-settings.md)
-* [Team managment](customize-your-jet/team-managment.md)
-* [Collection settings](customize-your-jet/collection-settings.md)
-
-## Advanced Customization <a id="customization"></a>
-
-* [FlexView](customization/flexview.md)
-* [FlexAction](customization/flexaction.md)
-* [FlexField](customization/flexfield.md)
+* [How it works](user-guide/why-use-jet-admin.md)
+* [Glossary](user-guide/glossary.md)
+* [Data privacy & Security](user-guide/data-privacy-and-security.md)
+* [Visual Builder](user-guide/visual-builder.md)
+* [Views](user-guide/views/README.md)
+  * [Dashboard](user-guide/views/dashboard.md)
+  * [Collection View](user-guide/views/collection-view/README.md)
+    * [Customize a collection](user-guide/views/collection-view/customizing-the-collection.md)
+  * [Record View](user-guide/views/record-view/README.md)
+    * [Customize a record](user-guide/views/record-view/untitled.md)
+  * [Menu](user-guide/views/menu/README.md)
+    * [Customize the Menu](user-guide/views/menu/customize-menu.md)
+  * [Flex View](user-guide/views/flex-view-1.md)
+* [Collections](user-guide/collection/README.md)
+  * [Collection Widgets](user-guide/collection/collection-widgets.md)
+  * [Create a custom collection](user-guide/collection/create-your-own-collection.-flex-view.md)
+  * [Collection settings](user-guide/collection/collection-settings.md)
+* [Fields](user-guide/field/README.md)
+  * [Customize Fields](user-guide/field/customizing-the-field/README.md)
+    * [Field Widgets](user-guide/field/customizing-the-field/field-widgets.md)
+  * [Flex Field](user-guide/field/create-and-manage-flex-field.md)
+* [Records](user-guide/records.md)
+* [Actions](user-guide/actions/README.md)
+  * [Flex Actions](user-guide/actions/flex-actions/README.md)
+    * [Jet Django](user-guide/actions/flex-actions/jet-django.md)
+    * [Jet Bridge](user-guide/actions/flex-actions/jet-bridge.md)
+* [Charts](user-guide/charts/README.md)
+  * [Create a chart](user-guide/charts/create-a-chart.md)
+  * [Query Parameters](user-guide/charts/query-parameters.md)
+  * [Chart Widgets](user-guide/charts/chart-widgets.md)
+  * [Display record-specific charts in Analytics](user-guide/charts/display-record-specific-charts-in-analytics/README.md)
+    * [Inspect objects](user-guide/charts/display-record-specific-charts-in-analytics/inspect-objects.md)
+* [Filters](user-guide/filter.md)
+* [Segments](user-guide/segment.md)
+* [Teams and Users](user-guide/teams-and-users/README.md)
+  * [Create and manage a team](user-guide/teams-and-users/create-and-manage-a-team.md)
+  * [Invite and manage users](user-guide/teams-and-users/invite-and-manage-users.md)
+  * [Manage team-based permissions](user-guide/teams-and-users/manage-team-based-permissions.md)
+* [Project Settings](user-guide/project-settings/README.md)
+  * [General](user-guide/project-settings/general.md)
+  * [Billing tab](user-guide/project-settings/billing-tab.md)
+  * [Project Collections](user-guide/project-settings/project-collections.md)
 
