@@ -2,6 +2,10 @@
 
 Install **Jet Bridge** without any additional software or web services on any server or localhost. You will need to install **Python** dependencies and run the application manually.
 
+{% embed url="https://youtu.be/rELzK1DS084" %}
+
+
+
 #### Requirements
 
 * **Python** 2.7 or 3.4+
@@ -12,8 +16,6 @@ Install **Jet Bridge** without any additional software or web services on any se
   * SQLite 
   * Oracle 
   * Microsoft SQL Server 
-  * Firebird 
-  * Sybase
 * **localhost** or **web server** with external IP
 
 #### Installation
