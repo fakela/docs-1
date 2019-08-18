@@ -37,7 +37,7 @@ Learn more about how to create and customize dashboards:
 
 Here you can learn more about creating record-specific analytical reports using charts:
 
-{% page-ref page="../../getting-started-1/get-started/record-analytics.md" %}
+{% page-ref page="../../getting-started/get-started/record-analytics.md" %}
 
 ## Query Builder
 

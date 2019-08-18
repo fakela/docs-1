@@ -2,26 +2,26 @@
 
 * [Jet Admin](README.md)
 
-## GETTING STARTED <a id="getting-started-1"></a>
+## GETTING STARTED
 
-* [Installation](getting-started-1/install/README.md)
-  * [Any SQL – Deploy to Heroku](getting-started-1/install/any-sql-deploy-to-heroku.md)
-  * [Any SQL – Jet Bridge App](getting-started-1/install/any-sql-jet-bridge-app.md)
-  * [Any SQL – Jet Bridge Docker](getting-started-1/install/any-sql-jet-bridge-docker.md)
-  * [Django framework – Package](getting-started-1/install/django-framework-package.md)
-  * [Configuration](getting-started-1/install/configuration.md)
-  * [Common Problems](getting-started-1/install/common-problems.md)
-* [Setup Guide](getting-started-1/get-started/README.md)
-  * [Configure the visibility of your collections and fields](getting-started-1/get-started/configure-the-visibility-of-your-collections-and-fields.md)
-  * [Deploy to production](getting-started-1/get-started/deploy-to-production.md)
-  * [Change icons and titles of your collections](getting-started-1/get-started/change-icons-and-collections-names.md)
-  * [Configure fields format](getting-started-1/get-started/configure-fields-format.md)
-  * [Configure a collection widget](getting-started-1/get-started/configure-a-collection-widget.md)
-  * [Add a new chart](getting-started-1/get-started/add-a-new-chart.md)
-  * [Invite your teammates and manage permissions](getting-started-1/get-started/invite-your-teammates-and-permissions.md)
-  * [Create a Segment](getting-started-1/get-started/create-a-segment.md)
-  * [Record Analytics](getting-started-1/get-started/record-analytics.md)
-  * [Use Live Query](getting-started-1/get-started/use-live-query.md)
+* [Installation](getting-started/install/README.md)
+  * [Any SQL – Deploy to Heroku](getting-started/install/any-sql-deploy-to-heroku.md)
+  * [Any SQL – Jet Bridge App](getting-started/install/any-sql-jet-bridge-app.md)
+  * [Any SQL – Jet Bridge Docker](getting-started/install/any-sql-jet-bridge-docker.md)
+  * [Django framework – Package](getting-started/install/django-framework-package.md)
+  * [Configuration](getting-started/install/configuration.md)
+  * [Common Problems](getting-started/install/common-problems.md)
+* [Setup Guide](getting-started/get-started/README.md)
+  * [Configure the visibility of your collections and fields](getting-started/get-started/configure-the-visibility-of-your-collections-and-fields.md)
+  * [Deploy to production](getting-started/get-started/deploy-to-production.md)
+  * [Change icons and titles of your collections](getting-started/get-started/change-icons-and-collections-names.md)
+  * [Configure fields format](getting-started/get-started/configure-fields-format.md)
+  * [Configure a collection widget](getting-started/get-started/configure-a-collection-widget.md)
+  * [Add a new chart](getting-started/get-started/add-a-new-chart.md)
+  * [Invite your teammates and manage permissions](getting-started/get-started/invite-your-teammates-and-permissions.md)
+  * [Create a Segment](getting-started/get-started/create-a-segment.md)
+  * [Record Analytics](getting-started/get-started/record-analytics.md)
+  * [Use Live Query](getting-started/get-started/use-live-query.md)
 
 ## User guide
 

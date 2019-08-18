@@ -1,4 +1,4 @@
-# Settings
+# Configuration
 
 ## Setting up your configuration
 
@@ -75,3 +75,4 @@ DATABASE_ENGINE=postgresql \
 | **MEDIA\_STORAGE** \(optional\) | default | Media storage type |
 | **MEDIA\_ROOT** \(optional\) | media | Media root |
 | **MEDIA\_BASE\_URL** \(optional\) | -- none -- | Media base URL |
+
