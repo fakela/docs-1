@@ -37,7 +37,7 @@
     * [Customize a record](user-guide/views/record-view/untitled.md)
   * [Menu](user-guide/views/menu/README.md)
     * [Customize the Menu](user-guide/views/menu/customize-menu.md)
-  * [Flex View](user-guide/views/flex-view-1.md)
+  * [Flex View](user-guide/views/flex-view.md)
 * [Collections](user-guide/collection/README.md)
   * [Collection Widgets](user-guide/collection/collection-widgets.md)
   * [Create a custom collection](user-guide/collection/create-your-own-collection.-flex-view.md)
