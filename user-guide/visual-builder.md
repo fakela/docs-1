@@ -82,7 +82,7 @@ Learn more about the Chart widgets:
 
 ## **Extensibility**
 
-You can **extend** Jet’s interface at any time. [Code your own widget into your Jet admin panel using JS, HTML, or CSS](https://docs.jetadmin.io/customization/flexview) ****with our Flex View feature. 
+You can **extend** Jet’s interface at any time. [Code your own widget into your Jet admin panel using JS, HTML, or CSS](views/flex-view.md) ****with our Flex View feature. 
 
 Here's the instruction on how to create a Flex View:
 
