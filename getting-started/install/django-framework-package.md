@@ -14,6 +14,8 @@ This is the quickest way to install **Jet Admin** for Django based projects. Ins
 **Jet Bridge** for **Django** sources are available on **Github:**  
 [https://github.com/jet-admin/jet-django](https://github.com/jet-admin/jet-django)
 
+{% embed url="https://youtu.be/myQPHV\_PEhQ" %}
+
 #### Requirements
 
 * **Python** 3.4+

@@ -2,9 +2,7 @@
 
 Install **Jet Bridge** without any additional software or web services on any server or localhost. You will need to install **Python** dependencies and run the application manually.
 
-{% embed url="https://youtu.be/rELzK1DS084" %}
-
-
+{% embed url="https://youtu.be/iwjPCS69VuI" %}
 
 #### Requirements
 
