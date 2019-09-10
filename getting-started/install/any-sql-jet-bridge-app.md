@@ -46,6 +46,9 @@ pip install Shapely==1.6.4
 
 # for MySQL
 pip install mysqlclient
+
+# for MSSQL
+pip install pyodbc
 ```
 
 {% hint style="info" %}
