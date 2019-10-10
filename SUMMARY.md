@@ -25,7 +25,7 @@
 
 ## User guide
 
-* [How it works](user-guide/why-use-jet-admin.md)
+* [How it works](user-guide/how-it-works.md)
 * [Glossary](user-guide/glossary.md)
 * [Data privacy & Security](user-guide/data-privacy-and-security.md)
 * [Visual Builder](user-guide/visual-builder.md)
