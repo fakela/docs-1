@@ -4,7 +4,7 @@
 
 Jet Admin is built in a way that it **hosts** **only** **your** **admin panel interface**. We don’t collect or host your private data. Thanks to Jet Admin’s architecture, we are able to display and support your admin without actually accessing your information.
 
-![](../.gitbook/assets/image%20%28174%29.png)
+![](../.gitbook/assets/how-it-works-2x.png)
 
 So how exactly does it work? Jet Admin is **a SaaS frontend application** that communicates with your database through Jet Bridge, a component that you install **locally and integrate to your web application or database**. Jet Bridge generates an API for your application to work with and forwards your data directly to your end browser, where the data connects with Jet’s interface. It ensures that your data **remains invisible to our servers**.
 
@@ -26,6 +26,8 @@ To prevent bad consequences for your business, Jet Admin automatically creates a
 
 Since Jet Admin doesn’t require access to your data, you are free to host your admin’s API under DMZ or VPN network. Once you do that, your admin panel will be separated from your public network, leaving no chance for malicious attacks or remote rooting. This might be on a checklist for some large healthcare and financial companies that can be held liable for clients’ personal information. In most cases though, it is not a necessity.  
 
+
+![](../.gitbook/assets/how-it-works-dmz-2x.png)
 
 #### IP Whitelisting <a id="ip-whitelisting"></a>
 
