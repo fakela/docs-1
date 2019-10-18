@@ -73,7 +73,7 @@ jet_bridge
 ![Result of running Jet Bridge](../../.gitbook/assets/image%20%28115%29.png)
 
 {% hint style="info" %}
-You can read about all possible settings on the [Configuration]() page.
+You can read about all possible settings on the [Configuration](configuration.md) page.
 {% endhint %}
 
 6. You will see the **Jet Admin** token in the console output which you should later enter on the **Project Create page**. If you want to display the **Jet Admin** token manually, use the following command:
