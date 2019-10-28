@@ -68,3 +68,7 @@
   * [Billing tab](user-guide/project-settings/billing-tab.md)
   * [Project Collections](user-guide/project-settings/project-collections.md)
 
+## Additional
+
+* [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
+
