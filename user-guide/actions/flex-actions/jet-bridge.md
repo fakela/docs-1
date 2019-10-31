@@ -4,6 +4,7 @@
 
 1. List of available actions and their parameters
 2. Execution of particular action
+3. Get field options
 
 After you have implemented this **API method** you should specify **Messages URL** field in your Jet Admin **Project Settings**  to finish integration.
 
@@ -76,6 +77,27 @@ Example of **execute\_action** message response
 {
     "result": true
 }
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=202 %}
+{% api-method-response-example-description %}
+Example of **get\_field\_options** message response
+{% endapi-method-response-example-description %}
+
+```javascript
+[
+    {
+        'value': 'london',
+        'name': 'London',
+        'color': 'blue'
+    },
+    {
+        'value': 'new_york',
+        'name': 'New York',
+        'color': 'green'
+    }
+]
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

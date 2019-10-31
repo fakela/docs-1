@@ -9,11 +9,10 @@ To implement integration you should have installed **Jet** for your **Backend** 
 {% code-tabs %}
 {% code-tabs-item title="jet\_messages.py" %}
 ```python
-from jet_django.admin.jet import jet
-from jet_django.messages import GET_ACTION_LIST, EXECUTE_ACTION
+from jet_bridge_base import messages
 
 # define handler which will return all possible actions
-def get_action_list(params):
+def get_action_list(name, params):
     return [
         {
             # each action shoud defined unique name
@@ -37,7 +36,7 @@ def get_action_list(params):
     ]
 
 # define handler which will process all possible actions
-def execute_action(params):
+def execute_action(name, params):
     if params['name'] == 'mail_users':
         # Your custom action processing here
         ids = params.get('params', {}).get('ids')
@@ -45,9 +44,34 @@ def execute_action(params):
             'result': True
         }
 
+def get_field_options(name, params):
+    if params.get('model') == 'order' and params.get('field') == 'city':
+        result = [
+            {
+                'value': 'london',
+                'name': 'London',
+                'color': 'blue'
+            },
+            {
+                'value': 'new_york',
+                'name': 'New York',
+                'color': 'green'
+            }
+        ]
+
+        if params.get('form', {}).get('country') == 'italy':
+            result.append({
+                'value': 'rome',
+                'name': 'Rome',
+                'color': 'red'
+            })
+
+        return result
+
 # add defined handlers
-jet.add_message_handler(GET_ACTION_LIST, get_action_list)
-jet.add_message_handler(EXECUTE_ACTION, execute_action)
+messages.add_handler(messages.GET_ACTION_LIST, get_action_list)
+messages.add_handler(messages.EXECUTE_ACTION, execute_action)
+messages.add_handler(messages.GET_FIELD_OPTIONS, get_field_options)
 
 ```
 {% endcode-tabs-item %}
