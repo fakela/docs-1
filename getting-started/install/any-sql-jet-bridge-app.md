@@ -62,7 +62,7 @@ jet_bridge
 
 If you run this command for the first time, you will be asked to enter the settings \(database host, port, etc.\) based on which a config file will be automatically generated. You can edit this config file later.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 After filling all required options, a config file will be generated and now you can run Jet Bridge by executing this command once again:
 
@@ -70,7 +70,7 @@ After filling all required options, a config file will be generated and now you 
 jet_bridge 
 ```
 
-![Result of running Jet Bridge](../../.gitbook/assets/image%20%28117%29.png)
+![Result of running Jet Bridge](../../.gitbook/assets/image%20%28119%29.png)
 
 {% hint style="info" %}
 You can read about all possible settings on the [Configuration](configuration.md) page.

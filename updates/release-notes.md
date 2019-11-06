@@ -28,7 +28,7 @@ We enabled table editing in a collection view. If you need to add or change some
 
 We added an User Activities Log to help you keep track of all changes made to any item in your admin panel. Go to Project Settings ⟶ User Activities and search for a specific modification.
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 
 ### Improvements
 

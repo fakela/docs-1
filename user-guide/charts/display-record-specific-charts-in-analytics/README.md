@@ -22,7 +22,7 @@ Token в SQL
 
 Перейдите в SQL -&gt; Для выбора Token нажмите на кнопку Token и выберите нужный параметр
 
-![](../../../.gitbook/assets/image%20%2861%29.png)
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 #### An example
 
@@ -42,5 +42,5 @@ group by gr
 order by gr;
 ```
 
-![](../../../.gitbook/assets/image%20%2859%29.png)
+![](../../../.gitbook/assets/image%20%2860%29.png)
 

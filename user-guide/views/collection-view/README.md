@@ -4,7 +4,7 @@
 
 A Collection view is where you can browse, search through, and manage the visual representation \(i.e. layout\) of your collections.
 
-![](../../../.gitbook/assets/image%20%28213%29.png)
+![](../../../.gitbook/assets/image%20%28217%29.png)
 
 ## Features
 
@@ -14,17 +14,17 @@ Learn more:
 
 {% page-ref page="../../filter.md" %}
 
-![](../../../.gitbook/assets/image%20%28260%29.png)
+![](../../../.gitbook/assets/image%20%28265%29.png)
 
 {% page-ref page="../../field/" %}
 
-![](../../../.gitbook/assets/image%20%28197%29.png)
+![](../../../.gitbook/assets/image%20%28201%29.png)
 
 {% page-ref page="../../segment.md" %}
 
-![](../../../.gitbook/assets/image%20%2853%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
 {% page-ref page="../../actions/" %}
 
-![](../../../.gitbook/assets/image%20%28226%29.png)
+![](../../../.gitbook/assets/image%20%28230%29.png)
 
