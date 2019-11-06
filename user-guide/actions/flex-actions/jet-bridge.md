@@ -43,7 +43,7 @@ Unique messages name, may be one of:
 Example of **get\_action\_list** message response
 {% endapi-method-response-example-description %}
 
-```javascript
+```
 [
     {
         // each action shoud defined unique name
@@ -73,7 +73,7 @@ Example of **get\_action\_list** message response
 Example of **execute\_action** message response
 {% endapi-method-response-example-description %}
 
-```javascript
+```
 {
     "result": true
 }
@@ -85,7 +85,7 @@ Example of **execute\_action** message response
 Example of **get\_field\_options** message response
 {% endapi-method-response-example-description %}
 
-```javascript
+```
 [
     {
         'value': 'london',

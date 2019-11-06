@@ -36,13 +36,13 @@ This is the quickest way to install **Jet Admin** for Django based projects. Ins
 
 2. Download and install latest version of **Jet Bridge** for **Django**:
 
-```bash
+```
 pip install jet-django
 ```
 
 3. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
 
-```python
+```
 INSTALLED_APPS = (
   ...
   'jet_django',
@@ -52,7 +52,7 @@ INSTALLED_APPS = (
 
 4. Add URL-pattern to the **urls.py** file:
 
-```python
+```
 urlpatterns = [
   ...
   path('jet_api/', include('jet_django.urls')),
@@ -62,7 +62,7 @@ urlpatterns = [
 
 If you use **Django &lt; 2.0:**
 
-```python
+```
 urlpatterns = [
   ...
   url(r'^jet_api/', include('jet_django.urls')),
@@ -72,7 +72,7 @@ urlpatterns = [
 
 5. Apply migrations:
 
-```bash
+```
 python manage.py migrate jet_django
 ```
 
@@ -80,7 +80,7 @@ python manage.py migrate jet_django
 
 7. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
 
-```bash
+```
 python manage.py jet_token
 ```
 

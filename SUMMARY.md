@@ -2,6 +2,10 @@
 
 * [Jet Admin](README.md)
 
+## Updates
+
+* [Release Notes](updates/release-notes.md)
+
 ## GETTING STARTED
 
 * [Installation](getting-started/install/README.md)
@@ -31,6 +35,7 @@
 * [Visual Builder](user-guide/visual-builder.md)
 * [Views](user-guide/views/README.md)
   * [Dashboard](user-guide/views/dashboard.md)
+  * [Multiple Dashboards](user-guide/views/multiple-dashboards.md)
   * [Collection View](user-guide/views/collection-view/README.md)
     * [Customize a collection](user-guide/views/collection-view/customizing-the-collection.md)
   * [Record View](user-guide/views/record-view/README.md)
@@ -43,6 +48,7 @@
   * [Create a custom collection](user-guide/collection/create-your-own-collection.-flex-view.md)
   * [Collection settings](user-guide/collection/collection-settings.md)
 * [Fields](user-guide/field/README.md)
+  * [Related Record Fields](user-guide/field/related-record-fields.md)
   * [Customize Fields](user-guide/field/customizing-the-field/README.md)
     * [Field Widgets](user-guide/field/customizing-the-field/field-widgets.md)
   * [Flex Field](user-guide/field/create-and-manage-flex-field.md)

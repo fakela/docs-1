@@ -8,15 +8,15 @@ A Record view is where you can view and manage the information on a specific rec
 
 All of the fields on your record are editable, so you can input and change important data quickly.
 
-![](../../../.gitbook/assets/image%20%28207%29.png)
+![](../../../.gitbook/assets/image%20%28209%29.png)
 
 To navigate between records of the same collection, use the arrows in the top right corner of the record view.
 
-![](../../../.gitbook/assets/image%20%28171%29.png)
+![](../../../.gitbook/assets/image%20%28173%29.png)
 
 Perform an action on a record by clicking on the Actions button in the top right corner of the screen and selecting an action. 
 
 You can delete a record by clicking on the red bucket icon to the left of the Actions button.
 
-![](../../../.gitbook/assets/image%20%28146%29.png)
+![](../../../.gitbook/assets/image%20%28148%29.png)
 

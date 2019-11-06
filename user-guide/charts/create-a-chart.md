@@ -8,7 +8,7 @@ You can learn more about all chart types and their functions here:
 
 {% page-ref page="chart-widgets.md" %}
 
-![](../../.gitbook/assets/image%20%28135%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 ### 2. Build a Query
 
@@ -39,11 +39,11 @@ If you would like to add several charts, press '+ Add more':
 
 For each chart you can set legend and color:
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../.gitbook/assets/image%20%28164%29.png)
 
 Select fields using 'Group by' 
 
-```sql
+```
 SELECT 
     (
         CASE issues_status_id 
@@ -64,11 +64,11 @@ ORDER BY gr;
 
 Here's an example of creating a doughnut chart:
 
-![](../../.gitbook/assets/image%20%28226%29.png)
+![](../../.gitbook/assets/image%20%28228%29.png)
 
 Display:
 
-![](../../.gitbook/assets/image%20%28191%29.png)
+![](../../.gitbook/assets/image%20%28193%29.png)
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
@@ -84,13 +84,13 @@ To create a complex chart with SQL, switch to the SQL tab in the editing chart w
 4. Choose columns for display
 5. Specify the "group by" and "display" parameters
 
-![](../../.gitbook/assets/image%20%28267%29.png)
+![](../../.gitbook/assets/image%20%28269%29.png)
 
 ### Line chart
 
 You must returned two or more \(for a few charts\) columns. In the following example, we simply count the number of `ride` per month.
 
-```sql
+```
 SELECT
     DATE_TRUNC('month', start) AS gr,
     count(*)
@@ -100,13 +100,13 @@ GROUP BY gr
 ORDER BY gr;
 ```
 
-![](../../.gitbook/assets/image%20%28181%29.png)
+![](../../.gitbook/assets/image%20%28183%29.png)
 
 
 
 ### Bar chart
 
-```sql
+```
 SELECT
     (
         CASE onboarding_status 
@@ -123,11 +123,11 @@ GROUP BY gr
 ORDER BY gr DESC;
 ```
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
 ### Pie / Doughnut chart
 
-```sql
+```
 SELECT
     (
         CASE order_status_id 
@@ -147,7 +147,7 @@ ORDER BY gr;
 
 ### Counter
 
-```sql
+```
 SELECT 
     SUM(total_amount) * SUM(currency)
 FROM
@@ -158,7 +158,7 @@ FROM
 
 ### List
 
-```sql
+```
 SELECT 
     name
 FROM 
@@ -166,7 +166,7 @@ FROM
 ORDER BY rating;
 ```
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28162%29.png)
 
 ## Parameters
 

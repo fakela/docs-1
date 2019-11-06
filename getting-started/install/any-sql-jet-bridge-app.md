@@ -22,7 +22,7 @@ Install **Jet Bridge** without any additional software or web services on any se
 2. Install **Python** 2.7 or 3.4+ \(comes with **pip\)** [https://www.python.org/downloads/](https://www.python.org/downloads/)
 3. Install **jet\_bridge** package using pip or update if you did it before using command line
 
-```bash
+```
 pip install jet_bridge -U
 # or for Python 3
 pip3 install jet_bridge -U
@@ -35,7 +35,7 @@ _C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts\pip.exe install
 
 4. Install the appropriate database adapter and libraries
 
-```bash
+```
 # for PostgreSQL
 pip install psycopg2
 # for PostgreSQL + PosGIS
@@ -56,7 +56,7 @@ For **Windows** and **MySQL** you may also need to install **Microsoft Visual C+
 
 5. Run **Jet Bridge** with the command line shown below:
 
-```bash
+```
 jet_bridge 
 ```
 
@@ -66,11 +66,11 @@ If you run this command for the first time, you will be asked to enter the setti
 
 After filling all required options, a config file will be generated and now you can run Jet Bridge by executing this command once again:
 
-```bash
+```
 jet_bridge 
 ```
 
-![Result of running Jet Bridge](../../.gitbook/assets/image%20%28115%29.png)
+![Result of running Jet Bridge](../../.gitbook/assets/image%20%28117%29.png)
 
 {% hint style="info" %}
 You can read about all possible settings on the [Configuration](configuration.md) page.
@@ -78,7 +78,7 @@ You can read about all possible settings on the [Configuration](configuration.md
 
 6. You will see the **Jet Admin** token in the console output which you should later enter on the **Project Create page**. If you want to display the **Jet Admin** token manually, use the following command:
 
-```text
+```
 jet_bridge token
 ```
 

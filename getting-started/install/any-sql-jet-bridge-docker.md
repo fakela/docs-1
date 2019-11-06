@@ -20,7 +20,7 @@ You can read more about all possible settings on the [Configuration]() page.
 3. Make sure **Docker** is running
 4. Update **Jet Bridge** image if you downloaded it before
 
-```text
+```
 docker pull jetadmin/jetbridge
 ```
 
@@ -31,7 +31,7 @@ If you want to run on different port change it here:
 ****`... -p 9000:8888 ...` – this will run on **9000**
 {% endhint %}
 
-```bash
+```
 docker run -p 8888:8888 \
     -e DATABASE_ENGINE=postgresql \
     -e DATABASE_HOST=host.docker.internal \
@@ -47,7 +47,7 @@ docker run -p 8888:8888 \
 
 If you want to run SQLite:
 
-```bash
+```
 docker run -p 8888:8888 \
     -e DATABASE_ENGINE=sqlite \
     -e DATABASE_HOST= \
@@ -71,7 +71,7 @@ If you are using **Docker before 18.03** you can't use `host.docker.internal` fo
 
 6. You will see **Jet Admin** token in the console output which you should enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following command:
 
-```text
+```
 docker exec -it jet_bridge jet_bridge token
 ```
 

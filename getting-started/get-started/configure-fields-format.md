@@ -4,21 +4,21 @@ To display field data in the most convenient way, you can set up different field
 
 Enter the Visual Builder in a Collection view **\(1\)**, then click the Columns button to manage the visibility of your fields **\(2\)**. 
 
-![pic. 1](../../.gitbook/assets/image%20%28157%29.png)
+![pic. 1](../../.gitbook/assets/image%20%28159%29.png)
 
 ![pic. 2](../../.gitbook/assets/image%20%2867%29.png)
 
 By moving the slider next to the profile image field in Columns, we made it visible in our collection. Now, we will click on the cog icon next to the field's name in the top bar to manage its visual appeal.
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](../../.gitbook/assets/image%20%28122%29.png)
 
 From there, we will choose 'Image field' in the Field Type dropdown menu. 
 
 ![](../../.gitbook/assets/image%20%287%29.png)
 
-![](../../.gitbook/assets/image%20%28205%29.png)
+![](../../.gitbook/assets/image%20%28207%29.png)
 
 As you can see, now all records in the Drivers collection have a profile image. 
 
-![](../../.gitbook/assets/image%20%28119%29.png)
+![](../../.gitbook/assets/image%20%28121%29.png)
 

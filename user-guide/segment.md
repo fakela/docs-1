@@ -18,21 +18,21 @@ To create a simple segment, apply a filter or a set of filters [by following the
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
-![](../.gitbook/assets/image%20%28176%29.png)
+![](../.gitbook/assets/image%20%28178%29.png)
 
 ### Method 2. From the settings
 
 Click on your profile pic in the lower-left corner of the screen **\(1\)**. Go to Setting **\(2\)** ➝ Collections **\(3\)** ➝ {collection name} **\(4\)** ➝ Segments **\(5\)**
 
-![pic. 1](../.gitbook/assets/image%20%28136%29.png)
+![pic. 1](../.gitbook/assets/image%20%28138%29.png)
 
-![pic. 2](../.gitbook/assets/image%20%28154%29.png)
+![pic. 2](../.gitbook/assets/image%20%28156%29.png)
 
-![pic. 3](../.gitbook/assets/image%20%28206%29.png)
+![pic. 3](../.gitbook/assets/image%20%28208%29.png)
 
-![pic. 4](../.gitbook/assets/image%20%28227%29.png)
+![pic. 4](../.gitbook/assets/image%20%28229%29.png)
 
-![pic. 5](../.gitbook/assets/image%20%28134%29.png)
+![pic. 5](../.gitbook/assets/image%20%28136%29.png)
 
 Click the "Add Segment" button in the menu on the left to create a new segment. Here you can type in the name of a new segment, make it visible/invisible, and add a filter or several filters for this segment.
 
@@ -62,9 +62,9 @@ Go to Setting ➝ Collections ➝ {collection name} ➝ Segments, type in  the n
 
 You can rename **\(1\)**, drag and drop **\(3\)**, and make your segments visible/invisible **\(2\)** by entering the Visual Builder mode and clicking on the menu. 
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../.gitbook/assets/image%20%28114%29.png)
 
-![](../.gitbook/assets/image%20%28247%29.png)
+![](../.gitbook/assets/image%20%28249%29.png)
 
 ## Deleting a segment
 
@@ -72,5 +72,5 @@ To delete a segment, go to Settings ➝ Collections, then choose a collection in
 
 Select a segment you want to remove in the menu on the left, then scroll down and hit the "Delete" button.
 
-![](../.gitbook/assets/image%20%28139%29.png)
+![](../.gitbook/assets/image%20%28141%29.png)
 

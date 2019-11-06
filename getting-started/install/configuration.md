@@ -11,7 +11,7 @@ command line arguments, config file or environment variables. Here are examples:
 Warning: arguments name should be lowercase. Other methods are case insensitive
 {% endhint %}
 
-```bash
+```
 jet_bridge --database_engine=postgresql \
     --database_host=localhost \
     --database_port=5432 \
@@ -22,9 +22,7 @@ jet_bridge --database_engine=postgresql \
 
 ### Method 2. Config file
 
-{% code-tabs %}
-{% code-tabs-item title="jet.ini" %}
-```text
+```
 [JET]
 DATABASE_ENGINE=postgresql
 DATABASE_HOST=localhost
@@ -33,12 +31,10 @@ DATABASE_NAME=mydb
 DATABASE_USER=user
 DATABASE_PASSWORD=password
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 ### Method 3. Environment variables
 
-```bash
+```
 DATABASE_ENGINE=postgresql \
     DATABASE_HOST=localhost \
     DATABASE_PORT=5432 \

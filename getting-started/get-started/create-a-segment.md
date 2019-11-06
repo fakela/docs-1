@@ -10,13 +10,13 @@ To create a simple segment, apply a filter or a set of filters by pushing the Fi
 
 Then type in the name of a new segment and click "Add Segment". 
 
-![](../../.gitbook/assets/image%20%28176%29.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 ### 
 
 We created segments with _order types_ in the _Orders_ collection. To view segments of a specific collection, click on the arrow next to the collection's header **\(1\)** or unfold this collection in the navigation bar **\(2\)**.
 
-![](../../.gitbook/assets/image%20%28121%29.png)
+![](../../.gitbook/assets/image%20%28123%29.png)
 
 ### 
 

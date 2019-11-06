@@ -20,7 +20,7 @@ Here are some basic examples:
 
 #### Return a Record field
 
-```javascript
+```
   
 function fieldValue(model) {
     return model('unique_name');
@@ -30,7 +30,7 @@ function fieldValue(model) {
 
 #### Combine record fields
 
-```javascript
+```
   
 function fieldValue(model) {
     return model('first_name') + ' ' + model('last_name');
@@ -39,7 +39,7 @@ function fieldValue(model) {
 
 #### Get a number of related collection records
 
-```javascript
+```
   
 function fieldValue(model) {
     return model('photos').length
@@ -49,7 +49,7 @@ function fieldValue(model) {
 
 #### Parse JSON field
 
-```javascript
+```
 
 function formatDate(date) {
     return date.toLocaleString('en');

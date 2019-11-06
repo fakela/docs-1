@@ -26,7 +26,7 @@ Token в SQL
 
 #### An example
 
-```sql
+```
 select 
     date_trunc('month', start) AS gr,
     sum(amount)
