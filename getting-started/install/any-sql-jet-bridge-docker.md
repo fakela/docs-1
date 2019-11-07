@@ -20,8 +20,11 @@ You can read more about all possible settings on the [Configuration]() page.
 
 ![](../../.gitbook/assets/image%20%28170%29.png)
 
-4. Install Jet Bridge container by running:  
-sh &lt;\(curl -s [https://raw.githubusercontent.com/jet-admin/jet-bridge/master/install\_jet.sh](https://raw.githubusercontent.com/jet-admin/jet-bridge/master/install_jet.sh)\) {Project Name} {Token}
+4. Install Jet Bridge container by running:
+
+```text
+sh <(curl -s https://raw.githubusercontent.com/jet-admin/jet-bridge/master/install_jet.sh) hi_16 20a05f49-52c9-4015-ab72-9332dc0c8732
+```
 
 5. Finish your project installation by opening in your browser: [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. 
 

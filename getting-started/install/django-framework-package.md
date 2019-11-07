@@ -48,7 +48,10 @@ INSTALLED_APPS = (  ...  'jet_django',  ...)
 
 4. Set JET\_PROJECT and JET\_TOKEN inside **settings.py** file:
 
-JET\_PROJECT = 'hi\_16' JET\_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
+```text
+JET_PROJECT = 'hi_16'
+JET_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
+```
 
 5. Add a URL-pattern to the **urls.py** file:
 

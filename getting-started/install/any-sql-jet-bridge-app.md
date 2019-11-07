@@ -51,9 +51,10 @@ PROJECT=hi_16 TOKEN=20a05f49-52c9-4015-ab72-9332dc0c8732 jet_bridge
 Note: This command will create a config file, when you run it for the first time.  
 If you already have a config file, you should edit it and set options:
 
-**PROJECT**: hi\_16  
-**TOKEN**: 20a05f49-52c9-4015-ab72-9332dc0c8732  
-
+```text
+JET_PROJECT = 'hi_16'
+JET_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
+```
 
 6. After filling all required options, a config file will be generated. Now you can run Jet Bridge by executing this command once again:
 
