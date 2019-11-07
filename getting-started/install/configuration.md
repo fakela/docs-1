@@ -11,37 +11,24 @@ command line arguments, config file or environment variables. Here are examples:
 Warning: arguments name should be lowercase. Other methods are case insensitive
 {% endhint %}
 
-```
-jet_bridge --database_engine=postgresql \
-    --database_host=localhost \
-    --database_port=5432 \
-    --database_user=user \
-    --database_password=password \
-    --database_name=mydb
+```bash
+jet_bridge --database_engine=postgresql \    --database_host=localhost \    --database_port=5432 \    --database_user=user \    --database_password=password \    --database_name=mydb
 ```
 
 ### Method 2. Config file
 
+{% tabs %}
+{% tab title="jet.ini" %}
+```text
+[JET]DATABASE_ENGINE=postgresqlDATABASE_HOST=localhostDATABASE_PORT=5432DATABASE_NAME=mydbDATABASE_USER=userDATABASE_PASSWORD=password
 ```
-[JET]
-DATABASE_ENGINE=postgresql
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_NAME=mydb
-DATABASE_USER=user
-DATABASE_PASSWORD=password
-```
+{% endtab %}
+{% endtabs %}
 
 ### Method 3. Environment variables
 
-```
-DATABASE_ENGINE=postgresql \
-    DATABASE_HOST=localhost \
-    DATABASE_PORT=5432 \
-    DATABASE_NAME=mydb \
-    DATABASE_USER=user \
-    DATABASE_PASSWORD=password \
-    jet_bridge
+```bash
+DATABASE_ENGINE=postgresql \    DATABASE_HOST=localhost \    DATABASE_PORT=5432 \    DATABASE_NAME=mydb \    DATABASE_USER=user \    DATABASE_PASSWORD=password \    jet_bridge
 ```
 
 ## All available settings

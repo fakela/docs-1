@@ -1,31 +1,29 @@
 # Any SQL – Jet Bridge App
 
-Install **Jet Bridge** without any additional software or web services on any server or localhost. You will need to install **Python** dependencies and run the application manually.
+Install **Jet Bridge** without any additional software or web services on any server or localhost. You will need to install **Python dependencies** and run the application manually.
 
 {% embed url="https://youtu.be/iwjPCS69VuI" %}
 
 #### Requirements
 
 * **Python** 2.7 or 3.4+
-* **pip -** package manager for Python
+* **PIP,** a package manager for Python packages
 * Any of the following **SQL Databases**:
   * PostgreSQL 
   * MySQL 
   * SQLite 
   * Oracle 
   * Microsoft SQL Server 
-* **localhost** or **web server** with external IP
+* A **localhost** or **web server** with an external IP address.
 
 #### Installation
 
 1. Follow this guide to create a project: [https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
 2. Install **Python** 2.7 or 3.4+ \(comes with **pip\)** [https://www.python.org/downloads/](https://www.python.org/downloads/)
-3. Install **jet\_bridge** package using pip or update if you did it before using command line
+3. Install **jet\_bridge** package using **pip** or update it from the command line as follows:
 
-```
-pip install jet_bridge -U
-# or for Python 3
-pip3 install jet_bridge -U
+```bash
+pip install jet_bridge -U# or for Python 3pip3 install jet_bridge -U
 ```
 
 {% hint style="info" %}
@@ -33,20 +31,10 @@ For **Windows** you need to specify **pip** full path and run command this way \
 _C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts\pip.exe install jet\_bridge -U_
 {% endhint %}
 
-4. Install the appropriate database adapter and libraries
+4. Install an appropriate database adapter and libraries
 
-```
-# for PostgreSQL
-pip install psycopg2
-# for PostgreSQL + PosGIS
-pip install GeoAlchemy2==0.6.2
-pip install Shapely==1.6.4
-
-# for MySQL
-pip install mysqlclient
-
-# for MSSQL
-pip install pyodbc
+```bash
+# for PostgreSQLpip install psycopg2# for PostgreSQL + PosGISpip install GeoAlchemy2==0.6.2pip install Shapely==1.6.4# for MySQLpip install mysqlclient# for MSSQLpip install pyodbc
 ```
 
 {% hint style="info" %}
@@ -54,32 +42,23 @@ For **Windows** and **MySQL** you may also need to install **Microsoft Visual C+
 [https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads](https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads)
 {% endhint %}
 
-5. Run **Jet Bridge** with the command line shown below:
+5. Run **Jet Bridge** from the command line as shown below:
 
-```
-jet_bridge 
-```
-
-If you run this command for the first time, you will be asked to enter the settings \(database host, port, etc.\) based on which a config file will be automatically generated. You can edit this config file later.
-
-![](../../.gitbook/assets/image%20%2814%29.png)
-
-After filling all required options, a config file will be generated and now you can run Jet Bridge by executing this command once again:
-
-```
-jet_bridge 
+```bash
+PROJECT=hi_16 TOKEN=20a05f49-52c9-4015-ab72-9332dc0c8732 jet_bridge
 ```
 
-![Result of running Jet Bridge](../../.gitbook/assets/image%20%28119%29.png)
+Note: This command will create a config file, when you run it for the first time.  
+If you already have a config file, you should edit it and set options:
 
-{% hint style="info" %}
-You can read about all possible settings on the [Configuration](configuration.md) page.
-{% endhint %}
+**PROJECT**: hi\_16  
+**TOKEN**: 20a05f49-52c9-4015-ab72-9332dc0c8732  
 
-6. You will see the **Jet Admin** token in the console output which you should later enter on the **Project Create page**. If you want to display the **Jet Admin** token manually, use the following command:
 
-```
-jet_bridge token
+6. After filling all required options, a config file will be generated. Now you can run Jet Bridge by executing this command once again:
+
+```text
+jet_bridge
 ```
 
 7. Finish your project installation by opening in your browser \(normally it should open automatically\): [**http://localhost:8888/api/register/**](http://localhost:8888/api/register/) where **localhost** is your **Jet Bridge** HOST and **8888** is its PORT. If you want to run Jet Bridge on different host/port you can configure it \(read more at [Configuration](https://docs.jetadmin.io/getting-started/configuration) page\).

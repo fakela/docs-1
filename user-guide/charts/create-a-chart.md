@@ -43,21 +43,8 @@ For each chart you can set legend and color:
 
 Select fields using 'Group by' 
 
-```
-SELECT 
-    (
-        CASE issues_status_id 
-        WHEN 1 THEN 'Return' 
-        WHEN 2 THEN 'Refund' 
-        WHEN 3 THEN 'Out of stock'
-        END
-    ) AS gr, 
-    COUNT(*) 
-FROM
-    issues
-GROUP BY gr
-ORDER BY gr;
-
+```sql
+SELECT     (        CASE issues_status_id         WHEN 1 THEN 'Return'         WHEN 2 THEN 'Refund'         WHEN 3 THEN 'Out of stock'        END    ) AS gr,     COUNT(*) FROM    issuesGROUP BY grORDER BY gr;
 ```
 
 ### Doughnut chart
@@ -90,14 +77,8 @@ To create a complex chart with SQL, switch to the SQL tab in the editing chart w
 
 You must returned two or more \(for a few charts\) columns. In the following example, we simply count the number of `ride` per month.
 
-```
-SELECT
-    DATE_TRUNC('month', start) AS gr,
-    count(*)
-FROM 
-    ride
-GROUP BY gr
-ORDER BY gr;
+```sql
+SELECT    DATE_TRUNC('month', start) AS gr,    count(*)FROM     rideGROUP BY grORDER BY gr;
 ```
 
 ![](../../.gitbook/assets/image%20%28187%29.png)
@@ -106,64 +87,32 @@ ORDER BY gr;
 
 ### Bar chart
 
-```
-SELECT
-    (
-        CASE onboarding_status 
-        WHEN 1 THEN 'New' 
-        WHEN 2 THEN 'Review' 
-        WHEN 3 THEN 'Activated' 
-        WHEN 4 THEN 'Rejected' 
-        END
-    ) AS gr,
-    COUNT(id)
-FROM
-    driver_onboarding
-GROUP BY gr
-ORDER BY gr DESC;
+```sql
+SELECT    (        CASE onboarding_status         WHEN 1 THEN 'New'         WHEN 2 THEN 'Review'         WHEN 3 THEN 'Activated'         WHEN 4 THEN 'Rejected'         END    ) AS gr,    COUNT(id)FROM    driver_onboardingGROUP BY grORDER BY gr DESC;
 ```
 
 ![](../../.gitbook/assets/image%20%28155%29.png)
 
 ### Pie / Doughnut chart
 
-```
-SELECT
-    (
-        CASE order_status_id 
-        WHEN 1 THEN 'New order' 
-        WHEN 2 THEN 'In Progress' 
-        WHEN 3 THEN 'Delivired'
-        END
-    ) AS gr, 
-    COUNT(id) 
-FROM
-    order_history
-GROUP BY gr
-ORDER BY gr;
+```sql
+SELECT    (        CASE order_status_id         WHEN 1 THEN 'New order'         WHEN 2 THEN 'In Progress'         WHEN 3 THEN 'Delivired'        END    ) AS gr,     COUNT(id) FROM    order_historyGROUP BY grORDER BY gr;
 ```
 
 ![](../../.gitbook/assets/image%20%2877%29.png)
 
 ### Counter
 
-```
-SELECT 
-    SUM(total_amount) * SUM(currency)
-FROM
-    transaction
+```sql
+SELECT     SUM(total_amount) * SUM(currency)FROM    transaction
 ```
 
 ![](../../.gitbook/assets/image%20%2876%29.png)
 
 ### List
 
-```
-SELECT 
-    name
-FROM 
-    customer
-ORDER BY rating;
+```sql
+SELECT     nameFROM     customerORDER BY rating;
 ```
 
 ![](../../.gitbook/assets/image%20%28164%29.png)

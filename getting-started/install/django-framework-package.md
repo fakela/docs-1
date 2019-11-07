@@ -34,55 +34,35 @@ This is the quickest way to install **Jet Admin** for Django based projects. Ins
 1. Follow this guide to create project:  
 [https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
 
-2. Download and install latest version of **Jet Bridge** for **Django**:
+2. Download and install the latest version of **Jet Bridge** for **Django**:
 
-```
+```bash
 pip install jet-django
 ```
 
 3. Add `jet_django` application to the `INSTALLED_APPS` setting inside **settings.py** file:
 
-```
-INSTALLED_APPS = (
-  ...
-  'jet_django',
-  ...
-)
+```python
+INSTALLED_APPS = (  ...  'jet_django',  ...)
 ```
 
-4. Add URL-pattern to the **urls.py** file:
+4. Set JET\_PROJECT and JET\_TOKEN inside **settings.py** file:
 
-```
-urlpatterns = [
-  ...
-  path('jet_api/', include('jet_django.urls')),
-  ...
-]
+JET\_PROJECT = 'hi\_16' JET\_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
+
+5. Add a URL-pattern to the **urls.py** file:
+
+```python
+urlpatterns = [  ...  path('jet_api/', include('jet_django.urls')),  ...]
 ```
 
 If you use **Django &lt; 2.0:**
 
-```
-urlpatterns = [
-  ...
-  url(r'^jet_api/', include('jet_django.urls')),
-  ...
-]
-```
-
-5. Apply migrations:
-
-```
-python manage.py migrate jet_django
+```python
+urlpatterns = [  ...  url(r'^jet_api/', include('jet_django.urls')),  ...]
 ```
 
 6. Restart your project
-
-7. You will see **Jet Admin** token in the console output which you should later enter on **Project Create** page. If you want to display **Jet Admin** token manually, use the following management command:
-
-```
-python manage.py jet_token
-```
 
 8. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT. 
 

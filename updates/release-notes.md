@@ -35,6 +35,7 @@ We added an User Activities Log to help you keep track of all changes made to an
 * Updated Docker installation
 * Updated Heroku installation
 * Updated Jet Bridge installation 
+* Updated Django installation 
 
 
 
