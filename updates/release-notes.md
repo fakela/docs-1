@@ -20,7 +20,7 @@ It would be especially helpful to be able to add fields from one related record 
 
 ### Editing a Record in a Table View
 
-We enabled record editing in a table view. To edit a record in your table, simply hover over a given column and click on the appeared pen icon instead of entering the Visual Builder mode.
+We enabled record editing in a table view. To edit a record in your table, simply hover over a given column and click on the appeared pen icon.
 
 ![](../.gitbook/assets/ezgif-6-0f56fee8e9f7%20%281%29.gif)
 
