@@ -53,7 +53,18 @@ A SQL query must return a list with requested ID numbers from a selected collect
 For instance, here we run a query to return a list with ID numbers of all available vehicles at the moment.
 
 ```sql
-select     vehicle.idfrom     rideleft join    vehicleon     ride.vehicle_id=vehicle.idwhere     is_opened=Truegroup by     vehicle.id
+select 
+    vehicle.id
+from 
+    ride
+left join
+    vehicle
+on 
+    ride.vehicle_id=vehicle.id
+where 
+    is_opened=True
+group by 
+    vehicle.id
 ```
 
 ## Removing a filter

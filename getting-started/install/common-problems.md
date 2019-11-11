@@ -15,7 +15,45 @@ To fix **CORS** issue for **Nginx** add the following to your server config:
 {% tabs %}
 {% tab title="my-website.conf" %}
 ```text
-server {    listen 80;    ...    location / {      ###################################      # START      # Add this block to your location      ###################################            proxy_hide_header 'Access-Control-Allow-Origin';      proxy_hide_header 'Access-Control-Allow-Methods';      proxy_hide_header 'Access-Control-Allow-Headers';      proxy_hide_header 'Access-Control-Expose-Headers';      if ($request_method = 'OPTIONS') {        add_header 'Access-Control-Allow-Origin' '*' always;        add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, PATCH, DELETE, OPTIONS';        add_header 'Access-Control-Allow-Headers' 'Authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';        add_header 'Access-Control-Max-Age' 1728000;        add_header 'Content-Type' 'text/plain; charset=utf-8';        add_header 'Content-Length' 0;        return 204;      }      add_header 'Access-Control-Allow-Origin' '*' always;      add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, PATCH, DELETE, OPTIONS';      add_header 'Access-Control-Allow-Headers' 'Authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';      add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';            ###################################      # END      ###################################            ...      proxy_pass http://webserver;      ...    }}
+server {
+    listen 80;
+    ...
+
+    location / {
+      ###################################
+      # START
+      # Add this block to your location
+      ###################################
+      
+      proxy_hide_header 'Access-Control-Allow-Origin';
+      proxy_hide_header 'Access-Control-Allow-Methods';
+      proxy_hide_header 'Access-Control-Allow-Headers';
+      proxy_hide_header 'Access-Control-Expose-Headers';
+
+      if ($request_method = 'OPTIONS') {
+        add_header 'Access-Control-Allow-Origin' '*' always;
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, PATCH, DELETE, OPTIONS';
+        add_header 'Access-Control-Allow-Headers' 'Authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+        add_header 'Access-Control-Max-Age' 1728000;
+        add_header 'Content-Type' 'text/plain; charset=utf-8';
+        add_header 'Content-Length' 0;
+        return 204;
+      }
+
+      add_header 'Access-Control-Allow-Origin' '*' always;
+      add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, PATCH, DELETE, OPTIONS';
+      add_header 'Access-Control-Allow-Headers' 'Authorization,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+      add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+      
+      ###################################
+      # END
+      ###################################
+      
+      ...
+      proxy_pass http://webserver;
+      ...
+    }
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -25,6 +63,11 @@ server {    listen 80;    ...    location / {      #############################
 The problem is that `django-modeltranslation` patches **Django** models so you need to load `jet_django` package only after `django-modeltranslation` has finished its patching this way in your `settings.py`:
 
 ```python
-INSTALLED_APPS = (    ...    'modeltranslation',    'jet_django', # load after modeltranslation    ...)
+INSTALLED_APPS = (
+    ...
+    'modeltranslation',
+    'jet_django', # load after modeltranslation
+    ...
+)
 ```
 

@@ -18,24 +18,23 @@ It would be especially helpful to be able to add fields from one related record 
 
 ![](../.gitbook/assets/ezgif-6-6b3824b14715.gif)
 
-### Editing in a Collection View
+### Editing a Record in a Table View
 
-We enabled table editing in a collection view. If you need to add or change some columns in your table, simply hover over this column and click on the appeared pen icon instead of entering the Visual Builder mode.
+We enabled record editing in a table view. To edit a record in your table, simply hover over a given column and click on the appeared pen icon instead of entering the Visual Builder mode.
 
 ![](../.gitbook/assets/ezgif-6-0f56fee8e9f7%20%281%29.gif)
 
 ### User Activities
 
-We added an User Activities Log to help you keep track of all changes made to any item in your admin panel. Go to Project Settings ⟶ User Activities and search for a specific modification.
+We added an activity log to help you keep track of all changes made to any item in your admin panel. Go to Project Settings ⟶ User Activities and search for a specific modification.
 
 ![](../.gitbook/assets/image%20%2893%29.png)
 
 ### Improvements
 
-* Updated Docker installation
-* Updated Heroku installation
-* Updated Jet Bridge installation 
-* Updated Django installation 
+As part of our ongoing effort to improve your experience with Jet Admin, we have updated installation for Docker, Heroku, Jet Bridge App, and Django. 
+
+The installation time has been reduced and all previous issues have been fixed. 
 
 
 

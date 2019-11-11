@@ -27,7 +27,19 @@ Token в SQL
 #### An example
 
 ```sql
-select     date_trunc('month', start) AS gr,    sum(amount)from     rideleft join     transactionon     ride.transaction_id=transaction.idwhere     ride.vehicle_id={{model.id}}group by grorder by gr;
+select 
+    date_trunc('month', start) AS gr,
+    sum(amount)
+from 
+    ride
+left join 
+    transaction
+on 
+    ride.transaction_id=transaction.id
+where 
+    ride.vehicle_id={{model.id}}
+group by gr
+order by gr;
 ```
 
 ![](../../../.gitbook/assets/image%20%2860%29.png)

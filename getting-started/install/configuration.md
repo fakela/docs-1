@@ -12,7 +12,12 @@ Warning: arguments name should be lowercase. Other methods are case insensitive
 {% endhint %}
 
 ```bash
-jet_bridge --database_engine=postgresql \    --database_host=localhost \    --database_port=5432 \    --database_user=user \    --database_password=password \    --database_name=mydb
+jet_bridge --database_engine=postgresql \
+    --database_host=localhost \
+    --database_port=5432 \
+    --database_user=user \
+    --database_password=password \
+    --database_name=mydb
 ```
 
 ### Method 2. Config file
@@ -20,7 +25,13 @@ jet_bridge --database_engine=postgresql \    --database_host=localhost \    --da
 {% tabs %}
 {% tab title="jet.ini" %}
 ```text
-[JET]DATABASE_ENGINE=postgresqlDATABASE_HOST=localhostDATABASE_PORT=5432DATABASE_NAME=mydbDATABASE_USER=userDATABASE_PASSWORD=password
+[JET]
+DATABASE_ENGINE=postgresql
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_NAME=mydb
+DATABASE_USER=user
+DATABASE_PASSWORD=password
 ```
 {% endtab %}
 {% endtabs %}
@@ -28,7 +39,13 @@ jet_bridge --database_engine=postgresql \    --database_host=localhost \    --da
 ### Method 3. Environment variables
 
 ```bash
-DATABASE_ENGINE=postgresql \    DATABASE_HOST=localhost \    DATABASE_PORT=5432 \    DATABASE_NAME=mydb \    DATABASE_USER=user \    DATABASE_PASSWORD=password \    jet_bridge
+DATABASE_ENGINE=postgresql \
+    DATABASE_HOST=localhost \
+    DATABASE_PORT=5432 \
+    DATABASE_NAME=mydb \
+    DATABASE_USER=user \
+    DATABASE_PASSWORD=password \
+    jet_bridge
 ```
 
 ## All available settings

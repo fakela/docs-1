@@ -9,7 +9,70 @@ To implement integration you should have installed **Jet** for your **Backend** 
 {% tabs %}
 {% tab title="jet\_messages.py" %}
 ```python
-from jet_bridge_base import messages# define handler which will return all possible actionsdef get_action_list(name, params):    return [        {            # each action shoud defined unique name            'name': 'mail_users',            'model_action': {  # this is action which will be applied to selected users (for_instance==True flag)                'model': 'users;user',  # this should be collection name                'for_instance': True,                 'bulk': True # this allows to execute single action query with ids separated with comma instead of one query per row            }        },        {            'name': 'refresh_users_status',            'model_action': { # this is action which will be applied to all users (no for_instance==True flag)                'model': 'users;user'            }        },        {            'name': 'refresh_users_status',            'common_action': { } # this is a common action which is not connected to any collections        }    ]# define handler which will process all possible actionsdef execute_action(name, params):    if params['name'] == 'mail_users':        # Your custom action processing here        ids = params.get('params', {}).get('ids')        return {            'result': True        }def get_field_options(name, params):    if params.get('model') == 'order' and params.get('field') == 'city':        result = [            {                'value': 'london',                'name': 'London',                'color': 'blue'            },            {                'value': 'new_york',                'name': 'New York',                'color': 'green'            }        ]        if params.get('form', {}).get('country') == 'italy':            result.append({                'value': 'rome',                'name': 'Rome',                'color': 'red'            })        return result# add defined handlersmessages.add_handler(messages.GET_ACTION_LIST, get_action_list)messages.add_handler(messages.EXECUTE_ACTION, execute_action)messages.add_handler(messages.GET_FIELD_OPTIONS, get_field_options)
+from jet_bridge_base import messages
+
+# define handler which will return all possible actions
+def get_action_list(name, params):
+    return [
+        {
+            # each action shoud defined unique name
+            'name': 'mail_users',
+            'model_action': {  # this is action which will be applied to selected users (for_instance==True flag)
+                'model': 'users;user',  # this should be collection name
+                'for_instance': True, 
+                'bulk': True # this allows to execute single action query with ids separated with comma instead of one query per row
+            }
+        },
+        {
+            'name': 'refresh_users_status',
+            'model_action': { # this is action which will be applied to all users (no for_instance==True flag)
+                'model': 'users;user'
+            }
+        },
+        {
+            'name': 'refresh_users_status',
+            'common_action': { } # this is a common action which is not connected to any collections
+        }
+    ]
+
+# define handler which will process all possible actions
+def execute_action(name, params):
+    if params['name'] == 'mail_users':
+        # Your custom action processing here
+        ids = params.get('params', {}).get('ids')
+        return {
+            'result': True
+        }
+
+def get_field_options(name, params):
+    if params.get('model') == 'order' and params.get('field') == 'city':
+        result = [
+            {
+                'value': 'london',
+                'name': 'London',
+                'color': 'blue'
+            },
+            {
+                'value': 'new_york',
+                'name': 'New York',
+                'color': 'green'
+            }
+        ]
+
+        if params.get('form', {}).get('country') == 'italy':
+            result.append({
+                'value': 'rome',
+                'name': 'Rome',
+                'color': 'red'
+            })
+
+        return result
+
+# add defined handlers
+messages.add_handler(messages.GET_ACTION_LIST, get_action_list)
+messages.add_handler(messages.EXECUTE_ACTION, execute_action)
+messages.add_handler(messages.GET_FIELD_OPTIONS, get_field_options)
+
 ```
 {% endtab %}
 {% endtabs %}
@@ -17,7 +80,14 @@ from jet_bridge_base import messages# define handler which will return all possi
 {% tabs %}
 {% tab title="apps.py" %}
 ```python
-from django.apps import AppConfigclass CoreConfig(AppConfig):    name = 'core'    def ready(self):        # import your handlers        from . import jet_messages
+from django.apps import AppConfig
+
+class CoreConfig(AppConfig):
+    name = 'core'
+
+    def ready(self):
+        # import your handlers
+        from . import jet_messages
 ```
 {% endtab %}
 {% endtabs %}

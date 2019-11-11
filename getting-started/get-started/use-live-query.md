@@ -15,7 +15,13 @@ Let's create a line chart to show the progress in the number of rides each month
 In the following example, we simply counted the number of `ride`s per month.
 
 ```sql
-SELECT    DATE_TRUNC('month', start) AS gr,    count(*)FROM     rideGROUP BY grORDER BY gr;
+SELECT
+    DATE_TRUNC('month', start) AS gr,
+    count(*)
+FROM 
+    ride
+GROUP BY gr
+ORDER BY gr;
 ```
 
 ![](../../.gitbook/assets/image%20%28187%29.png)

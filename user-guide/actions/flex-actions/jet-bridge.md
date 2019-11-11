@@ -44,7 +44,27 @@ Example of **get\_action\_list** message response
 {% endapi-method-response-example-description %}
 
 ```javascript
-[    {        // each action shoud defined unique name        "name": "mail_users",        "model_action": {  // this is action which will be applied to selected users (for_instance==True flag)            "model": "users",  // this should be collection name            "for_instance": true,             "bulk": true // this allows to execute single action query with ids separated with comma instead of one query per row        }    },    {        "name": "refresh_users_status",        "model_action": { // this is action which will be applied to all users (no for_instance==True flag)            "model": "users"        }    },    {        "name": "refresh_users_status",        "common_action": { } // this is a common action which is not connected to any collections    }]
+[
+    {
+        // each action shoud defined unique name
+        "name": "mail_users",
+        "model_action": {  // this is action which will be applied to selected users (for_instance==True flag)
+            "model": "users",  // this should be collection name
+            "for_instance": true, 
+            "bulk": true // this allows to execute single action query with ids separated with comma instead of one query per row
+        }
+    },
+    {
+        "name": "refresh_users_status",
+        "model_action": { // this is action which will be applied to all users (no for_instance==True flag)
+            "model": "users"
+        }
+    },
+    {
+        "name": "refresh_users_status",
+        "common_action": { } // this is a common action which is not connected to any collections
+    }
+]
 ```
 {% endapi-method-response-example %}
 
@@ -54,7 +74,9 @@ Example of **execute\_action** message response
 {% endapi-method-response-example-description %}
 
 ```javascript
-{    "result": true}
+{
+    "result": true
+}
 ```
 {% endapi-method-response-example %}
 
@@ -64,7 +86,18 @@ Example of **get\_field\_options** message response
 {% endapi-method-response-example-description %}
 
 ```javascript
-[    {        'value': 'london',        'name': 'London',        'color': 'blue'    },    {        'value': 'new_york',        'name': 'New York',        'color': 'green'    }]
+[
+    {
+        'value': 'london',
+        'name': 'London',
+        'color': 'blue'
+    },
+    {
+        'value': 'new_york',
+        'name': 'New York',
+        'color': 'green'
+    }
+]
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

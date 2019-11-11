@@ -21,24 +21,52 @@ Here are some basic examples:
 #### Return a Record field
 
 ```javascript
-  function fieldValue(model) {    return model('unique_name');}
+  
+function fieldValue(model) {
+    return model('unique_name');
+}
+
 ```
 
 #### Combine record fields
 
 ```javascript
-  function fieldValue(model) {    return model('first_name') + ' ' + model('last_name');}
+  
+function fieldValue(model) {
+    return model('first_name') + ' ' + model('last_name');
+}
 ```
 
 #### Get a number of related collection records
 
 ```javascript
-  function fieldValue(model) {    return model('photos').length}
+  
+function fieldValue(model) {
+    return model('photos').length
+}
+
 ```
 
 #### Parse JSON field
 
 ```javascript
-function formatDate(date) {    return date.toLocaleString('en');}  function fieldValue(model) {    const data = model('json_field');    if (!data['timestamp']) {        return;    }            const date = new Date(data['timestamp'])    const formated = formatDate(from);    const parts = formated.split(', ');    return parts[0] + ' ' + parts[1];}
+
+function formatDate(date) {
+    return date.toLocaleString('en');
+}
+  
+function fieldValue(model) {
+    const data = model('json_field');
+
+    if (!data['timestamp']) {
+        return;
+    }
+        
+    const date = new Date(data['timestamp'])
+    const formated = formatDate(from);
+    const parts = formated.split(', ');
+    return parts[0] + ' ' + parts[1];
+}
+
 ```
 
