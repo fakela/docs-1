@@ -13,13 +13,13 @@ The menu consists of 4 parts:
 * **\(3\)** Side menu
 * **\(4\)** Main menu
 
-![](../../../.gitbook/assets/image%20%2884%29.png)
+![](../../../.gitbook/assets/image%20%2886%29.png)
 
 ### Current Project
 
 The current project icon is displayed in the upper-left corner the **Menu**. Hover over the icon to switch to a different project. To view a list with all projects, click on the **Manage projects** link.
 
-![](../../../.gitbook/assets/image%20%2883%29.png)
+![](../../../.gitbook/assets/image%20%2885%29.png)
 
 #### System links
 

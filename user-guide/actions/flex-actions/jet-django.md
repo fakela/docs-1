@@ -6,8 +6,7 @@
 
 To implement integration you should have installed **Jet** for your **Backend** environment. This will allow you to write actions processing on your favourite language and environment. **Jet** uses its own universal messaging protocol to run actions on your **Backend**. So it will first ask your **Backend** for a list of available actions and then will execute them when you need to. Actions which are connected to some **Collection** will automatically appear in **Jet Admin** interface. To define your **FlexAction** first **create \(1\)** and then **import \(2\)** message handlers the following way:
 
-{% tabs %}
-{% tab title="jet\_messages.py" %}
+{% code title="jet\_messages.py" %}
 ```python
 from jet_bridge_base import messages
 
@@ -74,11 +73,9 @@ messages.add_handler(messages.EXECUTE_ACTION, execute_action)
 messages.add_handler(messages.GET_FIELD_OPTIONS, get_field_options)
 
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="apps.py" %}
+{% code title="apps.py" %}
 ```python
 from django.apps import AppConfig
 
@@ -89,6 +86,5 @@ class CoreConfig(AppConfig):
         # import your handlers
         from . import jet_messages
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 

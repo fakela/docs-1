@@ -22,8 +22,7 @@ jet_bridge --database_engine=postgresql \
 
 ### Method 2. Config file
 
-{% tabs %}
-{% tab title="jet.ini" %}
+{% code title="jet.ini" %}
 ```text
 [JET]
 DATABASE_ENGINE=postgresql
@@ -33,8 +32,7 @@ DATABASE_NAME=mydb
 DATABASE_USER=user
 DATABASE_PASSWORD=password
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ### Method 3. Environment variables
 

@@ -18,13 +18,13 @@ In the General settings, you can change the name of a collection, set up default
 
 Also, you can hide a collection by simply checking the "hidden" box at the bottom of the page. 
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../.gitbook/assets/image%20%28190%29.png)
 
 ## Fields
 
 In the Fields settings, you can make changes to the "key" and "created" fields of a collection: change the display name, field type, default value, and number of rows. You can also make these fields required, editable, and filterable. 
 
-![](../../.gitbook/assets/image%20%28136%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 
 Learn more about fields here:
 
@@ -38,15 +38,15 @@ Here's a step-by-step guide on how to create a Flex Field:
 
 {% page-ref page="../field/create-and-manage-flex-field.md" %}
 
-![](../../.gitbook/assets/image%20%28231%29.png)
+![](../../.gitbook/assets/image%20%28238%29.png)
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28198%29.png)
 
 ## Segments
 
 Here you can add a new simple or SQL segment as well as delete your segments.
 
-![](../../.gitbook/assets/image%20%28280%29.png)
+![](../../.gitbook/assets/image%20%28288%29.png)
 
 Learn more about segments here:
 
@@ -60,7 +60,7 @@ Click the "Add Segment" button in the menu on the left to create a new segment. 
 
 To delete a segment, select a segment you want to remove in the menu on the left, then scroll down and hit the "Delete" button.
 
-![](../../.gitbook/assets/image%20%28143%29.png)
+![](../../.gitbook/assets/image%20%28148%29.png)
 
 Learn more about segments here:
 
@@ -70,5 +70,5 @@ A **relationship** is a situation when one collection has a field that reference
 
 In the Custom Relationships page, you can create a new relationship by specifying a relational path between two or more collections. 
 
-![](../../.gitbook/assets/image%20%28107%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 

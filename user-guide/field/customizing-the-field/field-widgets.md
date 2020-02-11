@@ -74,9 +74,9 @@ A multiple select widget lets you select one or several options from a list of p
 
 You can customize a date widget by specifying the format \(e.g. MM/DD/YY, DD/MM/YY, etc.\), whether it should include a time field and, if yes, selecting the time format \(12h or 24h\).
 
-![](../../../.gitbook/assets/image%20%28165%29.png)
+![](../../../.gitbook/assets/image%20%28170%29.png)
 
-![](../../../.gitbook/assets/image%20%28154%29.png)
+![](../../../.gitbook/assets/image%20%28159%29.png)
 
 ### Email 
 
@@ -96,7 +96,7 @@ A currency field widget lets you specify the currency format, precision, and whe
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
-![](../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../.gitbook/assets/image%20%28109%29.png)
 
 ### Rating 
 
@@ -104,9 +104,9 @@ A rating widget is good for visualizing your customer satisfaction score.
 
 You can customize this widget by specifying the style \(e.g. stars, dots, etc\) and the maximum value.
 
-![](../../../.gitbook/assets/image%20%28235%29.png)
+![](../../../.gitbook/assets/image%20%28242%29.png)
 
-![](../../../.gitbook/assets/image%20%2871%29.png)
+![](../../../.gitbook/assets/image%20%2873%29.png)
 
 ### Percent 
 
@@ -114,7 +114,7 @@ A percent widget is great for displaying percentage data, such as what fraction 
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../../.gitbook/assets/image%20%2870%29.png)
+![](../../../.gitbook/assets/image%20%2872%29.png)
 
 ### Duration
 
@@ -122,7 +122,7 @@ A duration widget is great for displaying the duration of sessions, order proces
 
 You can customize this widget by specifying the duration format.
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2848%29.png)
 
-![](../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../.gitbook/assets/image%20%28135%29.png)
 

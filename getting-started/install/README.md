@@ -4,13 +4,13 @@ description: >-
   Jet Admin
 ---
 
-# Installation
+# Create a project
 
-1. Start by creating a new account at [https://app.jetadmin.io/register](https://app.jetadmin.io/register) or sign up with Facebook.
+1. Start by creating a new account at [https://app.jetadmin.io/register](https://app.jetadmin.io/register) or sign up with Google/Facebook.
 
 ![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.00.06.png)
 
-2. Once you've registered, you'll be able to add a new project to Jet Admin and start the installation process. 
+2. Once you've signed up, you'll be able to add a new project to Jet Admin and start the installation process. 
 
 ![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.25.17.png)
 
@@ -18,21 +18,11 @@ description: >-
 
 ![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.03.19.png)
 
-There are three integration options: 
 
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.03.34.png)
 
-### **1. Send it to one of your developers.** 
+{% page-ref page="../adding-a-data-source.md" %}
 
-Simply enter your developer's email address and he/she will get access to the installation components of your project.
-
-### 2. **Install it yourself.** 
-
-You'll be asked to choose your technology stack and a preferred deployment option. Here are the more detailed instructions for each method:
-
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.12.40.png)
-
-**For any SQL database**
+**Databases**
 
 In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
@@ -41,7 +31,7 @@ It will work even with your local application on **localhost**.
 **Jet Admin** is a small web server using **Tornado** web framework that connects to your database and generates API interface through which **Jet Admin** can operate with your data.
 {% endhint %}
 
-**Jet Bridge** sources are available on **Github:**  
+**Jet Bridge** is open**-**source plugin are available on **Github:**  
 [https://github.com/jet-admin/jet-bridge](https://github.com/jet-admin/jet-bridge)
 
 ### Method 1. Deploy to Heroku
@@ -73,7 +63,7 @@ This is the quickest way to install **Jet Admin** for Django based projects. Ins
 
 {% page-ref page="django-framework-package.md" %}
 
-## 
+
 
 ###   3. **Enter a token.** 
 

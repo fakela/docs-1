@@ -10,5 +10,5 @@ To view and add related record fields to a given record, enter the Visual Builde
 
 To add any related record field, simply drag and drop it on the record. 
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 

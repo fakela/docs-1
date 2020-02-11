@@ -8,13 +8,19 @@
 
 ## GETTING STARTED
 
-* [Installation](getting-started/install/README.md)
+* [Create a project](getting-started/install/README.md)
+  * [Multiply Projects](getting-started/install/multiply-projects.md)
   * [Any SQL – Deploy to Heroku](getting-started/install/any-sql-deploy-to-heroku.md)
   * [Any SQL – Jet Bridge App](getting-started/install/any-sql-jet-bridge-app.md)
   * [Any SQL – Jet Bridge Docker](getting-started/install/any-sql-jet-bridge-docker.md)
   * [Django framework – Package](getting-started/install/django-framework-package.md)
   * [Configuration](getting-started/install/configuration.md)
   * [Common Problems](getting-started/install/common-problems.md)
+* [Adding a Data Source](getting-started/adding-a-data-source.md)
+* [Integrations](getting-started/integrations/README.md)
+  * [Stripe](getting-started/integrations/stripe.md)
+  * [PostgreSQL Integration](getting-started/integrations/postgresql-integration.md)
+  * [MySQL Integration](getting-started/integrations/mysql-integration.md)
 * [Setup Guide](getting-started/get-started/README.md)
   * [Configure the visibility of your collections and fields](getting-started/get-started/configure-the-visibility-of-your-collections-and-fields.md)
   * [Deploy to production](getting-started/get-started/deploy-to-production.md)
@@ -77,4 +83,9 @@
 ## Additional
 
 * [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
+
+## Queries
+
+* [Overview](queries/overview.md)
+* [API](queries/api.md)
 
