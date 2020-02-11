@@ -10,7 +10,7 @@ description: >-
 
 Jet Admin is a ready-to-run admin panel operating on a comprehensive API integrated with your application.
 
-![](.gitbook/assets/image%20%28101%29.png)
+![](.gitbook/assets/image%20%28102%29.png)
 
 * About Jet Admin: [https://jetadmin.io](https://jetadmin.io/)
 * **Live Demo**: [https://app.jetadmin.io/demo](https://app.jetadmin.io/demo)
@@ -33,31 +33,31 @@ _This is a complete remake of our popular_ [_Django Jet_](https://github.com/gee
 
   All CRUD operations are generated automatically based on your database structure.
 
-![](.gitbook/assets/image%20%2876%29.png)
+![](.gitbook/assets/image%20%2877%29.png)
 
 * **Search & Filters**
 
   Easily run a basic or SQL query to search through your application’s database. Create advanced filters to narrow your search based on certain fields, contents, and relationships.
 
-![](.gitbook/assets/image%20%28299%29.png)
+![](.gitbook/assets/image%20%28300%29.png)
 
 * **Segments**
 
   Retrieve any segment of your application data by applying a subset of filters or running an SQL query.
 
-![](.gitbook/assets/image%20%28225%29.png)
+![](.gitbook/assets/image%20%28226%29.png)
 
 * **Visual Builder**
 
   Create customizable views without additional development by using our built-in drag and drop, editing tools, and powerful widgets.
 
-![](.gitbook/assets/image%20%28114%29.png)
+![](.gitbook/assets/image%20%28115%29.png)
 
 * **Built-in Collection Widgets**
 
   You can display your data in a familiar Table widget or change the widget type in the settings. Effortlessly track your delivery team in the Map widget, write down the upcoming appointments in a Calendar, process orders in a Kanban board, or keep the pictures of your products in a Gallery.
 
-![](.gitbook/assets/image%20%28270%29.png)
+![](.gitbook/assets/image%20%28271%29.png)
 
 * **Dashboards & Analytics**
 
@@ -69,13 +69,13 @@ _This is a complete remake of our popular_ [_Django Jet_](https://github.com/gee
 
   Manage permissions for specific users and teams without any line of code. Add users to individual dashboards and manage their access rights to specific contents directly from Jet’s interface.
 
-![](.gitbook/assets/image%20%28286%29.png)
+![](.gitbook/assets/image%20%28287%29.png)
 
 * **Export**
 
   In Jet, you can segment your data and then export it as a CVS, Excel, JSON, and PDF.
 
-![](.gitbook/assets/image%20%28297%29.png)
+![](.gitbook/assets/image%20%28298%29.png)
 
 * **Responsive Interface**
 

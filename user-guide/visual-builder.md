@@ -6,7 +6,7 @@ The Visual Builder is an all-in-one editing feature that helps you edit, customi
 
 To start editing enter the customization mode by clicking on the "Customize Interface" button in the lower-left corner of your admin panel.
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](../.gitbook/assets/image%20%28108%29.png)
 
 ## **Views**
 
@@ -14,7 +14,7 @@ Jet Admin consists of the following **Views** that can be modified with the **Vi
 
 * **Dashboard**. Dashboards are where you can create analytical reports on your application data. Build charts by running basic or SQL queries.
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
 Learn more about Dashboards:
 
@@ -30,7 +30,7 @@ Learn more about the Record view:
 
 * **Collection View**. Keep related Records nicely organized in different Collections.
 
-![](../.gitbook/assets/image%20%28130%29.png)
+![](../.gitbook/assets/image%20%28131%29.png)
 
 Learn more about the Collection view:
 
@@ -38,7 +38,7 @@ Learn more about the Collection view:
 
 * **Menu**. You can quickly search through all of your Collections and features in the Menu.
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 Learn more about the Menu:
 

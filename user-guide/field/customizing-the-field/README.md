@@ -2,13 +2,13 @@
 
 To start customizing your fields, you should enter the Visual Builder mode by clicking on the "Customize Interface" button from the Record or Collection View. 
 
-![](../../../.gitbook/assets/image%20%28156%29.png)
+![](../../../.gitbook/assets/image%20%28157%29.png)
 
 ## Edit from the Collection View
 
 To start editing a specific field, click on the cog icon next to its name. 
 
-![](../../../.gitbook/assets/image%20%28180%29.png)
+![](../../../.gitbook/assets/image%20%28181%29.png)
 
 In the opened window, you can type in the name of the field, choose default value, and link a related collection. You can also choose a **field widget:** text, checkbox, currency, etc.
 
@@ -16,7 +16,7 @@ Learn more about Field Widgets here:
 
 {% page-ref page="field-widgets.md" %}
 
-![](../../../.gitbook/assets/image%20%28177%29.png)
+![](../../../.gitbook/assets/image%20%28178%29.png)
 
 ## Edit from the Record View
 

@@ -22,7 +22,7 @@ Token в SQL
 
 Перейдите в SQL -&gt; Для выбора Token нажмите на кнопку Token и выберите нужный параметр
 
-![](../../../.gitbook/assets/image%20%2864%29.png)
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
 #### An example
 

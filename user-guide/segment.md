@@ -8,7 +8,7 @@ Use segments, when you need to quickly find and navigate through the same filter
 
 All segments will be displayed under the name of a collection to which they belong in the main menu.
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2864%29.png)
 
 ## Creating a segment
 
@@ -18,21 +18,21 @@ To create a simple segment, apply a filter or a set of filters [by following the
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
-![](../.gitbook/assets/image%20%28186%29.png)
+![](../.gitbook/assets/image%20%28187%29.png)
 
 ### Method 2. From the settings
 
 Click on your profile pic in the lower-left corner of the screen **\(1\)**. Go to Setting **\(2\)** ➝ Collections **\(3\)** ➝ {collection name} **\(4\)** ➝ Segments **\(5\)**
 
-![pic. 1](../.gitbook/assets/image%20%28145%29.png)
+![pic. 1](../.gitbook/assets/image%20%28146%29.png)
 
-![pic. 2](../.gitbook/assets/image%20%28163%29.png)
+![pic. 2](../.gitbook/assets/image%20%28164%29.png)
 
-![pic. 3](../.gitbook/assets/image%20%28219%29.png)
+![pic. 3](../.gitbook/assets/image%20%28220%29.png)
 
-![pic. 4](../.gitbook/assets/image%20%28240%29.png)
+![pic. 4](../.gitbook/assets/image%20%28241%29.png)
 
-![pic. 5](../.gitbook/assets/image%20%28143%29.png)
+![pic. 5](../.gitbook/assets/image%20%28144%29.png)
 
 Click the "Add Segment" button in the menu on the left to create a new segment. Here you can type in the name of a new segment, make it visible/invisible, and add a filter or several filters for this segment.
 
@@ -62,9 +62,9 @@ Go to Setting ➝ Collections ➝ {collection name} ➝ Segments, type in  the n
 
 You can rename **\(1\)**, drag and drop **\(3\)**, and make your segments visible/invisible **\(2\)** by entering the Visual Builder mode and clicking on the menu. 
 
-![](../.gitbook/assets/image%20%28119%29.png)
+![](../.gitbook/assets/image%20%28120%29.png)
 
-![](../.gitbook/assets/image%20%28261%29.png)
+![](../.gitbook/assets/image%20%28262%29.png)
 
 ## Deleting a segment
 
@@ -72,5 +72,5 @@ To delete a segment, go to Settings ➝ Collections, then choose a collection in
 
 Select a segment you want to remove in the menu on the left, then scroll down and hit the "Delete" button.
 
-![](../.gitbook/assets/image%20%28148%29.png)
+![](../.gitbook/assets/image%20%28149%29.png)
 
