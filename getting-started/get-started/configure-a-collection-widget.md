@@ -8,7 +8,7 @@ _Remember that you can set up multiple widgets for one collection and switch fro
 
 To change or add a collection widget for your collection, enter the customization mode and choose a layout type from the menu bar on the right.
 
-![](../../.gitbook/assets/image%20%28173%29.png)
+![](../../.gitbook/assets/image%20%28180%29.png)
 
-![](../../.gitbook/assets/image%20%28267%29.png)
+![](../../.gitbook/assets/image%20%28274%29.png)
 

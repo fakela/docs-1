@@ -8,7 +8,7 @@ A view is a way of portraying your data in the Jet Admin interface. There are fo
 
 Dashboards are where you can create analytical reports on your application data. Build charts by running basic or SQL queries.
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 Learn more about Dashboards:
 
@@ -18,7 +18,7 @@ Learn more about Dashboards:
 
 Manage all the data about a specific user, product, etc. in a Record View.
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 You can even build your own **Record View**, if you’d like: add or remove columns, tabs, and sections, choose appropriate fields and related collections, and set up [**Actions**](https://docs.jetadmin.io/customization/flexaction) to be performed on a specific record or collection.
 
@@ -30,7 +30,7 @@ Learn more about a Record view:
 
 Keep related Records nicely organized in Collections.
 
-![](../../.gitbook/assets/image%20%28131%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 Learn more about a Collection view:
 
@@ -40,7 +40,7 @@ Learn more about a Collection view:
 
 You can quickly search through all of your Collections and features in the Menu.
 
-![](../../.gitbook/assets/image%20%28174%29.png)
+![](../../.gitbook/assets/image%20%28181%29.png)
 
 Learn more about the Menu:
 

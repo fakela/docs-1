@@ -79,6 +79,8 @@
   * [General](user-guide/project-settings/general.md)
   * [Billing tab](user-guide/project-settings/billing-tab.md)
   * [Project Collections](user-guide/project-settings/project-collections.md)
+* [SSO integrations](user-guide/sso-integrations/README.md)
+  * [Google SSO \(SAML2\)](user-guide/sso-integrations/google-sso-saml2.md)
 
 ## Additional
 

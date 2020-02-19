@@ -10,7 +10,7 @@ Let's create a line chart to show the progress in the number of rides each month
 4. Choose columns for display
 5. Specify the "group by" and "display" parameters
 
-![](../../.gitbook/assets/image%20%28284%29.png)
+![](../../.gitbook/assets/image%20%28293%29.png)
 
 In the following example, we simply counted the number of `ride`s per month.
 
@@ -24,7 +24,7 @@ GROUP BY gr
 ORDER BY gr;
 ```
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28200%29.png)
 
 
 

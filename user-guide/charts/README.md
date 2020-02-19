@@ -25,7 +25,7 @@ You can add charts in 2 places:
 
 * In your **Dashboard** tab
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28237%29.png)
 
 Learn more about how to create and customize dashboards: 
 
@@ -33,7 +33,7 @@ Learn more about how to create and customize dashboards:
 
 * In a **Record View** of any record from any collection
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 Here you can learn more about creating record-specific analytical reports using charts:
 
@@ -43,25 +43,25 @@ Here you can learn more about creating record-specific analytical reports using 
 
 The Query Builder is a tool that allows you to create and edit complex charts using SQL. 
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ### Schema Browser <a id="Schema-Browser"></a>
 
 In the top right section of the query builder is the Schema Browser that lists all of your collections. To insert a collection into your SQL query, simply click on its name. 
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 ### Autocomplete <a id="Auto-Complete"></a>
 
 The Autocomplete feature makes the whole process of creating complicated queries easier. When you start typing in a query, you'll immediately see a list of suggestions. Live autocomplete is turned on by default. 
 
-![](../../.gitbook/assets/image%20%28248%29.png)
+![](../../.gitbook/assets/image%20%28255%29.png)
 
 ### Live Query Visualizations <a id="3-Add-Visualizations"></a>
 
 As you're building a chart in the Query Builder, you can quickly display the result by clicking the "Chart Preview" button. It's a great way to check if you've made a mistake and correct it on the fly.
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28132%29.png)
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 

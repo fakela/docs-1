@@ -8,7 +8,7 @@ Use segments, when you need to quickly find and navigate through the same filter
 
 All segments will be displayed under the name of a collection to which they belong in the main menu.
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 ## Creating a segment
 
@@ -16,27 +16,27 @@ All segments will be displayed under the name of a collection to which they belo
 
 To create a simple segment, apply a filter or a set of filters [by following these guidelines](https://app.gitbook.com/@jetadmin/s/doc/~/drafts/-Lk4M0St76lt7wROBK7J/primary/filter#adding-a-filter) and then click the disk icon next to the filter\(s\) tag. Then type in the name of a new segment and click "Add Segment".
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
-![](../.gitbook/assets/image%20%28187%29.png)
+![](../.gitbook/assets/image%20%28194%29.png)
 
 ### Method 2. From the settings
 
 Click on your profile pic in the lower-left corner of the screen **\(1\)**. Go to Setting **\(2\)** ➝ Collections **\(3\)** ➝ {collection name} **\(4\)** ➝ Segments **\(5\)**
 
-![pic. 1](../.gitbook/assets/image%20%28146%29.png)
+![pic. 1](../.gitbook/assets/image%20%28152%29.png)
 
-![pic. 2](../.gitbook/assets/image%20%28164%29.png)
+![pic. 2](../.gitbook/assets/image%20%28170%29.png)
 
-![pic. 3](../.gitbook/assets/image%20%28220%29.png)
+![pic. 3](../.gitbook/assets/image%20%28227%29.png)
 
-![pic. 4](../.gitbook/assets/image%20%28241%29.png)
+![pic. 4](../.gitbook/assets/image%20%28248%29.png)
 
-![pic. 5](../.gitbook/assets/image%20%28144%29.png)
+![pic. 5](../.gitbook/assets/image%20%28150%29.png)
 
 Click the "Add Segment" button in the menu on the left to create a new segment. Here you can type in the name of a new segment, make it visible/invisible, and add a filter or several filters for this segment.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 ## Creating a SQL Query segment
 
@@ -48,7 +48,7 @@ In a collection view, click the "Filter" button  at the top right or hover over 
 
 ![](../.gitbook/assets/image.png)
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 After the filter is applied, you can create a segment by clicking the disk icon next to its tag in the top bar.
 
@@ -56,15 +56,15 @@ After the filter is applied, you can create a segment by clicking the disk icon 
 
 Go to Setting ➝ Collections ➝ {collection name} ➝ Segments, type in  the name of a new segment, make it visible/invisible, and run a SQL query to apply a filter to create this segment.
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 ## Managing segments
 
 You can rename **\(1\)**, drag and drop **\(3\)**, and make your segments visible/invisible **\(2\)** by entering the Visual Builder mode and clicking on the menu. 
 
-![](../.gitbook/assets/image%20%28120%29.png)
+![](../.gitbook/assets/image%20%28126%29.png)
 
-![](../.gitbook/assets/image%20%28262%29.png)
+![](../.gitbook/assets/image%20%28269%29.png)
 
 ## Deleting a segment
 
@@ -72,5 +72,5 @@ To delete a segment, go to Settings ➝ Collections, then choose a collection in
 
 Select a segment you want to remove in the menu on the left, then scroll down and hit the "Delete" button.
 
-![](../.gitbook/assets/image%20%28149%29.png)
+![](../.gitbook/assets/image%20%28155%29.png)
 

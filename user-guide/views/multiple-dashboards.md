@@ -14,7 +14,7 @@ All created dashboards will be appear in the Dashboard tab, where you can choose
 
 To transfer a configured chart from one dashboard to another, open this chart, click on the ellipsis icon ⟶ Move to Dashboard, and select the dashboard where you want to send your chart to. 
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28312%29.png)
 
 
 
