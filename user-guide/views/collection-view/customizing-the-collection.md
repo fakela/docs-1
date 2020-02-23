@@ -6,13 +6,13 @@ You can open the customization menu for all of your collections by clicking on t
 
 As soon as you choose a widget for your collection from the tab on the right, its tag will appear in the upper-right corner of your screen.
 
-![](../../../.gitbook/assets/image%20%28273%29.png)
+![](../../../.gitbook/assets/image%20%28282%29.png)
 
 To make a widget visible on your admin panel, **check the box** to the left of the widget's name. To set up a **default widget**, click on the Deafult button to the right of the widget's name. 
 
 _A default widget is the widget that will be displayed first when you or anyone on your team will open a specific collection._
 
-![](../../../.gitbook/assets/image%20%28259%29.png)
+![](../../../.gitbook/assets/image%20%28268%29.png)
 
 Although you have to choose one default widget for your collection, you can still have multiple layouts for one collection and switch from one to another while you browse the data. 
 

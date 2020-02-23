@@ -4,9 +4,9 @@
 
 A field is a single piece of data, such as a _status_, _name_, or _price_, from a record in your collection.
 
-![A record with fields](../../.gitbook/assets/image%20%28311%29.png)
+![A record with fields](../../.gitbook/assets/image%20%28320%29.png)
 
 All records of the same collection have the same fields. For instance, all restaraunt orders will have a specific _order type_, _customer_, _status_, _price_, etc.
 
-![](../../.gitbook/assets/image%20%28288%29.png)
+![](../../.gitbook/assets/image%20%28297%29.png)
 

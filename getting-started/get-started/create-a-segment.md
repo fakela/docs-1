@@ -6,17 +6,17 @@ Use segments, when you need to quickly find and navigate through the same filter
 
 To create a simple segment, apply a filter or a set of filters by pushing the Filter button and then click the disk icon next to the filter\(s\) tag. 
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 Then type in the name of a new segment and click "Add Segment". 
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image%20%28201%29.png)
 
 ### 
 
 We created segments with _order types_ in the _Orders_ collection. To view segments of a specific collection, click on the arrow next to the collection's header **\(1\)** or unfold this collection in the navigation bar **\(2\)**.
 
-![](../../.gitbook/assets/image%20%28135%29.png)
+![](../../.gitbook/assets/image%20%28138%29.png)
 
 ### 
 

@@ -10,5 +10,5 @@ Type in the email address of a person you would like to invite and choose a team
 
 After it's done, your teammate will receive an invite to your workspace and further instructions via email. 
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 

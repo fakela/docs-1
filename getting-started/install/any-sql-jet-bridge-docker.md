@@ -18,7 +18,7 @@ You can read more about all possible settings on the [Configuration]() page.
 2. Follow this guide to create a project: [https://app.jetadmin.io/projects/create](https://app.jetadmin.io/projects/create)
 3. In the menu, choose 'SQL database' as your technological stack and select 'Install with Docker".                                                                                                                                                         
 
-![](../../.gitbook/assets/image%20%28183%29.png)
+![](../../.gitbook/assets/image%20%28190%29.png)
 
 4. Install Jet Bridge container by running:
 

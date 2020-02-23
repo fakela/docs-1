@@ -81,6 +81,7 @@
   * [Project Collections](user-guide/project-settings/project-collections.md)
 * [SSO integrations](user-guide/sso-integrations/README.md)
   * [Google SSO \(SAML2\)](user-guide/sso-integrations/google-sso-saml2.md)
+  * [Google OAuth 2.0](user-guide/sso-integrations/google-oauth-2.0.md)
 
 ## Additional
 
