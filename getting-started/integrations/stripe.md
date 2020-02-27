@@ -30,9 +30,9 @@ To quick set up action you are able to specify: collections that will use these 
 
 ![](../../.gitbook/assets/image%20%28230%29.png)
 
-### 4. You are able to use pre-defined collection and records
+### 4. Predefined interface
 
-We have already prepared different templates how your data looks like, you are able to apply different layouts.
+We prepared different templates how your data looks like and you can quick to apply different layouts.
 
 ![](../../.gitbook/assets/image%20%2867%29.png)
 

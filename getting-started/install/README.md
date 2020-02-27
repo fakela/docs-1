@@ -24,14 +24,14 @@ description: >-
 
 **Databases**
 
-In order to integrate **Jet Admin** with your project using **SQL** database you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
+To integrate **Jet Admin** with your **SQL** database, you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
 It will work even with your local application on **localhost**.
 
 {% hint style="warning" %}
-**Jet Admin** is a small web server using **Tornado** web framework that connects to your database and generates API interface through which **Jet Admin** can operate with your data.
+**Jet Admin** is a small web server that connects to your database using **Tornado** and generates an API interface through which **Jet Admin** can operate with your data.
 {% endhint %}
 
-**Jet Bridge** is open**-**source plugin are available on **Github:**  
+**Jet Bridge** is an open**-**source plugin available on **Github:**  
 [https://github.com/jet-admin/jet-bridge](https://github.com/jet-admin/jet-bridge)
 
 ### Method 1. Deploy to Heroku
@@ -54,7 +54,7 @@ Install **Jet Bridge** without need to install any dependencies except **Docker*
 
 ### For Django framework
 
-To integrate **Jet Admin** with your **Django** project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**.
+To integrate **Jet Admin** with your **Django**-based project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**.
 
 **Jet Bridge** **for Django** sources are available on **Github:**  
 [https://github.com/jet-admin/jet-django](https://github.com/jet-admin/jet-django)

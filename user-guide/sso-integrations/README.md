@@ -4,5 +4,5 @@
 
 {% page-ref page="google-sso-saml2.md" %}
 
-
+{% page-ref page="google-oauth-2.0.md" %}
 

@@ -1,8 +1,8 @@
 # Integrations
 
-### Choose Data source
+### Add a Data Source
 
-Jet Admin connects to whatever data source you’re using need to build your tools:
+Jet Admin connects to whatever resources you’re using need to build your tools:
 
 * Databases \(PostgreSQL, MySQL , MongoDB, etc.\)
 * Internal REST APIs and GraphQL

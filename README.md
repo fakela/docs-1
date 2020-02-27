@@ -6,95 +6,59 @@ description: >-
 
 # Jet Admin
 
-## About
+## What is Jet Admin
 
-Jet Admin is a ready-to-run admin panel operating on a comprehensive API integrated with your application.
+Jet Admin is a no-code internal tool builder. The simple drag-and-drop interface enables anyone to create the tools they need to manage daily operations, like tracking orders, resolving issues, and monitoring payments.
 
 ![](.gitbook/assets/image%20%28110%29.png)
 
-* About Jet Admin: [https://jetadmin.io](https://jetadmin.io/)
-* **Live Demo**: [https://app.jetadmin.io/demo](https://app.jetadmin.io/demo)
-* Documentation: [https://docs.jetadmin.io/](https://docs.jetadmin.io/)
-* Support: [support@jetadmin.io](mailto:support@jetadmin.io)
+## How it works
 
- **Jet Admin** is a SaaS solution that can be easily integrated into your database through a Jet Bridge generated API. Installation happens in only under 5 minutes!
+1. **Connect data sources**                                                                                                         Connect Jet Admin to your data sources, such as PostgreSQL,    Stripe, Twilio, and 10+ others. 
+2. **Start browsing**                                                                                                         In the auto-generated app, you’ll be able to view your data, perform operations, and apply filters and segments.   
 
-**Jet Admin** helps you to:
+               
 
-* **Save time of your development team.** Skip design, development and maintenance. Jet Admin lets you focus on your customer facing product.
-* **Make your operational team independent from developers.** An admin panel tailored to your operational needs with a 100% customizable UI guarantees total autonomy to the operational team and allows them do their job without developers’ help.
-* **Scale your operations.** Technology start-ups or companies with complex business logic will be pleased with Jet’s scalability. The administrative panel will not be a barrier to your growth.
+3. **Customize the interface**                                                                                                                   Drag and drop widgets in your interface to assemble internal tools. Pull in and combine data from different resources and set up actions.
+
+               
+
+4. **Set up actions**                                                                                  Write data to your data sources with predefined actions like making a refund or blocking a user. 
+5. **Create workflows**                                                                                                                           ****Select triggers and link them with one or a series of actions. 
+
+               
+
+6. **Collaborate**                                                                                                                                Invite your team members and set up permissions. Assign tasks, leave notes, and chat with the team directly through Jet.
 
 _This is a complete remake of our popular_ [_Django Jet_](https://github.com/geex-arts/django-jet) _admin interface._
 
-## Features
+## Getting started
 
-* **CRUD \(create, read, update, delete\)**
+[https://support.airtable.com/hc/en-us/articles/360021333094](https://support.airtable.com/hc/en-us/articles/360021333094)
 
-  All CRUD operations are generated automatically based on your database structure.
+When you connect your resources to Jet Admin, your data will be rendered similarly to how it is stored in database. 
 
-![](.gitbook/assets/image%20%2881%29.png)
+In Jet Admin, collections represent tables in a database. Each **collection** is composed of **records**, **fields**, and **actions**. 
 
-* **Search & Filters**
+Learn more about **data structure** in Jet Admin:
 
-  Easily run a basic or SQL query to search through your application’s database. Create advanced filters to narrow your search based on certain fields, contents, and relationships.
+{% page-ref page="user-guide/collection/" %}
 
-![](.gitbook/assets/image%20%28319%29.png)
+{% page-ref page="user-guide/records.md" %}
 
-* **Segments**
+{% page-ref page="user-guide/field/" %}
 
-  Retrieve any segment of your application data by applying a subset of filters or running an SQL query.
+{% page-ref page="user-guide/actions/" %}
 
-![](.gitbook/assets/image%20%28241%29.png)
+To quickly browse through your data, you can apply **filters** and create **segments**.
 
-* **Visual Builder**
+Learn more about filters and segments here:
 
-  Create customizable views without additional development by using our built-in drag and drop, editing tools, and powerful widgets.
+{% page-ref page="user-guide/filter.md" %}
 
-![](.gitbook/assets/image%20%28124%29.png)
-
-* **Built-in Collection Widgets**
-
-  You can display your data in a familiar Table widget or change the widget type in the settings. Effortlessly track your delivery team in the Map widget, write down the upcoming appointments in a Calendar, process orders in a Kanban board, or keep the pictures of your products in a Gallery.
-
-![](.gitbook/assets/image%20%28288%29.png)
-
-* **Dashboards & Analytics**
-
-  Jet Admin can instantly analyze and chart out your data in the form of a user-friendly widget through a search, SQL query, or a custom API call to your servers. 
-
-![](.gitbook/assets/image%20%285%29.png)
-
-* **Teams & Permissions**
-
-  Manage permissions for specific users and teams without any line of code. Add users to individual dashboards and manage their access rights to specific contents directly from Jet’s interface.
-
-![](.gitbook/assets/image%20%28305%29.png)
-
-* **Export**
-
-  In Jet, you can segment your data and then export it as a CVS, Excel, JSON, and PDF.
-
-![](.gitbook/assets/image%20%28316%29.png)
-
-* **Responsive Interface**
-
-  Keep your admin panel up and running on all types of devices and screen resolutions with our responsive interface and iOS app.
-
-## Extensibility
-
-No matter how sophisticated the Jet interface is, sometimes basic features are just not enough to cover specific business operations. We understand that and made sure that you can always tailor the admin panel to your needs with Jet’s extendable components. 
-
-Thanks to our **Flex features**, you can additionally customize your panel by coding your own Views, Fields, and Actions.
-
-**Flex View.** Some processes are so complex, they require a custom widget solution. For instance, you might want to visualize the customer journey map in the form of a graph or a sidebar inside your admin panel. You can totally realize that in Jet! Thanks to our Flex View feature, you can code your own view into the admin’s interface using JS \(Angular, React\), HTML, and CSS. 
-
-**Flex Field.** Say you want to merge first name and last name fields together or display a column from another Collection. You can do that by extending your interface with Flex Fields.
-
-**Flex Action.** A Flex Action is a custom button inside Jet’s interface that allows you to realize your own business logic through an API request to your servers.  
-
+{% page-ref page="user-guide/segment.md" %}
 
 ## Support
 
-If you need any help with the installation and set-up, please contact us at [support@jetadmin.io](mailto:support@jetadmin.io). We'll be happy to give you a hand! 
+If you need any help with the installation and set-up, reach out to support through Intercom on the bottom right or email [support@jetadmin.io](mailto:support@jetadmin.io).
 
