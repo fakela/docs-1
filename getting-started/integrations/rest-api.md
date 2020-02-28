@@ -12,6 +12,20 @@ You query REST resources in an interface where you can set URL params, headers a
 
 
 
+## Create an action
+
+**Settings &gt; Flex Action &gt; Add** 
+
+![](../../.gitbook/assets/screen-shot-2020-02-28-at-9.17.06-am.png)
+
+Choose a Resource or[ create a new](./) and specify action details: Name, Type. 
+
+![](../../.gitbook/assets/screen-shot-2020-02-28-at-9.17.23-am%20%281%29.png)
+
+Define request by specifying query parameters: method \(GET, POST, ...\), URL,..
+
+![](../../.gitbook/assets/screen-shot-2020-02-28-at-9.17.35-am.png)
+
 ## API Authentication
 
 ### OAuth 2.0

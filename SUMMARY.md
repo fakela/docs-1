@@ -70,7 +70,7 @@
   * [Flex Field](user-guide/field/create-and-manage-flex-field.md)
 * [Records](user-guide/records.md)
 * [Actions](user-guide/actions/README.md)
-  * [Flex Actions](user-guide/actions/flex-actions/README.md)
+  * [Custom Actions](user-guide/actions/flex-actions/README.md)
     * [Jet Django](user-guide/actions/flex-actions/jet-django.md)
     * [Jet Bridge](user-guide/actions/flex-actions/jet-bridge.md)
 * [Charts](user-guide/charts/README.md)
@@ -101,4 +101,5 @@
 
 * [Overview](queries/overview.md)
 * [API](queries/api.md)
+* [SQL](queries/sql.md)
 
