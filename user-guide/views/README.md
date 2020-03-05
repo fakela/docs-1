@@ -30,7 +30,7 @@ Learn more about a Record view:
 
 Keep related Records nicely organized in Collections.
 
-![](../../.gitbook/assets/image%20%28140%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 
 Learn more about a Collection view:
 
@@ -40,7 +40,7 @@ Learn more about a Collection view:
 
 You can quickly search through all of your Collections and features in the Menu.
 
-![](../../.gitbook/assets/image%20%28188%29.png)
+![](../../.gitbook/assets/image%20%28189%29.png)
 
 Learn more about the Menu:
 

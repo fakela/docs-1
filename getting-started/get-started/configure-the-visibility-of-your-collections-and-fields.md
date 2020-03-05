@@ -4,13 +4,13 @@
 
 Enter the Visual Builder mode by clicking on the **brush icon** in the lower-left corner of the screen **\(1\)** and select the Menu **\(2\)**.
 
-![pic. 1](../../.gitbook/assets/image%20%28218%29.png)
+![pic. 1](../../.gitbook/assets/image%20%28219%29.png)
 
-![pic. 2](../../.gitbook/assets/image%20%28275%29.png)
+![pic. 2](../../.gitbook/assets/image%20%28276%29.png)
 
 Here you can find all available collections, change their titles, choose icons, rearrange the display order of your collections, and hide those you don't want to appear in the menu. 
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 Scroll down to the very bottom of the page and click the **+Add Menu item** button to add a link to any website, section to group your menu items, or custom view.
 

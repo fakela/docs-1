@@ -74,9 +74,9 @@ A multiple select widget lets you select one or several options from a list of p
 
 You can customize a date widget by specifying the format \(e.g. MM/DD/YY, DD/MM/YY, etc.\), whether it should include a time field and, if yes, selecting the time format \(12h or 24h\).
 
-![](../../../.gitbook/assets/image%20%28185%29.png)
+![](../../../.gitbook/assets/image%20%28186%29.png)
 
-![](../../../.gitbook/assets/image%20%28170%29.png)
+![](../../../.gitbook/assets/image%20%28171%29.png)
 
 ### Email 
 
@@ -96,7 +96,7 @@ A currency field widget lets you specify the currency format, precision, and whe
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../../.gitbook/assets/image%20%28118%29.png)
+![](../../../.gitbook/assets/image%20%28119%29.png)
 
 ### Rating 
 
@@ -104,7 +104,7 @@ A rating widget is good for visualizing your customer satisfaction score.
 
 You can customize this widget by specifying the style \(e.g. stars, dots, etc\) and the maximum value.
 
-![](../../../.gitbook/assets/image%20%28259%29.png)
+![](../../../.gitbook/assets/image%20%28260%29.png)
 
 ![](../../../.gitbook/assets/image%20%2878%29.png)
 
@@ -124,5 +124,5 @@ You can customize this widget by specifying the duration format.
 
 ![](../../../.gitbook/assets/image%20%2852%29.png)
 
-![](../../../.gitbook/assets/image%20%28145%29.png)
+![](../../../.gitbook/assets/image%20%28146%29.png)
 

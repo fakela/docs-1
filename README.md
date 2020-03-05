@@ -10,7 +10,7 @@ description: >-
 
 Jet Admin is a no-code internal tool builder. The simple drag-and-drop interface enables anyone to create the tools they need to manage daily operations, like tracking orders, resolving issues, and monitoring payments.
 
-![](.gitbook/assets/image%20%28110%29.png)
+![](.gitbook/assets/image%20%28111%29.png)
 
 ## How it works
 
@@ -33,8 +33,6 @@ Jet Admin is a no-code internal tool builder. The simple drag-and-drop interface
 _This is a complete remake of our popular_ [_Django Jet_](https://github.com/geex-arts/django-jet) _admin interface._
 
 ## Getting started
-
-[https://support.airtable.com/hc/en-us/articles/360021333094](https://support.airtable.com/hc/en-us/articles/360021333094)
 
 When you connect your resources to Jet Admin, your data will be rendered similarly to how it is stored in database. 
 

@@ -28,7 +28,7 @@ Choose collection that you would like to use
 
 To quick set up action you are able to specify: collections that will use these actions and grant permissions. To start using actions you need to specify parameters for each action, here quick set up how to launch actions.
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../.gitbook/assets/image%20%28231%29.png)
 
 ### 4. Predefined interface
 

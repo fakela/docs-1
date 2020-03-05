@@ -8,6 +8,7 @@
 
 ## GETTING STARTED
 
+* [Create a project](getting-started/create-a-project.md)
 * [Connecting your resources](getting-started/adding-a-data-source.md)
 * [Integrations](getting-started/integrations/README.md)
   * [Database Integration](getting-started/integrations/postgresql-integration.md)

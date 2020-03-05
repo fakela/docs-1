@@ -8,7 +8,7 @@ You can learn more about all chart types and their functions here:
 
 {% page-ref page="chart-widgets.md" %}
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
 ### 2. Build a Query
 
@@ -39,7 +39,7 @@ If you would like to add several charts, press '+ Add more':
 
 For each chart you can set legend and color:
 
-![](../../.gitbook/assets/image%20%28186%29.png)
+![](../../.gitbook/assets/image%20%28187%29.png)
 
 Select fields using 'Group by' 
 
@@ -64,11 +64,11 @@ ORDER BY gr;
 
 Here's an example of creating a doughnut chart:
 
-![](../../.gitbook/assets/image%20%28255%29.png)
+![](../../.gitbook/assets/image%20%28256%29.png)
 
 Display:
 
-![](../../.gitbook/assets/image%20%28217%29.png)
+![](../../.gitbook/assets/image%20%28218%29.png)
 
 ![](../../.gitbook/assets/image%20%2827%29.png)
 
@@ -84,7 +84,7 @@ To create a complex chart with SQL, switch to the SQL tab in the editing chart w
 4. Choose columns for display
 5. Specify the "group by" and "display" parameters
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28303%29.png)
 
 ### Line chart
 
@@ -100,7 +100,7 @@ GROUP BY gr
 ORDER BY gr;
 ```
 
-![](../../.gitbook/assets/image%20%28207%29.png)
+![](../../.gitbook/assets/image%20%28208%29.png)
 
 
 
@@ -123,7 +123,7 @@ GROUP BY gr
 ORDER BY gr DESC;
 ```
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 ### Pie / Doughnut chart
 
@@ -166,7 +166,7 @@ FROM
 ORDER BY rating;
 ```
 
-![](../../.gitbook/assets/image%20%28183%29.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
 ## Parameters
 

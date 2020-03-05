@@ -14,7 +14,9 @@ We recommend setting up separate resources for read and write access to make it 
 
 ![](../../.gitbook/assets/screen-shot-2020-03-04-at-5.20.57-pm.png)
 
-### 2. Deployment Method
+### 2. Deployment Methods
+
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 
 

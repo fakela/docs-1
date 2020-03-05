@@ -6,33 +6,11 @@ description: >-
 
 # Installation – Jet Bridge
 
-1. Start by creating a new account at [https://app.jetadmin.io/register](https://app.jetadmin.io/register) or sign up with Google/Facebook.
-
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.00.06.png)
-
-2. Once you've signed up, you'll be able to add a new project to Jet Admin and start the installation process. 
-
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.25.17.png)
-
-3. Specify the name of your project and choose how you would like to install Jet Admin. 
-
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.03.19.png)
-
-
-
-{% page-ref page="../../getting-started/adding-a-data-source.md" %}
-
-**Databases**
-
-To integrate **Jet Admin** with your **SQL** database, you need to install **Jet Bridge**. It will connect to your database and link **Jet Admin** with your project.   
-It will work even with your local application on **localhost**.
+**Jet Bridge** is an open**-**source plugin available on [**Github**](https://github.com/jet-admin/jet-bridge)**.** It will connect to your database and link **Jet Admin** with your project. It will work even with your local application on **localhost**.
 
 {% hint style="warning" %}
 **Jet Admin** is a small web server that connects to your database using **Tornado** and generates an API interface through which **Jet Admin** can operate with your data.
 {% endhint %}
-
-**Jet Bridge** is an open**-**source plugin available on **Github:**  
-[https://github.com/jet-admin/jet-bridge](https://github.com/jet-admin/jet-bridge)
 
 ### Method 1. Deploy to Heroku
 
