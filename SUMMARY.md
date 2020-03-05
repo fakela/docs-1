@@ -8,16 +8,11 @@
 
 ## GETTING STARTED
 
-* [Create a project](getting-started/install/README.md)
-  * [Multiple Projects](getting-started/install/multiply-projects.md)
-  * [Any SQL – Deploy to Heroku](getting-started/install/any-sql-deploy-to-heroku.md)
-  * [Any SQL – Jet Bridge App](getting-started/install/any-sql-jet-bridge-app.md)
-  * [Any SQL – Jet Bridge Docker](getting-started/install/any-sql-jet-bridge-docker.md)
-  * [Django framework – Package](getting-started/install/django-framework-package.md)
-  * [Configuration](getting-started/install/configuration.md)
-  * [Common Problems](getting-started/install/common-problems.md)
-* [Adding a Data Source](getting-started/adding-a-data-source.md)
+* [Connecting your resources](getting-started/adding-a-data-source.md)
 * [Integrations](getting-started/integrations/README.md)
+  * [Database Integration](getting-started/integrations/postgresql-integration.md)
+  * [Rest API](getting-started/integrations/rest-api.md)
+  * [GraphQL](getting-started/integrations/graphql.md)
   * [Stripe](getting-started/integrations/stripe.md)
   * [SendGrid](getting-started/integrations/sendgrid.md)
   * [Twilio](getting-started/integrations/twilio.md)
@@ -26,11 +21,7 @@
   * [Mixpanel](getting-started/integrations/mixpanel.md)
   * [Google Sheets](getting-started/integrations/google-sheets.md)
   * [Slack](getting-started/integrations/slack.md)
-  * [GraphQL](getting-started/integrations/graphql.md)
   * [Firebase / Firestore](getting-started/integrations/firebase-firestore.md)
-  * [Rest API](getting-started/integrations/rest-api.md)
-  * [PostgreSQL Integration](getting-started/integrations/postgresql-integration.md)
-  * [MySQL Integration](getting-started/integrations/mysql-integration.md)
 * [Setup Guide](getting-started/get-started/README.md)
   * [Configure the visibility of your collections and fields](getting-started/get-started/configure-the-visibility-of-your-collections-and-fields.md)
   * [Deploy to production](getting-started/get-started/deploy-to-production.md)
@@ -93,13 +84,23 @@
   * [Google SSO \(SAML2\)](user-guide/sso-integrations/google-sso-saml2.md)
   * [Google OAuth 2.0](user-guide/sso-integrations/google-oauth-2.0.md)
 
-## Additional
+## JET BRIDGE DEPLOYMENT
 
-* [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
+* [Installation – Jet Bridge](jet-bridge-deployment/install/README.md)
+  * [Any SQL – Deploy to Heroku](jet-bridge-deployment/install/any-sql-deploy-to-heroku.md)
+  * [Any SQL – Jet Bridge App](jet-bridge-deployment/install/any-sql-jet-bridge-app.md)
+  * [Any SQL – Jet Bridge Docker](jet-bridge-deployment/install/any-sql-jet-bridge-docker.md)
+  * [Django framework – Package](jet-bridge-deployment/install/django-framework-package.md)
+  * [Configuration](jet-bridge-deployment/install/configuration.md)
+  * [Common Problems](jet-bridge-deployment/install/common-problems.md)
 
 ## Queries
 
 * [Overview](queries/overview.md)
 * [API](queries/api.md)
 * [SQL](queries/sql.md)
+
+## Additional
+
+* [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
 

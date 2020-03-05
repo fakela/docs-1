@@ -14,7 +14,7 @@ Jet Admin is a no-code internal tool builder. The simple drag-and-drop interface
 
 ## How it works
 
-1. **Connect data sources**                                                                                                         Connect Jet Admin to your data sources, such as PostgreSQL,    Stripe, Twilio, and 10+ others. 
+1. **Connect data sources**                                                                                                         Connect Jet Admin to your data sources, such as PostgreSQL, Stripe, Twilio, and 10+ others. 
 2. **Start browsing**                                                                                                         In the auto-generated app, you’ll be able to view your data, perform operations, and apply filters and segments.   
 
                

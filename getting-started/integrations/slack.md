@@ -20,5 +20,7 @@ Once you select a channel and create the webhook, you'll be presented with a set
 
 Provide Webhook URL to Jet Admin
 
+![](../../.gitbook/assets/screen-shot-2020-03-04-at-12.59.19-am.png)
+
 
 

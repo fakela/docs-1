@@ -7,6 +7,8 @@ To integrate **Jet Admin** with your **Django** project you need to install the 
 
 This is the quickest way to install **Jet Admin** for Django based projects. Installed in the same way as most **Django** packages.
 
+![](../../.gitbook/assets/screen-shot-2020-03-04-at-5.40.42-pm.png)
+
 {% hint style="info" %}
 **Jet Admin** for **Django** is a Python package installed with **pip** that integrates with your **models** and generates **API** interface through which **Jet Admin** can operate with your data. Though using this package is supported we recommend to use [standalone Jet Bridge](./#method-1-using-standalone-jet-bridge) as described before if possible.
 {% endhint %}

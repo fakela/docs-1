@@ -18,5 +18,7 @@ Create a new resource in Jet Admin, and select "SendGrid" as the type. Enter you
 
 **Resources** &gt; **Add Resource** &gt; **SendGrid**
 
+![](../../.gitbook/assets/screen-shot-2020-03-04-at-1.08.44-am.png)
+
 \*\*\*\*
 

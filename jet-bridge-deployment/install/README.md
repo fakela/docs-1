@@ -4,7 +4,7 @@ description: >-
   Jet Admin
 ---
 
-# Create a project
+# Installation – Jet Bridge
 
 1. Start by creating a new account at [https://app.jetadmin.io/register](https://app.jetadmin.io/register) or sign up with Google/Facebook.
 
@@ -20,7 +20,7 @@ description: >-
 
 
 
-{% page-ref page="../adding-a-data-source.md" %}
+{% page-ref page="../../getting-started/adding-a-data-source.md" %}
 
 **Databases**
 

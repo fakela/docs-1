@@ -18,5 +18,5 @@ Create a new resource in Retool, and select "Twilio" as the _type_. Enter your A
 
 **Resources** &gt; **Add Resource** &gt; **Twilio**
 
-\*\*\*\*
+![](../../.gitbook/assets/screen-shot-2020-03-04-at-1.11.52-am.png)
 

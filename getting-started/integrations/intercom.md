@@ -10,5 +10,5 @@ description: Connecting Intercom to Jet Admin
 
 **Settings &gt; Developers &gt; Developer Hub &gt; New App**
 
-![](../../.gitbook/assets/group%20%282%29.png)
+![](../../.gitbook/assets/group%20%283%29.png)
 
