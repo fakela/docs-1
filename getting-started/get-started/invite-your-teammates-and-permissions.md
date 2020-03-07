@@ -4,13 +4,13 @@ Now it's finally time to invite your team members to the admin panel and get to 
 
 Click on your profile pic in the lower-left corner of the screen and select Users **\(1\)**. From there, click on the **+Invite user** button in the top right corner **\(2\)**, then type in a teammate's email address and choose a group to which this person will belong.
 
-![](../../.gitbook/assets/image%20%28122%29.png)
+![](../../.gitbook/assets/image%20%28126%29.png)
 
-![](../../.gitbook/assets/image%20%28173%29.png)
+![](../../.gitbook/assets/image%20%28180%29.png)
 
-![](../../.gitbook/assets/image%20%28207%29.png)
+![](../../.gitbook/assets/image%20%28215%29.png)
 
-![](../../.gitbook/assets/image%20%28132%29.png)
+![](../../.gitbook/assets/image%20%28137%29.png)
 
 ### Create a new team and manage permissions
 
@@ -20,9 +20,9 @@ In this case, we have to upgrade to the Pro plan to benefits from this feature. 
 
 Once upgraded, we'll be able to create a new team. Below, we created a _Customer Support_ team and we chose to copy the layout from the _Operations_ team. 
 
-![](../../.gitbook/assets/image%20%28300%29.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 We should manage permissions **All, Read, Write, Delete** for each collections.
 

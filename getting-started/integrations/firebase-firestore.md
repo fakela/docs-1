@@ -18,8 +18,6 @@ In the resources selector view - choose "Firebase." You will be prompted to prov
 
 After providing the Service Account Key and the Database URL, hit "Save." Jet Admin will validate that it is able to connect to your Firebase database and then save. If instead you are looking to integrate Jet Admin with Firestore, you need only fill in the _Project Id_ section on this form.
 
-
-
 ### 2. Add to Jet Admin
 
 ![](../../.gitbook/assets/group%20%281%29.png)

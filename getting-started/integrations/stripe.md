@@ -24,15 +24,15 @@ You can find your _Secret Key_ under the "API Keys" section of your Stripe accou
 
 Choose collection that you would like to use
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 To quick set up action you are able to specify: collections that will use these actions and grant permissions. To start using actions you need to specify parameters for each action, here quick set up how to launch actions.
 
-![](../../.gitbook/assets/image%20%28231%29.png)
+![](../../.gitbook/assets/image%20%28239%29.png)
 
 ### 4. Predefined interface
 
 We prepared different templates how your data looks like and you can quick to apply different layouts.
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2871%29.png)
 

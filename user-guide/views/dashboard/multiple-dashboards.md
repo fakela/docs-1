@@ -8,13 +8,13 @@ To add a new dashboard, navigate to the Dashboards tab and select +Add Dashboard
 
 All created dashboards will be appear in the Dashboard tab, where you can choose and switch between them
 
-![](../../.gitbook/assets/ezgif-6-bd1458bf3d02%20%281%29.gif)
+![](../../../.gitbook/assets/ezgif-6-bd1458bf3d02%20%281%29.gif)
 
 ## Transferring Charts
 
 To transfer a configured chart from one dashboard to another, open this chart, click on the ellipsis icon ⟶ Move to Dashboard, and select the dashboard where you want to send your chart to. 
 
-![](../../.gitbook/assets/image%20%28322%29.png)
+![](../../../.gitbook/assets/image%20%28332%29.png)
 
 
 

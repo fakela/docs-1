@@ -4,7 +4,7 @@ Jet Admin can automatically generate a proper icon for the most common types of 
 
 However, you can change both icons and titles of your collections at any time. To do that, enter the [Visual Builder](../../user-guide/visual-builder.md) mode and select the Menu. Click on the cog icon to the right of a collection you'd like to edit and start customizing.
 
-![](../../.gitbook/assets/image%20%28261%29.png)
+![](../../.gitbook/assets/image%20%28270%29.png)
 
-![](../../.gitbook/assets/image%20%28247%29.png)
+![](../../.gitbook/assets/image%20%28256%29.png)
 

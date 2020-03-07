@@ -4,7 +4,9 @@ description: Connecting PostgresQL to Jet Admin
 
 # Database Integration
 
-### 1. Add PostgreSQL to Jet Admin
+### 1. Connect database with Jet Admin
+
+![](../../.gitbook/assets/image%20%28316%29.png)
 
 Create a new resource in **Jet Admin**, and select "PostgreSQL" as the _type_. Enter your database connection details.
 
@@ -16,7 +18,5 @@ We recommend setting up separate resources for read and write access to make it 
 
 ### 2. Deployment Methods
 
-![](../../.gitbook/assets/image%20%2897%29.png)
-
-
+![](../../.gitbook/assets/image%20%28132%29.png)
 

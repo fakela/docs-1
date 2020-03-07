@@ -28,7 +28,7 @@ We enabled record editing in a table view. To edit a record in your table, simpl
 
 We added an activity log to help you keep track of all changes made to any item in your admin panel. Go to Project Settings ⟶ User Activities and search for a specific modification.
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](../.gitbook/assets/image%20%28110%29.png)
 
 ### Improvements
 

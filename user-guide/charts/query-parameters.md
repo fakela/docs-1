@@ -14,31 +14,31 @@ For example, if you want to switch between different payment types on your chart
 
 Then, scroll down the last dropdown menu and click +Add Parameter.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 From there, you can specify the keyword and title of a new parameter as well as select its type \(e.g. text, number, dropdown list, etc.\)
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 A new parameter will appear under your chart in the chart builder. 
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28130%29.png)
 
 To edit a parameter, click on the cog icon to the right of the parameter's name. 
 
-![](../../.gitbook/assets/image%20%28264%29.png)
+![](../../.gitbook/assets/image%20%28273%29.png)
 
 ## Add a SQL chart parameter
 
 To add a new parameter to a SQL chart, click the Parameter button in the Live Query builder. 
 
-![](../../.gitbook/assets/image%20%28286%29.png)
+![](../../.gitbook/assets/image%20%28295%29.png)
 
 From there, specify the keyword and title of a new parameter as well as select its type \(e.g. text, number, dropdown list, etc.\)
 
-![](../../.gitbook/assets/image%20%28215%29.png)
+![](../../.gitbook/assets/image%20%28223%29.png)
 
 A new parameter will appear under your chart in the chart builder and in your query between double curly braces. To edit a parameter, click on the cog icon to the right of the parameter's name.
 
-![](../../.gitbook/assets/image%20%28287%29.png)
+![](../../.gitbook/assets/image%20%28296%29.png)
 

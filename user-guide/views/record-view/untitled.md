@@ -24,7 +24,7 @@ At the top of the screen you'll see the navigation bar that you can customize: a
 
 Learn more about field widgets here:
 
-{% page-ref page="../../field/customizing-the-field/field-widgets.md" %}
+{% page-ref page="../../field/field-widgets.md" %}
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LQ08RFAKZvFADEiXKFy%2F-LlHjm_dpUxPjBQMhTmo%2F-LlHlraBefgPl8lerZYU%2Fimage.png?alt=media&token=910b1c10-dbaf-41da-b9a9-283df308ae65)‌
 
@@ -38,7 +38,7 @@ Sometimes data from one collection is related to the data in another collection.
 
 Here is an example of how a related collection \(in our case Rides\) can be displayed on your record:
 
-![](../../../.gitbook/assets/image%20%28147%29.png)
+![](../../../.gitbook/assets/image%20%28152%29.png)
 
 ### Widgets <a id="widgets"></a>
 
