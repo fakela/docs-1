@@ -22,3 +22,11 @@ After providing the Service Account Key and the Database URL, hit "Save." Jet Ad
 
 ![](../../.gitbook/assets/group%20%281%29.png)
 
+
+
+### 3. Customize interface for your use cases
+
+{% page-ref page="../../user-guide/visual-builder.md" %}
+
+
+
