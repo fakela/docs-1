@@ -22,6 +22,7 @@
   * [Mixpanel](getting-started/integrations/mixpanel.md)
   * [Google Sheets](getting-started/integrations/google-sheets.md)
   * [Slack](getting-started/integrations/slack.md)
+  * [Django](getting-started/integrations/django-framework-package.md)
   * [Firebase / Firestore](getting-started/integrations/firebase-firestore.md)
 * [Setup Guide](getting-started/get-started/README.md)
   * [Configure the visibility of your collections and fields](getting-started/get-started/configure-the-visibility-of-your-collections-and-fields.md)
@@ -95,7 +96,6 @@
   * [Any SQL – Deploy to Heroku](jet-bridge-deployment/install/any-sql-deploy-to-heroku.md)
   * [Any SQL – Jet Bridge App](jet-bridge-deployment/install/any-sql-jet-bridge-app.md)
   * [Any SQL – Jet Bridge Docker](jet-bridge-deployment/install/any-sql-jet-bridge-docker.md)
-  * [Django framework – Package](jet-bridge-deployment/install/django-framework-package.md)
   * [Configuration](jet-bridge-deployment/install/configuration.md)
   * [Common Problems](jet-bridge-deployment/install/common-problems.md)
 

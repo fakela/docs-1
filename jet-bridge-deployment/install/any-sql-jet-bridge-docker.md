@@ -36,7 +36,7 @@ If you don't have **Jet** account yet you will be asked to create one and sign i
 After registering your project you will be redirected to your project and can start working with **Jet**
 {% endhint %}
 
-{% page-ref page="django-framework-package.md" %}
+{% page-ref page="../../getting-started/integrations/django-framework-package.md" %}
 
 ## Common problems
 

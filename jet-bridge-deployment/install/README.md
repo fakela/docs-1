@@ -39,7 +39,7 @@ To integrate **Jet Admin** with your **Django**-based project you need to instal
 
 This is the quickest way to install **Jet Admin** for Django based projects. Installed in the same way as most **Django** packages.
 
-{% page-ref page="django-framework-package.md" %}
+{% page-ref page="../../getting-started/integrations/django-framework-package.md" %}
 
 
 

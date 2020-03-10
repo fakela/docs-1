@@ -1,16 +1,19 @@
-# Django framework – Package
+---
+description: Connecting Django to Jet Admin
+---
 
-To integrate **Jet Admin** with your **Django** project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**.
+# Django
 
-**Jet Bridge** **for Django** sources are available on **Github:**  
-[https://github.com/jet-admin/jet-django](https://github.com/jet-admin/jet-django)
+To integrate **Jet Admin** with your **Django** project you need to install the **Jet Bridge** package. It will work even with your local application on **localhost**. **Jet Bridge** is an open**-**source plugin available on [**Github**](https://github.com/jet-admin/jet-bridge)**.** It will connect to your database and link **Jet Admin** with your project. It will work even with your local application on **localhost**. [How it works.](../../jet-bridge-deployment/install/)
 
 This is the quickest way to install **Jet Admin** for Django based projects. Installed in the same way as most **Django** packages.
+
+![](../../.gitbook/assets/db2%20%281%29.png)
 
 ![](../../.gitbook/assets/screen-shot-2020-03-04-at-5.40.42-pm.png)
 
 {% hint style="info" %}
-**Jet Admin** for **Django** is a Python package installed with **pip** that integrates with your **models** and generates **API** interface through which **Jet Admin** can operate with your data. Though using this package is supported we recommend to use [standalone Jet Bridge](./#method-1-using-standalone-jet-bridge) as described before if possible.
+**Jet Admin** for **Django** is a Python package installed with **pip** that integrates with your **models** and generates **API** interface through which **Jet Admin** can operate with your data. Though using this package is supported we recommend to use [standalone Jet Bridge](../../jet-bridge-deployment/install/#method-1-using-standalone-jet-bridge) as described before if possible.
 {% endhint %}
 
 **Jet Bridge** for **Django** sources are available on **Github:**  
@@ -80,5 +83,5 @@ JET\_CORS\_HEADERS = False
 
 ## Common problems
 
-{% page-ref page="common-problems.md" %}
+{% page-ref page="../../jet-bridge-deployment/install/common-problems.md" %}
 
