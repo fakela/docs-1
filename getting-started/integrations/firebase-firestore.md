@@ -4,7 +4,7 @@ description: Connecting Firebase to Jet Admin
 
 # Firebase / Firestore
 
-Jet Admin supports Firebase's Admin API and allows you to create your custom admin interfaces to manage your Firebase application.
+Jet Admin supports Firebase's Admin API and allows you to create your custom internal tools to manage your Firebase application.
 
 Jet Admin supports managing users, querying and updating from Firebase Real-time Databases, and querying from Firestore.
 
@@ -20,7 +20,7 @@ After providing the Service Account Key and the Database URL, hit "Save." Jet Ad
 
 ### 2. Add to Jet Admin
 
-![](../../.gitbook/assets/group%20%281%29.png)
+![](../../.gitbook/assets/group%20%283%29.png)
 
 
 

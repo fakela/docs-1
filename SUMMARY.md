@@ -8,22 +8,26 @@
 
 ## GETTING STARTED
 
-* [Create a project](getting-started/create-a-project.md)
+* [Creating a project](getting-started/create-a-project.md)
 * [Connecting your resources](getting-started/adding-a-data-source.md)
 * [Integrations](getting-started/integrations/README.md)
   * [Database Integration](getting-started/integrations/postgresql-integration.md)
   * [Rest API](getting-started/integrations/rest-api.md)
   * [GraphQL](getting-started/integrations/graphql.md)
+  * [Firebase / Firestore](getting-started/integrations/firebase-firestore.md)
   * [Stripe](getting-started/integrations/stripe.md)
   * [SendGrid](getting-started/integrations/sendgrid.md)
   * [Twilio](getting-started/integrations/twilio.md)
   * [Zendesk](getting-started/integrations/zendesk.md)
   * [Intercom](getting-started/integrations/intercom.md)
+  * [Hubspot](getting-started/integrations/hubspot.md)
   * [Mixpanel](getting-started/integrations/mixpanel.md)
   * [Google Sheets](getting-started/integrations/google-sheets.md)
   * [Slack](getting-started/integrations/slack.md)
   * [Django](getting-started/integrations/django-framework-package.md)
-  * [Firebase / Firestore](getting-started/integrations/firebase-firestore.md)
+  * [Google Drive](getting-started/integrations/google-drive.md)
+  * [Amazon S3](getting-started/integrations/amazon-s3.md)
+  * [Google Cloud Storage](getting-started/integrations/google-cloud-storage.md)
 * [Setup Guide](getting-started/get-started/README.md)
   * [Configure the visibility of your collections and fields](getting-started/get-started/configure-the-visibility-of-your-collections-and-fields.md)
   * [Deploy to production](getting-started/get-started/deploy-to-production.md)
@@ -101,5 +105,9 @@
 
 ## Additional
 
+* [Jet Admin API](additional/jet-admin-api/README.md)
+  * [Authentication](additional/jet-admin-api/authentication.md)
+  * [Project Users](additional/jet-admin-api/project-users.md)
+  * [Project Teams](additional/jet-admin-api/project-teams.md)
 * [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
 

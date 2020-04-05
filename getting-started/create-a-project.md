@@ -1,4 +1,4 @@
-# Create a project
+# Creating a project
 
 1. Start by creating a new account at [https://app.jetadmin.io/register](https://app.jetadmin.io/register) or sign up with Google/Facebook.
 

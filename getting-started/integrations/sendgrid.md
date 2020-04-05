@@ -14,7 +14,7 @@ You can see a list of your SendGrid API keys via the "API Keys" section of your 
 
 ### 2. Add to Jet Admin
 
-Create a new resource in Jet Admin, and select "SendGrid" as the type. Enter your API key in the "Access Token" field. Press "Save" when you're done.
+Create a new resource in Jet Admin, and select "SendGrid" from the list of integrations. Enter your API key in the "API Key" field. Press "Save" to connect to SendGrid. 
 
 **Resources** &gt; **Add Resource** &gt; **SendGrid**
 

@@ -18,7 +18,7 @@ Once you select a channel and create the webhook, you'll be presented with a set
 
 ### 2. Add to Jet Admin
 
-Provide Webhook URL to Jet Admin
+Enter your Webhook URL in the respective field. Click 'Save' to add Slack to Jet Admin.
 
 ![](../../.gitbook/assets/screen-shot-2020-03-04-at-12.59.19-am.png)
 

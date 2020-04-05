@@ -1,12 +1,12 @@
 ---
-description: Connecting Twilio to Jet Admin
+description: Connecting Twilio to Jet Admin.
 ---
 
 # Twilio
 
 ### 1. Get Twilio Access Keys
 
-You can find your _Account SID_ and _Auth Token_ in your Twilio account dashboard.
+First, find your _Account SID_ and _Auth Token_ in your Twilio account dashboard. 
 
 **Dashboard** &gt; **API Keys**
 
@@ -14,7 +14,7 @@ You can find your _Account SID_ and _Auth Token_ in your Twilio account dashboar
 
 ### 2. Add to **Jet Admin**
 
-Create a new resource in Retool, and select "Twilio" as the _type_. Enter your Account SID and Auth Token.
+Create a new resource in Jet Admin, and select "Twilio" from the list of integrations. Enter your Account SID and Auth Token in the respective field. Press 'Save' to connect.
 
 **Resources** &gt; **Add Resource** &gt; **Twilio**
 

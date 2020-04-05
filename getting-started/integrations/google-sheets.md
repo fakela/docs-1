@@ -4,6 +4,8 @@ description: Connecting Google Sheets to Jet Admin
 
 # Google Sheets
 
+
+
 ### 1. Get Google Sheets Access Token
 
 ![](../../.gitbook/assets/screen-shot-2020-03-04-at-1.03.46-am.png)
