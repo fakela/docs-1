@@ -26,7 +26,7 @@ The simplest way to install **Jet Admin** is to deploy it to the **Heroku** clou
 4. Afterwards, you will be asked to specify the application name and database settings. Note: the **Project Name** and **Token** fields will be filled in automatically.   
 
 
-   ![](../../.gitbook/assets/image%20%2838%29.png)
+   ![](../../.gitbook/assets/image%20%2839%29.png)
 
 
 

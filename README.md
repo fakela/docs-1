@@ -10,7 +10,7 @@ description: >-
 
 Jet Admin is a no-code internal tool builder. The simple drag-and-drop interface enables anyone to create the tools they need to manage daily operations, like tracking orders, resolving issues, and monitoring payments.
 
-![](.gitbook/assets/image%20%28115%29.png)
+![](.gitbook/assets/image%20%28117%29.png)
 
 ## How it works
 

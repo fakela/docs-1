@@ -109,5 +109,7 @@
   * [Authentication](additional/jet-admin-api/authentication.md)
   * [Project Users](additional/jet-admin-api/project-users.md)
   * [Project Teams](additional/jet-admin-api/project-teams.md)
+* [Custom Authorization](additional/custom-authorization.md)
+* [Self Sign Up](additional/self-sign-up.md)
 * [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
 

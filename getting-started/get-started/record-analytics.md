@@ -6,7 +6,7 @@ These charts are created the same way you would do it in the dashboard tab. Let'
 
 1. To create a new chart, enter the Visual Builder mode from a record to which you would like to add the chart. Then, choose an suitable chart widget from the menu on the right. 
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../.gitbook/assets/image%20%28164%29.png)
 
 2. Once you drag and dropped a chart on your dashboard, you would have to build a query to specify this chart's parameters. 
 
@@ -22,21 +22,21 @@ These charts are created the same way you would do it in the dashboard tab. Let'
 * Max
 * Avg
 
-![](../../.gitbook/assets/image%20%28289%29.png)
+![](../../.gitbook/assets/image%20%28292%29.png)
 
 6. If you would like to add several charts, press '+ Add more':
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 7. For each chart you can set legend and color:
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image%20%28197%29.png)
 
 8. Select fields using 'Group by'.
 
 Once you saved the chart, it will appear right in a Record view. Remember that you can edit, delete, recize, or relocate the chart at any moment.
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../.gitbook/assets/image%20%28158%29.png)
 
 ### 
 

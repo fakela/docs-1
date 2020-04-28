@@ -12,7 +12,7 @@ Here are the five collection widgets you can find in Jet Admin:
 
 When you deploy Jet Admin, all data from your database will be rendered in a Table view by default. You can later switch to a different collection widget in the customization mode or leave it just like that. 
 
-![](../../.gitbook/assets/image%20%28290%29.png)
+![](../../.gitbook/assets/image%20%28293%29.png)
 
 What's more, you can edit any column in your table in a collection view by simply hovering on it and clicking the pen icon instead of entering the Visual Builder mode.
 
@@ -22,11 +22,11 @@ What's more, you can edit any column in your table in a collection view by simpl
 
 A kanban board is often used to simplify and visualize complex processes, e.g. user onboarding or shipping.
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![](../../.gitbook/assets/image%20%28141%29.png)
 
 ### 
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ## Map 
 
@@ -36,23 +36,23 @@ The map widget allows you to see locations of your items or team members \(e.g. 
 
 To change a field that is set up as your "location field", enter the customization mode and click on the cog icon next to "Map" in the menu bar on the right.
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 ## Calendar 
 
 The calendar widget is great for sorting your data by date, e.g. managing appointments and meetings.
 
-![](../../.gitbook/assets/image%20%28304%29.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 
 To change a field that is set up as your "date field", enter the customization mode and click on the cog icon next to "Calendar" in the menu bar on the right.
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 ##  Gallery
 
 A gallery is great for displaying your items in a visually appealing and easy to comprehend way. 
 
-![](../../.gitbook/assets/image%20%28303%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 
 
@@ -60,7 +60,7 @@ A gallery is great for displaying your items in a visually appealing and easy to
 
 In case you haven't found an appropriate widget for rendering your data from our pre-existed ones, we created the Flex View feature that allows you to create and integrate your own widget into Jet.
 
-![](../../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/image%20%28120%29.png)
 
 {% page-ref page="../views/flex-view.md" %}
 
