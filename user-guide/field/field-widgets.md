@@ -64,9 +64,9 @@ A multiple select widget lets you select one or several options from a list of p
 
 You can customize a date widget by specifying the format \(e.g. MM/DD/YY, DD/MM/YY, etc.\), whether it should include a time field and, if yes, selecting the time format \(12h or 24h\).
 
-![](../../.gitbook/assets/image%20%28196%29.png)
+![](../../.gitbook/assets/image%20%28186%29.png)
 
-![](../../.gitbook/assets/image%20%28181%29.png)
+![](../../.gitbook/assets/image%20%28171%29.png)
 
 ### Email 
 
@@ -80,9 +80,9 @@ A URL widget will let you attach a clickable link to your field.
 
 A currency field widget lets you specify the currency format, precision, and whether or not to allow negative numbers.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28119%29.png)
 
 ### Rating 
 
@@ -90,17 +90,17 @@ A rating widget is good for visualizing your customer satisfaction score.
 
 You can customize this widget by specifying the style \(e.g. stars, dots, etc\) and the maximum value.
 
-![](../../.gitbook/assets/image%20%28272%29.png)
+![](../../.gitbook/assets/image%20%28260%29.png)
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2878%29.png)
 
 ### Percent 
 
 A percent widget is great for displaying percentage data, such as what fraction of the total sales is equal to a specific single sale.
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 ### Duration
 
@@ -108,7 +108,7 @@ A duration widget is great for displaying the duration of sessions, order proces
 
 You can customize this widget by specifying the duration format.
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/image%20%28146%29.png)
 

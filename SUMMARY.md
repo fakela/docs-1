@@ -47,6 +47,7 @@
 
 * [Visual Builder](user-guide/visual-builder.md)
 * [Views](user-guide/views/README.md)
+  * [Pages](user-guide/views/pages.md)
   * [Dashboard](user-guide/views/dashboard/README.md)
     * [Multiple Dashboards](user-guide/views/dashboard/multiple-dashboards.md)
   * [Collection View](user-guide/views/collection-view/README.md)

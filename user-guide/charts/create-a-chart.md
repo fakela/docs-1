@@ -8,7 +8,7 @@ You can learn more about all chart types and their functions here:
 
 {% page-ref page="chart-widgets.md" %}
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../.gitbook/assets/image%20%28155%29.png)
 
 ### 2. Build a Query
 
@@ -17,7 +17,7 @@ Once you drag and dropped a chart on your dashboard, you would have to build a q
 1. Simple 
 2. SQL
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 ### 2.1 Creating a simple chart
 
@@ -35,11 +35,11 @@ Once you drag and dropped a chart on your dashboard, you would have to build a q
 
 If you would like to add several charts, press '+ Add more':
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 For each chart you can set legend and color:
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](../../.gitbook/assets/image%20%28187%29.png)
 
 Select fields using 'Group by' 
 
@@ -64,13 +64,13 @@ ORDER BY gr;
 
 Here's an example of creating a doughnut chart:
 
-![](../../.gitbook/assets/image%20%28268%29.png)
+![](../../.gitbook/assets/image%20%28256%29.png)
 
 Display:
 
-![](../../.gitbook/assets/image%20%28229%29.png)
+![](../../.gitbook/assets/image%20%28218%29.png)
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 
 
@@ -84,7 +84,7 @@ To create a complex chart with SQL, switch to the SQL tab in the editing chart w
 4. Choose columns for display
 5. Specify the "group by" and "display" parameters
 
-![](../../.gitbook/assets/image%20%28315%29.png)
+![](../../.gitbook/assets/image%20%28303%29.png)
 
 ### Line chart
 
@@ -100,7 +100,7 @@ GROUP BY gr
 ORDER BY gr;
 ```
 
-![](../../.gitbook/assets/image%20%28219%29.png)
+![](../../.gitbook/assets/image%20%28208%29.png)
 
 
 
@@ -123,7 +123,7 @@ GROUP BY gr
 ORDER BY gr DESC;
 ```
 
-![](../../.gitbook/assets/image%20%28182%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 ### Pie / Doughnut chart
 
@@ -143,7 +143,7 @@ GROUP BY gr
 ORDER BY gr;
 ```
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ### Counter
 
@@ -154,7 +154,7 @@ FROM
     transaction
 ```
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 ### List
 
@@ -166,7 +166,7 @@ FROM
 ORDER BY rating;
 ```
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
 ## Parameters
 

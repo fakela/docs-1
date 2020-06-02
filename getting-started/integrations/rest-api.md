@@ -26,31 +26,31 @@ Here is a sample configuration of Jet Admin connecting with Google's OAuth 2.0 A
 * The OAuth Callback URL is static and cannot be changed - you must use this URL and provide it to the OAuth configuration.
 * The Login Test URL is used to test whether or not the user is currently authenticated. Jet Admin will make a `GET` request to the URL and if the response is not a `20x`, it will pop a modal open and ask the user to authenticate against the API.
 
-![](../../.gitbook/assets/screen-shot-2020-02-27-at-10.41.47-am.png)
+![](../../.gitbook/assets/image%20%28329%29.png)
 
-![](../../.gitbook/assets/screen-shot-2020-02-27-at-10.42.54-am.png)
-
-![](../../.gitbook/assets/screen-shot-2020-03-04-at-5.31.41-pm.png)
-
-### 
+![](../../.gitbook/assets/image%20%28326%29.png)
 
 ### Authorization bearer token
 
 Adding an API that uses a bearer token authentication scheme is easy in Jet Admin. Just add it as a global header in the Resource configuration screen and all your API requests that use the resource will have the right auth headers sent over.
 
-![](../../.gitbook/assets/screen-shot-2020-03-04-at-1.17.32-am.png)
+![](../../.gitbook/assets/image%20%28324%29.png)
 
 ### Basic Authorization
 
 To enable Basic Auth authentication schemes, choose `Basic Auth` in the `Authentication` dropdown and then provide the username and password.
 
-![](../../.gitbook/assets/screen-shot-2020-03-04-at-1.14.59-am.png)
+![](../../.gitbook/assets/image%20%28331%29.png)
+
+### OAuth 2.0 <a id="basic-authorization"></a>
+
+Jet also supports OAuth 2.0 authentication scheme. Unlike the previous examples, authentication details are _not_ shared between your end users unless you enable the "Share OAuth2.0 credentials between users" option.
+
+![](../../.gitbook/assets/image%20%28337%29.png)
 
 
 
 ## Define collections and query for your Rest API
-
-![](../../.gitbook/assets/screen-shot-2020-02-27-at-10.53.18-am.png)
 
 
 

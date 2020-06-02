@@ -11,7 +11,7 @@ You can connect Jet Admin with any resources you need to build internal tools. H
 
 To add a resource from Settings, go to your Profile → Settings → Resources. Connect a new resource by clicking the **+ Add Resource** button in the top right corner. Then, simply choose a resource you'd like to connect and follow the instructions. You can add multiple resources.
 
-![](../../.gitbook/assets/screen-shot-2020-03-04-at-6.11.41-pm.png)
+![](../../.gitbook/assets/image%20%28334%29.png)
 
 See our guide to adding resources below:
 

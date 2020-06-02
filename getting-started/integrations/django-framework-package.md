@@ -72,7 +72,7 @@ urlpatterns = [  ...  url(r'^jet_api/', include('jet_django.urls')),  ...]
 
 6. Restart your project
 
-8. Finish your project installation by opening in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT. 
+8. Finish installation by opening this link in your browser: [**http://localhost:8000/jet\_api/register/**](http://localhost:8000/jet_api/register/) where **localhost** is your **Django** HOST and **8000** is its PORT. 
 
 {% hint style="info" %}
 **Jet Django** package sets **CORS** headers for **/jet\_api/** endpoints. If it conflicts with your **CORS** headers and you want to deal with it yourself, add the following in **settings.py**:   

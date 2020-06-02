@@ -8,15 +8,15 @@ Jet Admin integrates with most data sources, such as PostgreSQL, internal APIs, 
 
 You can add different resources simultaneously either on the welcome page that will pop up after you sign up or later on from Settings.
 
-### 1.1 Adding a resource after sign up
+### 1.1 Adding a resource
 
-Once you've signed up and created a project, you will be redirected to a page with all currently available resources:
+Once you've signed up, created a project, and choose 'Add a resource' you can see block with available resources:
 
-![](../.gitbook/assets/screen-shot-2020-03-04-at-5.49.14-pm.png)
+![](../.gitbook/assets/image%20%28335%29.png)
 
 ### 1.2 Adding a resource from settings
 
-To add a resource from Settings, go to your Profile → Settings → Resources. Connect a new resource by clicking the **+ Add Resource** button in the top right corner:
+To add a resource from Settings, go to your Profile → Settings → Resource. Connect a new resource by clicking the **+ Add Resource** button in the top right corner:
 
 ![](../.gitbook/assets/ezgif-2-9fe176457715.gif)
 
@@ -24,7 +24,7 @@ To add a resource from Settings, go to your Profile → Settings → Resources. 
 
 Simply click on the icon of a resource you'd like to connect and follow the instructions. You can add multiple resources:
 
-![](../.gitbook/assets/screen-shot-2020-03-04-at-6.11.41-pm.png)
+![](../.gitbook/assets/image%20%28333%29.png)
 
 
 

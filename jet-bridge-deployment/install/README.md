@@ -41,14 +41,6 @@ This is the quickest way to install **Jet Admin** for Django based projects. Ins
 
 {% page-ref page="../../getting-started/integrations/django-framework-package.md" %}
 
-
-
-###   3. **Enter a token.** 
-
-Choose this option if you have already integrated Jet Bridge and received a token for your project. You'll be asked to enter your Jet Bridge API URL and Token to finish the installation. 
-
-![](../../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.29.18.png)
-
 ## Common problems
 
 Please see our guide to fixing some of the most common installation issues.

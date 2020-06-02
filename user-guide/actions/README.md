@@ -10,7 +10,7 @@ An action is a button inside the Jet Admin interface that perform API request or
 
 
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 
 

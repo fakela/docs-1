@@ -6,7 +6,7 @@ description: Connecting Slack to Jet Admin
 
 ### 1. Create Slack Webhook
 
-You'll first need to set up an "Incoming Webhook" in Slack: [https://my.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks](https://my.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks).
+To add Slack to Jet Admin, start by setting up an "Incoming Webhook" in Slack: [https://my.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks](https://my.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks).
 
 Once you select a channel and create the webhook, you'll be presented with a setup screen containing details about your webhook and how to use it. Make a note of the "Webhook URL", which will be in the following format:
 

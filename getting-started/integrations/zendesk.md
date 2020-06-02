@@ -1,5 +1,5 @@
 ---
-description: Connecting Zendesk to Jet Admin
+description: Connecting Zendesk to Jet Admin.
 ---
 
 # Zendesk
@@ -10,7 +10,7 @@ Find your _API Token_ under the API section of the Channels tab in Settings.
 
 **Admin** &gt; **Channels** &gt; **API**
 
-![](../../.gitbook/assets/group%20%282%29.png)
+![](../../.gitbook/assets/group%20%284%29.png)
 
 ## **2. Add to Jet Admin**
 

@@ -38,7 +38,7 @@ Sometimes data from one collection is related to the data in another collection.
 
 Here is an example of how a related collection \(in our case Rides\) can be displayed on your record:
 
-![](../../../.gitbook/assets/image%20%28154%29.png)
+![](../../../.gitbook/assets/image%20%28147%29.png)
 
 ### Widgets <a id="widgets"></a>
 

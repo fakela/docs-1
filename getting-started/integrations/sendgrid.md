@@ -1,5 +1,5 @@
 ---
-description: Connecting SendGrid to Jet Admin
+description: Connecting SendGrid to Jet Admin.
 ---
 
 # SendGrid

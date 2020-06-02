@@ -4,7 +4,7 @@ description: Connecting Mixpanel to Jet Admin
 
 # Mixpanel
 
-### 1. Get Mixpanel API Secret key
+### 1. Get Mixpanel API Secret Key
 
 Find your _API Secret Key_ under the 'Projects' section of your Personal Settings in Mixpanel.
 

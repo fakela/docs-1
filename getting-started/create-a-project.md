@@ -12,3 +12,11 @@
 
 ![](../.gitbook/assets/snimok-ekrana-2019-07-23-v-12.03.19.png)
 
+4. Choose how would you like to create an app:
+
+* Create an App from Scratch. Start with drag-and-drop components to build your application
+* Create an App from a Template. Start with pre-built templates \(Customer Support Tool, Onboarding Tool...\)
+* [Add a Resource](adding-a-data-source.md). Connect any of your databases or APIs \(PostgreSQL, Stripe, Firebase, ..\)
+
+![](../.gitbook/assets/image%20%28336%29.png)
+

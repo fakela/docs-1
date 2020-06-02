@@ -1,3 +1,7 @@
+---
+description: Connect Google Cloud Storage to Jet Admin.
+---
+
 # Google Cloud Storage
 
 ## Configuring Google Cloud Storage \(GCS\)

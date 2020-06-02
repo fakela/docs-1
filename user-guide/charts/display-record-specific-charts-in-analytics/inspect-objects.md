@@ -6,7 +6,7 @@ Let's take as a reference a leaderboard chart with your customers. Say you displ
 
 
 
-![](../../../.gitbook/assets/image%20%28233%29.png)
+![](../../../.gitbook/assets/image%20%28222%29.png)
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
