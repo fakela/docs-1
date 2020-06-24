@@ -50,14 +50,55 @@ DATABASE_ENGINE=postgresql \
 
 ### Required settings
 
-| **Name** | Description |
-| :--- | :--- |
-| **DATABASE\_ENGINE** | Database engine, one of: - postgresql - mysql - oracle - mssql - sqlite |
-| **DATABASE\_HOST** | Database host |
-| **DATABASE\_PORT** | Database port |
-| **DATABASE\_USER** | Database user |
-| **DATABASE\_PASSWORD** | Database password |
-| **DATABASE\_NAME** | Database name or path \(SQLite\) |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_ENGINE</b>
+      </td>
+      <td style="text-align:left">
+        <p>Database engine, one of:
+          <br />postgresql
+          <br />mysql
+          <br />oracle
+          <br />mssql
+          <br />sqlite</p>
+        <p>none</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_HOST</b>
+      </td>
+      <td style="text-align:left">Database host</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_PORT</b>
+      </td>
+      <td style="text-align:left">Database port</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_USER</b>
+      </td>
+      <td style="text-align:left">Database user</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_PASSWORD</b>
+      </td>
+      <td style="text-align:left">Database password</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>DATABASE_NAME</b>
+      </td>
+      <td style="text-align:left">Database name or path (SQLite)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Optional settings
 

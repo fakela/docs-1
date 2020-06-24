@@ -103,6 +103,7 @@
   * [Any SQL – Jet Bridge Docker](jet-bridge-deployment/install/any-sql-jet-bridge-docker.md)
   * [Configuration](jet-bridge-deployment/install/configuration.md)
   * [Common Problems](jet-bridge-deployment/install/common-problems.md)
+* [Using self-deployed HTTP proxy](jet-bridge-deployment/using-self-deployed-http-proxy.md)
 
 ## Additional
 
