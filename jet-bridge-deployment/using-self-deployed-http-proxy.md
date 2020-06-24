@@ -1,6 +1,6 @@
 # Using self-deployed HTTP proxy
 
-By default all queries for **HTTP** based resources \(**Custom Rest API, 3rd party integrations**\) are sent by **Jet Admin** through our **Jet Bridge** proxy endpoint at [https://api.jetadmin.io/api/proxy\_request/](https://api.jetadmin.io/api/proxy_request/). If you don't want data to go through **Jet Admin** servers you can use self hosted **HTTP Proxy** on your side as part of open source **Jet Bridge** application.
+By default all queries for **HTTP based resources** \(**Custom Rest API, 3rd party integrations**\) are sent by **Jet Admin** through our **Jet Bridge** proxy endpoint at [https://api.jetadmin.io/api/proxy\_request/](https://api.jetadmin.io/api/proxy_request/) for convenience. Requests data going through our servers are never being recorded, but if you don't want data to go through **Jet Admin** servers you can use self hosted **HTTP Proxy** on your side as part of open source **Jet Bridge** application.
 
 ## Using self-deployed HTTP proxy
 
