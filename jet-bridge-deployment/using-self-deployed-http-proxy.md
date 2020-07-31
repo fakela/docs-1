@@ -27,7 +27,8 @@ Go to **Project Settings -&gt; Resources -&gt; Choose Rest API resource** and co
 Specify the following **Jet Bridge** configuration:
 
 **DATABASE\_ENGINE** = none  
-**TOKEN** = &lt;token from project settings&gt;
+**TOKEN** = &lt;token from project settings&gt;  
+**ALLOW\_ORIGIN** = &lt;Jet Admin hostname&gt; \(https://app.jetadmin.io or your custom domain\)
 
 Check the link below to learn how to specify **Jet Bridge** configuration:
 
