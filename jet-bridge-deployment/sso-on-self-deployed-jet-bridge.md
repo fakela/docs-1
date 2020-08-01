@@ -38,7 +38,8 @@ Here is an example of its content:
 
 Required parameters are **backend\_path**, **key**, **secret.** Other parameters are optional and depend on the selected SSO provider.'
 
-#### 4. \(optional\) Make sure Allow Origin is set correctly in Jet Bridge config
+#### 4. \(optional\) Make sure Allow Origin is set correctly in Jet Bridge config and Jet Bridge is working through HTTPS
 
-Settings **ALLOW\_ORIGIN** is required when using self-deployed HTTP proxy
+Settings **ALLOW\_ORIGIN** is required when using self-deployed HTTP proxy  
+Running **Jet Bridge** through **HTTPS** is required if you want to use **SSO access tokens** in requests
 
