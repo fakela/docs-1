@@ -1,6 +1,6 @@
 # Version Migration
 
-Migration to new major version can lead to some setting not being saved because of breaking changes. So do it carefully and at your own risk. 
+Migration to new major version can lead to some setting not being saved and there is a chance you won't be able to go back to the previous version after saving changes of the interface because of breaking changes. So do it carefully and at your own risk. 
 
 **It is safe to create a separate project for the new version and copy settings from the old project. We highly recommend this way so you will able to revert any time.**
 
