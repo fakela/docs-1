@@ -114,5 +114,6 @@
   * [Project Teams](additional/jet-admin-api/project-teams.md)
 * [Custom Authorization](additional/custom-authorization.md)
 * [Self Sign Up](additional/self-sign-up.md)
+* [Version Migration](additional/version-migration.md)
 * [Custom Jet Bridge](https://jetadmin.gitbook.io/jet-bridge/)
 
