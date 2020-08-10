@@ -14,7 +14,7 @@ If want SSO authentication flow to be done on your side you can configure Jet Br
 
 #### 3. Set up SSO configuration in Jet Bridge config file/environment
 
-**SSO\_APPLICATIONS** = { 'a4f1552c-fdc2-4f56-ae23-6291df36ade4': { 'backend\_path': .... } }
+**SSO\_APPLICATIONS** = {"a4f1552c-fdc2-4f56-ae23-6291df36ade4": {"backend\_path": .... }}
 
 **SSO\_APPLICATIONS** is a JSON serialized dictionary of SSO application settings.   
 **Key** is SSO Application ID  
@@ -25,13 +25,13 @@ Here is an example of its content:
 
 ```text
 {
-    'a4f1552c-fdc2-4f56-ae23-6291df36ade4': {
-        'backend_path': 'social_core.backends.azuread_tenant.AzureADV2TenantOAuth2',
-        'key': '5d472cb3-87e6-446e-a94f-72e15880c9ce',
-        'scope': ['profile', 'offline_access'],
-        'secret': 'nWSt.YG120a_1f.Wz-01TtZ2m-P4YeL3B0',
-        'tenant_id': 'abbc4033-e302-4eb6-b3ce-57c4f0e4956c',
-        'scope_separator': ' '
+    "a4f1552c-fdc2-4f56-ae23-6291df36ade4": {
+        "backend_path": "social_core.backends.azuread_tenant.AzureADV2TenantOAuth2",
+        "key": "5d472cb3-87e6-446e-a94f-72e15880c9ce",
+        "scope": ["profile", "offline_access"],
+        "secret": "nWSt.YG120a_1f.Wz-01TtZ2m-P4YeL3B0",
+        "tenant_id": "abbc4033-e302-4eb6-b3ce-57c4f0e4956c",
+        "scope_separator": " "
     }
 }
 ```
